@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="399px" viewBox="0 0 1440 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>aicity-last-top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="105.364059%" y1="50%" x2="-5.6908566%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="17.5452778%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0.500932276" offset="82.1797001%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="19.2801389%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0.500932276" offset="80.3129576%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="27.0644228%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0.500932276" offset="73.1340784%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="29.316595%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0.500932276" offset="67.2796104%"></stop>
+            <stop stop-color="#69C8FE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="AI-CITY-Copy" transform="translate(0.000000, -1759.000000)" fill-rule="nonzero">
+            <g id="背景" transform="translate(0.000000, 1339.000000)">
+                <g id="aicity-last-top" transform="translate(0.000000, 420.000000)">
+                    <g>
+                        <path d="M341,396 L692,0" id="路径-2" stroke="url(#linearGradient-1)"></path>
+                        <path d="M748,398 L1104,0" id="路径-2-copy" stroke="url(#linearGradient-1)" transform="translate(926.000000, 199.000000) scale(-1, 1) translate(-926.000000, -199.000000) "></path>
+                        <path d="M782,379 L1431.8728,-3.41060513e-13" id="路径-2-copy-2" stroke="url(#linearGradient-1)" opacity="0.800000012" transform="translate(1106.936400, 189.500000) scale(-1, 1) translate(-1106.936400, -189.500000) "></path>
+                        <path d="M8,379 L657.8728,-3.41060513e-13" id="路径-2-copy-3" stroke="url(#linearGradient-1)" opacity="0.800000012"></path>
+                        <path d="M-5.68434189e-14,241.183046 L615.126957,-9.9475983e-14" id="路径-2-copy-3" stroke="url(#linearGradient-1)" opacity="0.400000006"></path>
+                        <path d="M826,241.183046 L1441.12696,-9.9475983e-14" id="路径-2-copy-5" stroke="url(#linearGradient-1)" opacity="0.400000006" transform="translate(1133.563479, 120.591523) scale(-1, 1) translate(-1133.563479, -120.591523) "></path>
+                        <path d="M1,178.274776 L593.305159,1.84741111e-13" id="路径-2-copy-3" stroke="url(#linearGradient-1)" opacity="0.200000003"></path>
+                        <path d="M848,178.274776 L1440.30516,1.84741111e-13" id="路径-2-copy-6" stroke="url(#linearGradient-1)" opacity="0.200000003" transform="translate(1144.152580, 89.137388) scale(-1, 1) translate(-1144.152580, -89.137388) "></path>
+                        <path d="M0,135.141501 L517.039132,5" id="路径-2-copy-4" stroke="url(#linearGradient-1)" opacity="0.100000001"></path>
+                        <path d="M923,135.141501 L1440.03913,5" id="路径-2-copy-7" stroke="url(#linearGradient-1)" opacity="0.100000001" transform="translate(1181.519566, 70.070750) scale(-1, 1) translate(-1181.519566, -70.070750) "></path>
+                        <path d="M0,231.5 L1440,231.5" id="路径-3" stroke="url(#linearGradient-2)"></path>
+                        <path d="M0,132.5 L1440,132.5" id="路径-3-copy" stroke="url(#linearGradient-3)" opacity="0.400000006"></path>
+                        <path d="M0,87.5 L1440,87.5" id="路径-3-copy-2" stroke="url(#linearGradient-4)" opacity="0.200000003"></path>
+                        <path d="M0,53.5 L1440,53.5" id="路径-3-copy-3" stroke="url(#linearGradient-5)" opacity="0.100000001"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

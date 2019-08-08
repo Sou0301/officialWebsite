@@ -1,0 +1,260 @@
+﻿.ctools-locked {
+    color: red;
+    border: 1px solid red;
+    padding: 1em;
+}
+
+.ctools-owns-lock {
+    background: #ffffdd none repeat scroll 0 0;
+    border: 1px solid #f0c020;
+    padding: 1em;
+}
+
+a.ctools-ajaxing,
+input.ctools-ajaxing,
+button.ctools-ajaxing,
+select.ctools-ajaxing {
+    padding-right: 18px !important;
+    background: url(/images/status-active.gif) right center no-repeat;
+}
+
+div.ctools-ajaxing {
+    float: left;
+    width: 18px;
+    background: url(/images/status-active.gif) center center no-repeat;
+}
+
+.video_thumbnail {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.video-width-text {
+    width: 10px;
+}
+
+.video-thumb-selection {}
+
+.video-thumb-selection .form-item {}
+
+.video-thumbnails {}
+
+.video-thumbnails .form-item {
+    float: left;
+    margin-right: 10px;
+    max-width: 30%;
+    padding-right: 10px;
+}
+
+.video-bypass-auto-conversion {}
+
+.video-default-thumbnail {}
+
+.video-data {}
+
+.video_image_teaser {
+    float: left;
+    padding: 0.5em;
+}
+
+br.video_image_clear {
+    clear: both;
+}
+
+.video_image_view {}
+
+.video-inprogress {
+    border: 1px solid red;
+    padding: .5em;
+}
+
+.video-conversion-failed {
+    border: 1px solid red;
+    padding: .5em;
+}
+
+.widget-edit {
+    max-width: 70%;
+}
+
+.widget-edit .form-item {
+    white-space: normal !important;
+}
+
+.admin_flv_player_wrapper {
+    display: none;
+}
+
+* html object.video-object {
+    display: none;
+}
+
+* html object.video-object {
+    display: inline;
+}
+
+* html object.video-object {
+    display: none;
+}
+
+div.video-preview {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+div.video-widget-data {
+    float: left;
+    width: 85%;
+}
+
+div.video-widget-data input.text-field {
+    width: auto;
+}
+
+div#video-browser-page-wrapper div#video-browser-page div.video-item {
+    float: left;
+    height: 128px;
+    padding: 5px;
+    text-align: center;
+    border: 1px #ccc dotted;
+}
+
+div#video-browser-page-wrapper div#video-browser-page div.video-item:hover {
+    background-color: antiquewhite;
+}
+
+.locale-untranslated {
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+#locale-translation-filter-form .form-item-language,
+#locale-translation-filter-form .form-item-translation,
+#locale-translation-filter-form .form-item-group {
+    float: left;
+    padding-right: .8em;
+    margin: 0.1em;
+    width: 15em;
+}
+
+#locale-translation-filter-form .form-type-select select {
+    width: 100%;
+}
+
+#locale-translation-filter-form .form-actions {
+    float: left;
+    padding: 3ex 0 0 1em;
+}
+
+.language-switcher-locale-session a.active {
+    color: #0062A0;
+}
+
+.language-switcher-locale-session a.session-active {
+    color: #000000;
+}
+
+input.webform-calendar {
+    display: none;
+    padding: 3px;
+    vertical-align: top;
+}
+
+html.js input.webform-calendar {
+    display: inline;
+}
+
+.webform-container-inline label {
+    display: inline;
+    margin-right: 1em;
+}
+
+.webform-container-inline div,
+.webform-container-inline div.form-item {
+    display: inline;
+}
+
+.webform-container-inline div.description {
+    display: block;
+}
+
+.webform-container-inline div.messages {
+    display: block;
+    float: left;
+}
+
+.webform-container-inline div.ajax-progress-bar div {
+    display: inherit;
+}
+
+.webform-container-inline.webform-component-textarea label {
+    vertical-align: top;
+}
+
+.webform-container-inline.webform-component-textarea .form-textarea-wrapper {
+    display: inline-block;
+}
+
+.webform-component-textarea .grippie {
+    display: block;
+}
+
+.webform-progressbar {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.webform-progressbar-inner {
+    height: 1em;
+    background-color: #74c421;
+    height: 3px;
+}
+
+.webform-progressbar-outer {
+    position: relative;
+    border: 1px solid #356900;
+    width: 100%;
+    height: 3px;
+    margin: 0.35em -1px 2em;
+    background-color: white;
+}
+
+.webform-progressbar-page {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    margin: -6px -4px;
+    border: 1px solid #356900;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.webform-progressbar-page.completed {
+    background-color: #74c421;
+}
+
+.webform-progressbar-page.current {
+    background-color: #74c421;
+}
+
+.webform-progressbar-page .webform-progressbar-page-number {
+    display: none;
+}
+
+.webform-progressbar-page .webform-progressbar-page-label {
+    position: relative;
+    top: 10px;
+    margin: 0 -10em;
+}
+
+div#gd_infinite_scroll-ajax-loader {
+    text-align: center;
+}
+
+.gd-infinite-scroll-load-more {
+    display: block;
+    margin: 0 auto;
+    min-width: 210px;
+    text-align: center;
+}

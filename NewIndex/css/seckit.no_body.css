@@ -1,0 +1,6 @@
+﻿/**
+ * Hide <body> element.
+ */
+body {
+  display: none !important;
+}

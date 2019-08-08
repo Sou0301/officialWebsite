@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="91px" viewBox="0 0 76 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>frontpage1-icon4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#5BE0FF" offset="0%"></stop>
+            <stop stop-color="#1B2FBC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M19.2978269,23.4223791 L19.3007721,23.4223791 C19.5752879,23.4223791 19.7978269,23.6449181 19.7978269,23.9194339 C19.7978269,23.9204127 19.797824,23.9213916 19.7978182,23.9223704 L19.4681609,79.7219526 C19.4665363,79.9969373 19.2431591,80.2189987 18.9681696,80.2189987 L18.9652244,80.2189987 C18.6907086,80.2189987 18.4681696,79.9964597 18.4681696,79.7219439 C18.4681696,79.7209651 18.4681725,79.7199862 18.4681783,79.7190074 L18.7978356,23.9194252 C18.7994602,23.6444405 19.0228374,23.4223791 19.2978269,23.4223791 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.3296573" height="56.7966196" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <path d="M56.2978269,23.4223791 L56.3007721,23.4223791 C56.5752879,23.4223791 56.7978269,23.6449181 56.7978269,23.9194339 C56.7978269,23.9204127 56.797824,23.9213916 56.7978182,23.9223704 L56.4681609,79.7219526 C56.4665363,79.9969373 56.2431591,80.2189987 55.9681696,80.2189987 L55.9652244,80.2189987 C55.6907086,80.2189987 55.4681696,79.9964597 55.4681696,79.7219439 C55.4681696,79.7209651 55.4681725,79.7199862 55.4681783,79.7190074 L55.7978356,23.9194252 C55.7994602,23.6444405 56.0228374,23.4223791 56.2978269,23.4223791 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.3296573" height="56.7966196" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <linearGradient x1="49.9999777%" y1="0%" x2="49.9999777%" y2="81.619069%" id="linearGradient-6">
+            <stop stop-color="#6455F9" offset="0%"></stop>
+            <stop stop-color="#0DECFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="114.43747%" x2="50%" y2="-31.8165546%" id="linearGradient-7">
+            <stop stop-color="#5BF5FF" offset="0%"></stop>
+            <stop stop-color="#0B1CBA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0102首页" transform="translate(-922.000000, -818.000000)">
+            <g id="2" transform="translate(120.000000, 720.000000)">
+                <g id="frontpage1-icon4" transform="translate(802.000000, 97.000000)">
+                    <ellipse id="Oval-2-Copy-8" fill="#475DEE" cx="63.5" cy="69.4965986" rx="1.5" ry="1.49659864"></ellipse>
+                    <ellipse id="Oval-2-Copy-9" fill="#475DEE" cx="17.5" cy="86.4965986" rx="1.5" ry="1.49659864"></ellipse>
+                    <ellipse id="Combined-Shape" fill="url(#linearGradient-1)" cx="37.5" cy="73.5" rx="4.5" ry="2.5"></ellipse>
+                    <use id="Rectangle" stroke="#0068FA" mask="url(#mask-3)" stroke-width="2" opacity="0.2" stroke-dasharray="2,2" transform="translate(19.132998, 51.820689) rotate(-41.000000) translate(-19.132998, -51.820689) " xlink:href="#path-2"></use>
+                    <use id="Rectangle" stroke="#0068FA" mask="url(#mask-5)" stroke-width="2" opacity="0.2" stroke-dasharray="2,2" transform="translate(56.132998, 51.820689) scale(-1, 1) rotate(-41.000000) translate(-56.132998, -51.820689) " xlink:href="#path-4"></use>
+                    <path d="M37.8251925,51.824137 L37.8326025,51.824137 C37.8285101,51.824137 37.8251925,51.8208194 37.8251925,51.816727 L37.8251933,51.8166164 L37.5044648,73.2966196 L37.4970548,73.2966196 C37.5011472,73.2966196 37.5044648,73.2999372 37.5044648,73.3040296 L37.504464,73.3041402 L37.8251925,51.824137 Z" id="Rectangle" stroke="#0068FA" opacity="0.1" transform="translate(37.664829, 62.560378) scale(-1, 1) translate(-37.664829, -62.560378) "></path>
+                    <polygon id="Rectangle-20" fill="url(#linearGradient-6)" opacity="0.305687314" transform="translate(56.150079, 46.899138) scale(1, -1) translate(-56.150079, -46.899138) " points="37.300158 19.6977731 75 63.1096629 37.300158 74.1005027 37.300158 58.9525636"></polygon>
+                    <polygon id="Rectangle-4" fill="url(#linearGradient-1)" points="37.5 8.99319728 75.1896991 30.4506874 37.5 52.9664734 0 30.4506874"></polygon>
+                    <polygon id="Rectangle-4" fill="url(#linearGradient-7)" opacity="0.301502046" points="37.5227065 0.993197279 66.1896991 17.5710214 37.5227065 34.9664734 9 17.5710214"></polygon>
+                    <ellipse id="Oval-Copy-2" stroke="#0068FA" opacity="0.600000024" cx="37.5" cy="75" rx="28" ry="16.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="343px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>bg-front6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1440 0 1440 343 0 343"></polygon>
+        <linearGradient x1="13.0906125%" y1="92.2521875%" x2="71.3481643%" y2="17.9912142%" id="linearGradient-3">
+            <stop stop-color="#C7D5FF" stop-opacity="0.375566123" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+            <stop stop-color="#C7D5FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#95ABFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-6.78585284%" y1="82.697598%" x2="50%" y2="37.6577553%" id="linearGradient-5">
+            <stop stop-color="#C7D5FF" stop-opacity="0.352270154" offset="0%"></stop>
+            <stop stop-color="#69C8FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="56.3419378%" y1="42.9900403%" x2="10.0879605%" y2="97.2880837%" id="linearGradient-6">
+            <stop stop-color="#69C8FE" offset="0%"></stop>
+            <stop stop-color="#95ABFF" stop-opacity="0.0991564764" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.6418591%" y1="42.0786681%" x2="15.6418591%" y2="92.8689729%" id="linearGradient-7">
+            <stop stop-color="#69C8FE" offset="0%"></stop>
+            <stop stop-color="#95ABFF" stop-opacity="0.0991564764" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0102首页" transform="translate(0.000000, -4694.000000)">
+            <g id="bg-front6" transform="translate(0.000000, 4694.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="分组-19" opacity="0.600000024" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(-6989.000000, -2929.000000)">
+                        <path d="M8365,2875 L8242.74032,2947.73479 L8181.49406,2947.73479 L8127,2978.67326 M8242.74032,2947.81522 L8242.74032,2982.11716 L8218.82496,2995" id="形状" stroke="url(#linearGradient-3)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8578,3100 L8456.07577,3172.60216 L8394.99756,3172.60216 L8302,3224.80651 M8456.07577,3172.68244 L8456.07577,3206.92183 L8370.45178,3255" id="形状" stroke="url(#linearGradient-4)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8455,3066 L8332.9106,3138.39364 L8271.74964,3138.39364 L8243,3154.66207 M8332.9106,3138.47369 L8332.9106,3172.61474 L8243,3225.08157 L8243,3255" id="形状" stroke="url(#linearGradient-5)" stroke-width="0.5" fill="none"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8126" cy="2980" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8218" cy="2997" r="2"></circle>
+                        <path d="M8428,2909 L8214.06661,3034.71909 L8152.90057,3034.71909 L8069.21224,3082.06734 M8214.06661,3034.79965 L8214.06661,3069.16187 L8123.08486,3120.44162 M8123.08486,3157.04397 L8123.08486,3120.44162 L8060.66951,3120.44162 L8003.21663,3155.48436 L7945.28196,3155.48436 L7810,3231.04265 M8003.21663,3155.28495 L8003.21663,3191.50284 L7896.54066,3252" id="形状" stroke="url(#linearGradient-6)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8314,2977 C8314.55228,2977 8315,2976.55228 8315,2976 C8315,2975.44772 8314.55228,2975 8314,2975 C8313.44772,2975 8313,2975.44772 8313,2976 C8313,2976.55228 8313.44772,2977 8314,2977 Z" id="椭圆形-copy-58" stroke="none" fill="#6ACAFF"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8069" cy="3082" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8197" cy="3078" r="1"></circle>
+                        <path d="M8606,2874 L8392.27454,2999.63254 L8331.16794,2999.63254 L8247.56095,3046.9482 M8392.27454,2999.71305 L8392.27454,3034.0516 L8211.44208,3139.22448 L8153.56372,3139.22448 L7954,3252.43064 M8211.44208,3139.0252 L8211.44208,3175.21817 L8074.77844,3253" id="形状" stroke="url(#linearGradient-7)" stroke-width="0.5" fill="none"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8248" cy="3047" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8243" cy="3154" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8361" cy="3189" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8361" cy="3052" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8002" cy="3192" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8195" cy="3184" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8242" cy="3225" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8302" cy="3191" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8091" cy="3174" r="1"></circle>
+                    </g>
+                </g>
+                <g id="分组-19-copy" opacity="0.600000024" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(4109.000000, 1647.500000) scale(-1, -1) translate(-4109.000000, -1647.500000) translate(-194.000000, 20.000000)">
+                        <path d="M8365,2875 L8242.74032,2947.73479 L8181.49406,2947.73479 L8127,2978.67326 M8242.74032,2947.81522 L8242.74032,2982.11716 L8218.82496,2995" id="形状" stroke="url(#linearGradient-3)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8578,3100 L8456.07577,3172.60216 L8394.99756,3172.60216 L8302,3224.80651 M8456.07577,3172.68244 L8456.07577,3206.92183 L8370.45178,3255" id="形状" stroke="url(#linearGradient-4)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8455,3066 L8332.9106,3138.39364 L8271.74964,3138.39364 L8243,3154.66207 M8332.9106,3138.47369 L8332.9106,3172.61474 L8243,3225.08157 L8243,3255" id="形状" stroke="url(#linearGradient-5)" stroke-width="0.5" fill="none"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8126" cy="2980" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8218" cy="2997" r="2"></circle>
+                        <path d="M8428,2909 L8214.06661,3034.71909 L8152.90057,3034.71909 L8069.21224,3082.06734 M8214.06661,3034.79965 L8214.06661,3069.16187 L8123.08486,3120.44162 M8123.08486,3157.04397 L8123.08486,3120.44162 L8060.66951,3120.44162 L8003.21663,3155.48436 L7945.28196,3155.48436 L7810,3231.04265 M8003.21663,3155.28495 L8003.21663,3191.50284 L7896.54066,3252" id="形状" stroke="url(#linearGradient-6)" stroke-width="0.5" fill="none"></path>
+                        <path d="M8314,2977 C8314.55228,2977 8315,2976.55228 8315,2976 C8315,2975.44772 8314.55228,2975 8314,2975 C8313.44772,2975 8313,2975.44772 8313,2976 C8313,2976.55228 8313.44772,2977 8314,2977 Z" id="椭圆形-copy-58" stroke="none" fill="#6ACAFF"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8069" cy="3082" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8197" cy="3078" r="1"></circle>
+                        <path d="M8606,2874 L8392.27454,2999.63254 L8331.16794,2999.63254 L8247.56095,3046.9482 M8392.27454,2999.71305 L8392.27454,3034.0516 L8211.44208,3139.22448 L8153.56372,3139.22448 L7954,3252.43064 M8211.44208,3139.0252 L8211.44208,3175.21817 L8074.77844,3253" id="形状" stroke="url(#linearGradient-7)" stroke-width="0.5" fill="none"></path>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8248" cy="3047" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8243" cy="3154" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8361" cy="3189" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8361" cy="3052" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8002" cy="3192" r="2"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8195" cy="3184" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8242" cy="3225" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8302" cy="3191" r="1"></circle>
+                        <circle id="椭圆形-copy-6" stroke="none" fill="#6ACAFF" cx="8091" cy="3174" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

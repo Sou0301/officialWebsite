@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1352px" height="523px" viewBox="0 0 1352 523" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>分组</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.791887,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#6F88FF" offset="0%"></stop>
+            <stop stop-color="#788DF3" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-13.2%" y="-16.7%" width="126.5%" height="133.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.792049,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#6F88FF" offset="0%"></stop>
+            <stop stop-color="#788DF3" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-22.9%" y="-29.0%" width="145.9%" height="157.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AI-CITY-Copy" transform="translate(-35.000000, -1339.000000)" fill-rule="nonzero">
+            <g id="背景" transform="translate(0.000000, 1339.000000)">
+                <g id="分组-33" transform="translate(107.000000, -441.000000)">
+                    <g id="分组" transform="translate(37.000000, 0.000000)">
+                        <ellipse id="椭圆形" fill="url(#radialGradient-1)" opacity="0.800000012" filter="url(#filter-2)" cx="567" cy="449" rx="567" ry="449"></ellipse>
+                        <ellipse id="椭圆形" fill="url(#radialGradient-3)" filter="url(#filter-4)" cx="567" cy="449" rx="327" ry="259"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

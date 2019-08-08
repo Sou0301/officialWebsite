@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>selectArrowWhiteUp</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="首页-copy-3" transform="translate(-1027.000000, -30.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="导航">
+                <g id="Group-19" transform="translate(904.000000, 21.000000)">
+                    <path d="M128.701394,11.0390769 C128.757964,11.0630517 128.810959,11.0982446 128.857034,11.1446557 C129.047655,11.336665 129.047655,11.6479736 128.857034,11.8399828 L125.865739,14.8530669 C125.86491,14.8539019 125.864078,14.8547339 125.863243,14.8555628 C125.672622,15.0448052 125.364683,15.0436877 125.17544,14.8530669 C124.984416,14.6606508 124.984416,14.3501559 125.17544,14.1577398 L127.796174,11.5179169 L125.139866,8.84226018 C124.948841,8.6498441 124.948841,8.33934916 125.139866,8.14693308 C125.329108,7.9563123 125.637048,7.95519485 125.827669,8.14443717 C125.828504,8.14526612 125.829336,8.1460981 125.830164,8.14693308 L128.701394,11.0390769 Z" id="selectArrowWhiteUp" transform="translate(127.000000, 11.500000) scale(1, -1) rotate(90.000000) translate(-127.000000, -11.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

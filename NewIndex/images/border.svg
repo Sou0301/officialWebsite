@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="399px" height="300px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-6.6914884%" y1="112.558566%" x2="106.514975%" y2="-7.74296612%" id="linearGradient-1">
+            <stop stop-color="#8BF8FF" stop-opacity="0.986526268" offset="0%"></stop>
+            <stop stop-color="#7F8BFF" stop-opacity="0.986526268" offset="74.0099048%"></stop>
+            <stop stop-color="#8BF8FF" stop-opacity="0.986526268" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-copy-3" transform="translate(-922.000000, -1343.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="3">
+            <g id="Group-20" transform="translate(120.000000, 1211.000000)">
+                <g id="Group-5" transform="translate(626.000000, 122.000000)">
+                    <rect id="Mask" x="177.5" y="11.5" width="396" height="297"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

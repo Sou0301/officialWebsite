@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-yycj</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="54.9092717%" y1="0%" x2="54.9092717%" y2="113.932304%" id="linearGradient-1">
+            <stop stop-color="#2264FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2264FF" stop-opacity="0.897324188" offset="24.9959497%"></stop>
+            <stop stop-color="#2264FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="54.9092717%" y1="-17.0814928%" x2="54.9092717%" y2="129.318617%" id="linearGradient-2">
+            <stop stop-color="#2264FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2264FF" stop-opacity="0.897324188" offset="54.6788525%"></stop>
+            <stop stop-color="#2264FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智慧零售-解决方案展开1" transform="translate(-1145.000000, -835.000000)">
+            <g id="content" transform="translate(120.000000, 205.000000)">
+                <g id="展开内容" transform="translate(35.000000, 504.000000)">
+                    <g id="应用场景" transform="translate(770.000000, 0.000000)">
+                        <g id="icon-yycj" transform="translate(221.000000, 126.000000)">
+                            <ellipse id="椭圆形" stroke="url(#linearGradient-1)" transform="translate(72.000000, 73.000000) rotate(-270.000000) translate(-72.000000, -73.000000) " cx="72" cy="73" rx="54" ry="20"></ellipse>
+                            <ellipse id="椭圆形" stroke="url(#linearGradient-2)" cx="72" cy="73" rx="54" ry="20"></ellipse>
+                            <circle id="椭圆形" stroke="#2264FF" stroke-width="1.2" opacity="0.297781808" cx="72" cy="73" r="72"></circle>
+                            <circle id="椭圆形" stroke="#2264FF" stroke-width="1.2" opacity="0.799130394" cx="72" cy="73" r="54"></circle>
+                            <circle id="Oval" fill="#5480FF" cx="72.5" cy="1.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-3" fill="#5480FF" cx="8.5" cy="38.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-7" fill="#5480FF" cx="39.5" cy="89.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-8" fill="#5480FF" cx="59.5" cy="31.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-4" fill="#5480FF" cx="126.5" cy="119.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

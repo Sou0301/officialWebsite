@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="5px" viewBox="0 0 5 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="-108.262292%" y2="-187.952922%" id="linearGradient-1">
+            <stop stop-color="#5BE0FF" offset="0%"></stop>
+            <stop stop-color="#1B2FBC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智慧零售-解决方案展开1" transform="translate(-190.000000, -828.000000)" fill="url(#linearGradient-1)">
+            <g id="content" transform="translate(120.000000, 205.000000)">
+                <g id="展开内容" transform="translate(35.000000, 504.000000)">
+                    <g id="核心功能">
+                        <circle id="Oval" cx="37.5" cy="121.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

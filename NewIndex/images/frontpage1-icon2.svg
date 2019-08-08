@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="85px" viewBox="0 0 73 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>frontpage1-icon2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="36.5" cy="43" rx="35.5" ry="21"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="71" height="42" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <linearGradient x1="49.9999777%" y1="0%" x2="49.9999777%" y2="81.619069%" id="linearGradient-3">
+            <stop stop-color="#6455F9" offset="0%"></stop>
+            <stop stop-color="#0DECFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#5BE0FF" offset="0%"></stop>
+            <stop stop-color="#1B2FBC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0102首页" transform="translate(-444.000000, -824.000000)">
+            <g id="2" transform="translate(120.000000, 720.000000)">
+                <g id="frontpage1-icon2" transform="translate(324.000000, 104.000000)">
+                    <ellipse id="Oval" stroke="#0068FA" opacity="0.1" cx="36.5" cy="22" rx="35" ry="20.5"></ellipse>
+                    <use id="Oval" stroke="#0068FA" mask="url(#mask-2)" stroke-width="2" opacity="0.3" stroke-dasharray="2,2" xlink:href="#path-1"></use>
+                    <ellipse id="Oval-Copy-2" stroke="#0068FA" opacity="0.200000003" cx="36.5" cy="63" rx="35" ry="20.5"></ellipse>
+                    <rect id="Rectangle-3" stroke="#0068FA" fill="#D8D8D8" opacity="0.1" x="36.5" y="2.5" width="1" height="81"></rect>
+                    <circle id="Oval-2" fill="#0068FA" cx="36.5" cy="1.5" r="1.5"></circle>
+                    <circle id="Oval-2-Copy-2" fill="#0068FA" cx="71.5" cy="23.5" r="1.5"></circle>
+                    <circle id="Oval-2-Copy-3" fill="#0068FA" cx="1.5" cy="23.5" r="1.5"></circle>
+                    <path d="M1,24 L36.5000012,81.8888145 C25.5424986,80.1080663 17.3328506,77.7525968 11.871057,74.8224059 C6.40926345,71.8922151 2.78557778,67.8992342 1,62.8434631 L1,34.5855359 L1,24 Z" id="Rectangle-4-Copy-9" fill="url(#linearGradient-3)" opacity="0.305687314"></path>
+                    <path d="M1,24 L36.5004667,43 C33.452376,41.6219645 27.2855538,42.610789 18,45.9664734 C8.7144462,49.3221578 3.04777953,54.947821 1,62.8434631 L1,34.5855359 L1,24 Z" id="Rectangle-4-Copy-9" fill="url(#linearGradient-3)" opacity="0.159999996"></path>
+                    <path d="M36,24 L71.5004667,43 C68.452376,41.6219645 62.2855538,42.610789 53,45.9664734 C43.7144462,49.3221578 38.0477795,54.947821 36,62.8434631 L36,34.5855359 L36,24 Z" id="Rectangle-4-Copy-9" fill="url(#linearGradient-3)" opacity="0.159999996" transform="translate(53.750233, 43.421732) scale(-1, 1) translate(-53.750233, -43.421732) "></path>
+                    <path d="M36.5,1.99092971 L72,62.8526077 C70.1545293,57.2945034 67.8076505,53.3436342 64.9593636,51 C58.346995,45.5591952 45.5109555,42.4032638 36.5,42.5345364 C27.0386613,42.6723702 16.1686,45.1450436 9.11647292,50 C6.35825542,51.8988634 3.65276444,56.183066 1,62.8526077 L36.5,1.99092971 Z" id="Rectangle-4-Copy-9" fill="url(#linearGradient-3)" opacity="0.305687314" transform="translate(36.500000, 32.421769) scale(-1, 1) translate(-36.500000, -32.421769) "></path>
+                    <path d="M36,24 L71.5000012,81.8888145 C60.5424986,80.1080663 52.3328506,77.7525968 46.871057,74.8224059 C41.4092635,71.8922151 37.7855778,67.8992342 36,62.8434631 L36,34.5855359 L36,24 Z" id="Rectangle-4-Copy-10" fill="url(#linearGradient-3)" opacity="0.305687314" transform="translate(53.750001, 52.944407) scale(-1, 1) translate(-53.750001, -52.944407) "></path>
+                    <rect id="Rectangle-3-Copy" stroke="#0068FA" opacity="0.600000024" x="71.5" y="23.5" width="1" height="39.4861462"></rect>
+                    <rect id="Rectangle-3-Copy-2" stroke="#0068FA" opacity="0.600000024" x="1.5" y="23.5" width="1" height="39.4861462"></rect>
+                    <path d="M9.41170344,67.0690603 L36.8045875,22.4563827 L63.1134172,67.4167914 C66.8301962,64.7504299 69.5649637,61.5212765 70.958903,57.9567502 C71.6390723,59.5800987 72,61.2779737 72,63.0257158 C72,74.6236955 56.1061086,84.0257158 36.5,84.0257158 C16.8938914,84.0257158 1,74.6236955 1,63.0257158 C1,61.2779737 1.36092773,59.5800987 2.04109701,57.9567502 C3.3749828,61.36771 5.93665459,64.4715714 9.411702,67.0690603 Z M16.9736802,71.3193623 C22.575477,73.6620886 29.2864836,75.0257158 36.5,75.0257158 C43.4409162,75.0257158 49.9165848,73.7632047 55.3865214,71.580743 L36.5639195,39.4563827 L16.9736802,71.3193623 Z" id="Combined-Shape" fill="url(#linearGradient-4)"></path>
+                    <circle id="Oval-2" fill="#0068FA" cx="36.5" cy="22.5" r="1.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

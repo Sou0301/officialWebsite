@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="401px" height="397px" viewBox="0 0 401 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>bg-yj-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="67.4248037%" y1="55.078847%" x2="32.8541376%" y2="46.5605149%" id="linearGradient-1">
+            <stop stop-color="#1E2972" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#172266" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-7.5%" y="-17.5%" width="115.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="44.9952572%" x2="39.9126003%" y2="59.5467785%" id="linearGradient-3">
+            <stop stop-color="#202C75" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1B256F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="58.1450911%" y1="35.0502719%" x2="44.7936471%" y2="33.2469779%" id="linearGradient-4">
+            <stop stop-color="#1E286E" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#161F5E" stop-opacity="0.613451087" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.8680836%" y1="62.3292068%" x2="25.9134181%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#1E286E" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#3949B5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="40.1815619%" y1="41.8198873%" x2="50%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#26A6FF" offset="0%"></stop>
+            <stop stop-color="#2146B3" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.9322936%" y1="15.1109855%" x2="77.0896004%" y2="56.8069412%" id="linearGradient-7">
+            <stop stop-color="#202C74" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#23308E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="90.3017367%" y1="59.3949432%" x2="67.1052137%" y2="27.1646443%" id="linearGradient-8">
+            <stop stop-color="#3D6CEB" offset="0%"></stop>
+            <stop stop-color="#253385" stop-opacity="0.956719882" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-9" cx="253" cy="103" r="2"></circle>
+        <filter x="-187.5%" y="-187.5%" width="475.0%" height="475.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.253117109   0 0 0 0 0.61787387   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-11" cx="172" cy="187" r="2"></circle>
+        <filter x="-187.5%" y="-187.5%" width="475.0%" height="475.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.253117109   0 0 0 0 0.61787387   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="177" cy="236" r="2"></circle>
+        <filter x="-187.5%" y="-187.5%" width="475.0%" height="475.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.253117109   0 0 0 0 0.61787387   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于我们1.3-copy-10" transform="translate(-902.000000, -807.000000)">
+            <g id="分组-25" transform="translate(120.000000, 684.000000)">
+                <g id="分组-24" transform="translate(589.000000, -133.000000)">
+                    <g id="bg-yj-logo" transform="translate(195.897560, 256.814297)">
+                        <polygon id="Path-7" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-2)" points="294.924919 190.185703 171.746263 189.413597 253.940486 104.379523 372.045166 104.379523"></polygon>
+                        <polygon id="Path-4" fill="url(#linearGradient-3)" fill-rule="nonzero" points="162.25967 2.69115366 279.719334 2.69115366 373.213523 105.049215 253.62075 105.049215"></polygon>
+                        <path d="M390.396256,0.131989805 L509.346638,0.131989805 L509.346638,159.069756 C509.346638,169.015728 505.641239,178.604962 498.953345,185.966649 L281.880119,424.909621 L168.14686,424.909621 L380.623354,179.75324 C386.926475,172.48067 390.396256,163.17939 390.396256,153.555482 L390.396256,0.131989805 Z" id="Path-2" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                        <polygon id="Path-3" fill="url(#linearGradient-5)" points="394.439307 0.760149342 176.481889 236.682857 178.612108 416.838251 390.631989 167.232855"></polygon>
+                        <polygon id="Path-3-Copy" stroke="url(#linearGradient-6)" stroke-width="2" points="394.439307 0.760149342 176.481889 236.682857 178.612108 416.838251 390.631989 167.232855"></polygon>
+                        <polygon id="Path-5" fill="url(#linearGradient-7)" points="253.484944 103.38031 164.617067 3.80074671 0.300337235 3.80074671 172.30367 187.216927"></polygon>
+                        <polygon id="Path-5-Copy" stroke="url(#linearGradient-8)" stroke-width="2" points="253.484944 103.38031 164.617067 3.80074671 0.300337235 3.80074671 172.30367 187.216927"></polygon>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#53A7FF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <g id="Oval-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            <use fill="#53A7FF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        </g>
+                        <g id="Oval-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                            <use fill="#53A7FF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

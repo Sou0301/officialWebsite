@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="48px" viewBox="0 0 80 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>s-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-11.0652022%" y1="100%" x2="162.195532%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#00EFFF" offset="0%"></stop>
+            <stop stop-color="#0B1CBA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="依图医疗-解决方案-智能医学影像2" transform="translate(-155.000000, -581.000000)" fill-rule="nonzero">
+            <g id="content" transform="translate(120.000000, 205.000000)">
+                <g id="分页符" transform="translate(35.000000, 376.000000)">
+                    <g id="s-left">
+                        <path d="M23.5,0 L76,0 C78.209139,-8.25425059e-15 80,1.790861 80,4 L80,44 C80,46.209139 78.209139,48 76,48 L23.5,48 C10.5213084,48 -6.80531595e-13,37.4786916 -6.82121026e-13,24.5 L-6.82121026e-13,23.5 C-6.83710458e-13,10.5213084 10.5213084,2.38414697e-15 23.5,0 Z" id="Rectangle-19-Copy" fill-opacity="0.201228487" fill="#000000"></path>
+                        <polyline id="路径" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="58 25 22 25 27.8348787 19"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

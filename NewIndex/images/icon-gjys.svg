@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="136px" viewBox="0 0 125 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-gjys</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="54.9092717%" y1="-17.0814928%" x2="54.9092717%" y2="129.318617%" id="linearGradient-1">
+            <stop stop-color="#2264FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2264FF" stop-opacity="0.897324188" offset="54.6788525%"></stop>
+            <stop stop-color="#2264FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智慧零售-解决方案展开1" transform="translate(-775.000000, -839.000000)">
+            <g id="content" transform="translate(120.000000, 205.000000)">
+                <g id="展开内容" transform="translate(35.000000, 504.000000)">
+                    <g id="关键优势" transform="translate(385.000000, 0.000000)">
+                        <g id="icon-gjys" transform="translate(235.000000, 130.000000)">
+                            <polygon id="Polygon" stroke="#2264FF" stroke-width="1.2" opacity="0.8" points="63.3166626 21 108.586949 46.8390023 108.586949 98.1179138 63.3166626 124.557823 18.2051282 98.1179138 18.2051282 46.8390023"></polygon>
+                            <path d="M63.5470826,46.9757512 L18.0936686,71.4434979" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(40.820376, 59.209625) scale(-1, -1) rotate(-302.000000) translate(-40.820376, -59.209625) "></path>
+                            <path d="M84.6922315,34.5 L41.3909613,59.5" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(63.041596, 47.000000) rotate(-240.000000) translate(-63.041596, -47.000000) "></path>
+                            <path d="M85.5582569,85 L40.5249359,111" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(63.041596, 98.000000) rotate(-240.000000) translate(-63.041596, -98.000000) "></path>
+                            <path d="M107.518825,47.1891031 L63.003264,72.9245332" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(85.261044, 60.056818) scale(1, -1) rotate(-302.000000) translate(-85.261044, -60.056818) "></path>
+                            <path d="M108.692807,72.2941507 L62.724711,97.1003414" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(85.708759, 84.697246) scale(-1, -1) rotate(-302.000000) translate(-85.708759, -84.697246) "></path>
+                            <path d="M63.8963699,72.3006198 L17.9502569,96.6499628" id="Path-13-Copy-9" stroke="url(#linearGradient-1)" transform="translate(40.923313, 84.475291) scale(1, -1) rotate(-302.000000) translate(-40.923313, -84.475291) "></path>
+                            <polygon id="Polygon" stroke="#2264FF" stroke-width="1.2" opacity="0.30061849" points="63.2868028 1 125.586949 36.7240597 125.586949 109.002971 63.2868028 145.557823 1.20512821 109.002971 1.20512821 36.7240597"></polygon>
+                            <circle id="Oval" fill="#5480FF" cx="63.5" cy="1.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-3" fill="#5480FF" cx="1.5" cy="36.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-4" fill="#5480FF" cx="1.5" cy="109.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-9" fill="#5480FF" cx="63.5" cy="72.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-10" fill="#5480FF" cx="90.5" cy="36.5" r="1.5"></circle>
+                            <circle id="Oval-Copy-11" fill="#5480FF" cx="34.5" cy="88.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

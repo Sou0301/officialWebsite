@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="90px" viewBox="0 0 301 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>bg-yj-title</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.21939608%" y1="46.8292319%" x2="24.2961746%" y2="51.4130472%" id="linearGradient-1">
+            <stop stop-color="#386CF7" offset="0%"></stop>
+            <stop stop-color="#293A94" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="2" cy="2" r="2"></circle>
+        <filter x="-187.5%" y="-187.5%" width="475.0%" height="475.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.253117109   0 0 0 0 0.61787387   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="34.3579087%" y1="0%" x2="34.3579087%" y2="70.4052835%" id="linearGradient-4">
+            <stop stop-color="#273687" stop-opacity="0.811367754" offset="0%"></stop>
+            <stop stop-color="#283890" stop-opacity="0.0484443988" offset="100%"></stop>
+            <stop stop-color="#283890" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于我们1.3-copy-10" transform="translate(-563.000000, -748.000000)">
+            <g id="分组-25" transform="translate(120.000000, 684.000000)">
+                <g id="bg-yj-title" transform="translate(447.897560, 68.814297)">
+                    <rect id="Rectangle" stroke="url(#linearGradient-1)" stroke-width="2" x="2.10243999" y="2.18570255" width="300" height="64"></rect>
+                    <g id="Oval-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="#53A7FF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <polygon id="Rectangle" fill="url(#linearGradient-4)" points="31.10244 67.1857025 273.10244 67.1857025 305.10244 93.1857025 63.10244 93.1857025"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

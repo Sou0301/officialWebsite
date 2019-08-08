@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="48px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="148.997047%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#6ACAFF" offset="0%"></stop>
+            <stop stop-color="#0B1CBA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0102首页" transform="translate(-640.000000, -4909.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="8" transform="translate(456.000000, 4774.000000)">
+                <path d="M207.5,136 C195.073593,136 185,146.073593 185,158.5 L185,159.5 C185,171.926407 195.073593,182 207.5,182 L320.5,182 C332.926407,182 343,171.926407 343,159.5 L343,158.5 C343,146.073593 332.926407,136 320.5,136 L207.5,136 Z" id="Rectangle-19"></path>
+            </g>
+        </g>
+    </g>
+</svg>

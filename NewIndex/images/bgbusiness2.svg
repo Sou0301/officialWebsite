@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="850px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>bgBusiness2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="92.5538443%" y1="23.6772477%" x2="16.976108%" y2="70.2233034%" id="linearGradient-1">
+            <stop stop-color="#313B81" offset="0%"></stop>
+            <stop stop-color="#1E1E51" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="53.2253829%" cy="38.8888697%" fx="53.2253829%" fy="38.8888697%" r="123.334755%" gradientTransform="translate(0.532254,0.388889),scale(0.708333,1.000000),rotate(-17.576330),scale(1.000000,0.960883),translate(-0.532254,-0.388889)" id="radialGradient-2">
+            <stop stop-color="#4556AA" stop-opacity="0.604110054" offset="0%"></stop>
+            <stop stop-color="#4556AA" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-3" points="0 0 1200 0 1200 850 1.0658141e-12 850"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智慧零售-解决方案展开1" transform="translate(-120.000000, -205.000000)">
+            <g id="content" transform="translate(120.000000, 205.000000)">
+                <g id="bgBusiness2">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Rectangle-14" fill-rule="nonzero">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                        <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="底纹" opacity="0.500325521" mask="url(#mask-4)">
+                        <g transform="translate(394.000000, -315.000000)">
+                            <g id="Group-19" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="551.5" cy="551.5" r="495.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552.5" cy="550.5" r="506.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="551" r="518"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="551.5" cy="551.5" r="528.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="551.5" cy="551.5" r="540.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="551.5" cy="551.5" r="551.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" cx="551.5" cy="551.5" r="483.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="473"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="551.5" cy="551.5" r="461.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="551.5" cy="551.5" r="450.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="551.5" cy="551.5" r="438.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552.5" cy="550.5" r="427.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552.5" cy="550.5" r="416.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="393"></circle>
+                                <circle id="Oval" stroke="#2264FF" cx="551.5" cy="551.5" r="382.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="551.5" cy="551.5" r="371.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="551.5" cy="551.5" r="360.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="551" r="349"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552.5" cy="550.5" r="337.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0" cx="551.5" cy="551.5" r="326.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552" cy="551" r="315"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="552" r="304"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="551.5" cy="551.5" r="292.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="551.5" cy="551.5" r="281.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" cx="552" cy="551" r="270"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="259"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552.5" cy="550.5" r="247.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="551.5" cy="551.5" r="236.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552" cy="551" r="225"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0" cx="552" cy="551" r="214"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="551.5" cy="551.5" r="202.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="551" r="191"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552" cy="551" r="180"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="169"></circle>
+                                <circle id="Oval" stroke="#2264FF" stroke-width="2" cx="552" cy="551" r="158"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="146"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552" cy="551" r="135"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="551" r="124"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552" cy="551" r="113"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0" cx="552" cy="552" r="101"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.200000003" cx="552" cy="551" r="90"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552.5" cy="550.5" r="78.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552" cy="551" r="68"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="552" cy="551" r="56"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0" cx="552" cy="551" r="45"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.800000012" cx="551.5" cy="551.5" r="33.5"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="552" cy="551" r="23"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.400000006" cx="552" cy="551" r="11"></circle>
+                                <circle id="Oval" stroke="#2264FF" opacity="0.600000024" cx="551.5" cy="551.5" r="405.5"></circle>
+                            </g>
+                            <circle id="椭圆形-copy" fill="#5480FF" fill-rule="nonzero" cx="213.5" cy="541.5" r="1"></circle>
+                            <circle id="椭圆形-copy-2" fill="#5480FF" fill-rule="nonzero" cx="570.5" cy="349.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-6" fill="#5480FF" fill-rule="nonzero" cx="228.5" cy="346.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-39" fill="#5480FF" fill-rule="nonzero" cx="83.5" cy="387.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-26" fill="#5480FF" fill-rule="nonzero" cx="181.5" cy="455.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-45" fill="#5480FF" fill-rule="nonzero" cx="282.5" cy="542.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-32" fill="#5480FF" fill-rule="nonzero" cx="175.5" cy="622.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-42" fill="#5480FF" fill-rule="nonzero" cx="91.5" cy="700.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-36" fill="#5480FF" fill-rule="nonzero" cx="229.5" cy="758.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-15" fill="#5480FF" fill-rule="nonzero" cx="224.5" cy="352.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-40" fill="#5480FF" fill-rule="nonzero" cx="81.5" cy="393.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-28" fill="#5480FF" fill-rule="nonzero" cx="179.5" cy="462.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-46" fill="#5480FF" fill-rule="nonzero" cx="282.5" cy="549.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-34" fill="#5480FF" fill-rule="nonzero" cx="176.5" cy="629.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-43" fill="#5480FF" fill-rule="nonzero" cx="93.5" cy="707.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-37" fill="#5480FF" fill-rule="nonzero" cx="234.5" cy="765.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-22" fill="#5480FF" fill-rule="nonzero" cx="221.5" cy="358.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-41" fill="#5480FF" fill-rule="nonzero" cx="79.5" cy="399.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-30" fill="#5480FF" fill-rule="nonzero" cx="177.5" cy="470.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-47" fill="#5480FF" fill-rule="nonzero" cx="282.5" cy="557.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-48" fill="#5480FF" fill-rule="nonzero" cx="713.5" cy="348.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-49" fill="#5480FF" fill-rule="nonzero" cx="720.5" cy="354.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-50" fill="#5480FF" fill-rule="nonzero" cx="727.5" cy="360.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-35" fill="#5480FF" fill-rule="nonzero" cx="178.5" cy="636.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-44" fill="#5480FF" fill-rule="nonzero" cx="96.5" cy="714.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-38" fill="#5480FF" fill-rule="nonzero" cx="239.5" cy="772.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-7" fill="#5480FF" fill-rule="nonzero" cx="218.5" cy="690.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-8" fill="#5480FF" fill-rule="nonzero" cx="344.5" cy="758.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-11" fill="#5480FF" fill-rule="nonzero" cx="457.5" cy="779.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-13" fill="#5480FF" fill-rule="nonzero" cx="692.5" cy="781.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-51" fill="#5480FF" fill-rule="nonzero" cx="700.5" cy="776.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-52" fill="#5480FF" fill-rule="nonzero" cx="707.5" cy="771.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-14" fill="#5480FF" fill-rule="nonzero" cx="781.5" cy="767.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-9" fill="#5480FF" fill-rule="nonzero" cx="289.5" cy="781.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
