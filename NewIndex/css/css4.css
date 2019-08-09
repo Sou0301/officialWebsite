@@ -1642,7 +1642,7 @@ body.slide-in .front-banner {
 }
 
 .banner-main {
-    width: 68.5%;
+    width: 60.5%;
     position: relative;
 }
 
@@ -1839,6 +1839,7 @@ body.slide-in .front-banner {
 
 .front-banner-bottom li span.title {
     font-size: 17px;
+    text-align: center;
 }
 
 .front-banner-bottom li span.subtitle {
@@ -2079,27 +2080,27 @@ body.slide-in .front-banner {
 }
 
 .hangye-type li.znaf {
-    background-image: url(../images/bg-znaf.jpg);
+    background-image: url(../image/y1w.jpeg);
 }
 
 .hangye-type li.ytyl {
-    background-image: url(../images/bg-ytyl.jpg);
+    background-image: url(../image/yw2.jpeg);
 }
 
 .hangye-type li.zhjr {
-    background-image: url(../images/bg-zhjr.jpg);
+    background-image: url(../image/yw3.jpeg);
 }
 
 .hangye-type li.zhls {
-    background-image: url(../images/bg-zhls.jpg);
+    background-image: url(../image/yw5.jpeg);
 }
 
 .hangye-type li.zhyq {
-    background-image: url(../images/bg-zhyq.jpg);
+    background-image: url(../image/yw4.png);
 }
 
 .hangye-type li.ai-city {
-    background-image: url(../images/bg-aicity.jpg);
+    background-image: url(../image/yw6.jpeg);
 }
 
 .hangye-type li a {
@@ -2112,7 +2113,9 @@ body.slide-in .front-banner {
     align-items: center;
     transition: all 0.5s;
 }
-
+.hangye-type li a:hover{
+    background: hsla(233, 100%, 4%, 0.8);
+}
 .hangye-type li a i {
     display: block;
     position: absolute;
@@ -2235,23 +2238,23 @@ body.slide-in .front-banner {
 }
 
 .nav .block-menu>ul>li>ul li a.znaf {
-    background-image: url(../image/大数据备份.png);
+    background-image: url(../image/icon1.png);
 }
 
 .nav .block-menu>ul>li>ul li a.ytyl {
-    background-image: url(../image/系统集成备份.png);
+    background-image: url(../image/icon2.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhjr {
-    background-image: url(../image/系统组成备份.png);
+    background-image: url(../image/icon3.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhls {
-    background-image: url(../image/平台备份.png);
+    background-image: url(../image/icon4.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhyq {
-    background-image: url(../image/应用备份.png);
+    background-image: url(../image/icon5.png);
 }
 
 .nav .block-menu>ul>li>ul li a.ai-city {
@@ -2264,27 +2267,27 @@ body.slide-in .front-banner {
 
 .nav .block-menu>ul>li>ul li.active-trail a.znaf,
 .nav .block-menu>ul>li>ul li a.znaf:hover {
-    background-image: url(../image/大数据.png);
+    background-image: url(../image/icon11.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.ytyl,
 .nav .block-menu>ul>li>ul li a.ytyl:hover {
-    background-image: url(../image/系统集成.png);
+    background-image: url(../image/icon22.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhjr,
 .nav .block-menu>ul>li>ul li a.zhjr:hover {
-    background-image: url(../image/系统组成.png);
+    background-image: url(../image/icon33.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhls,
 .nav .block-menu>ul>li>ul li a.zhls:hover {
-    background-image: url(../image/平台.png);
+    background-image: url(../image/icon44.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhyq,
 .nav .block-menu>ul>li>ul li a.zhyq:hover {
-    background-image: url(../image/应用.png);
+    background-image: url(../image/icon55.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.ai-city,
@@ -2298,51 +2301,51 @@ body.slide-in .front-banner {
 }
 
 .hangye-type li.znaf a span {
-    background-image: url(../images/icon-znaf.png);
+    background-image: url(../image/al1.png);
 }
 
 .hangye-type li.ytyl a span {
-    background-image: url(../images/icon-ytyl.png);
+    background-image: url(../image/al2.png);
 }
 
 .hangye-type li.zhjr a span {
-    background-image: url(../images/icon-zhjr.png);
+    background-image: url(../image/al3.png);
 }
 
 .hangye-type li.zhls a span {
-    background-image: url(../images/icon-zhls.png);
+    background-image: url(../image/al4.png);
 }
 
 .hangye-type li.zhyq a span {
-    background-image: url(../images/icon-zhyq.png);
+    background-image: url(../image/al5.png);
 }
 
 .hangye-type li.ai-city a span {
-    background-image: url(../images/icon-aicity.png);
+    background-image: url(../image/al6.png);
 }
 
 .hangye-type li.znaf a:hover span {
-    background-image: url(../images/icon-znaf-h.png);
+    background-image: url(../image/al11.png);
 }
 
 .hangye-type li.ytyl a:hover span {
-    background-image: url(../images/icon-ytyl-h.png);
+    background-image: url(../image/al22.png);
 }
 
 .hangye-type li.zhjr a:hover span {
-    background-image: url(../images/icon-zhjr-h.png);
+    background-image: url(../image/al33.png);
 }
 
 .hangye-type li.zhls a:hover span {
-    background-image: url(../images/icon-zhls-h.png);
+    background-image: url(../image/al44.png);
 }
 
 .hangye-type li.zhyq a:hover span {
-    background-image: url(../images/icon-zhyq-h.png);
+    background-image: url(../image/al55.png);
 }
 
 .hangye-type li.ai-city a:hover span {
-    background-image: url(../images/icon-aicity-h.png);
+    background-image: url(../image/al66.png);
 }
 
 .hr-line {
