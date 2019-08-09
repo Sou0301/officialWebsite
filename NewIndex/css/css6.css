@@ -15,13 +15,13 @@ input.ctools-ajaxing,
 button.ctools-ajaxing,
 select.ctools-ajaxing {
     padding-right: 18px !important;
-    background: url(/images/status-active.gif) right center no-repeat;
+    background: url(./images/status-active.gif) right center no-repeat;
 }
 
 div.ctools-ajaxing {
     float: left;
     width: 18px;
-    background: url(/images/status-active.gif) center center no-repeat;
+    background: url(./images/status-active.gif) center center no-repeat;
 }
 
 .video_thumbnail {

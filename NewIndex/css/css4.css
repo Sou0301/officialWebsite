@@ -1170,9 +1170,9 @@ body.slide-in .open-screen {
 }
 
 .logo {
-    width: 121px;
+    width: 150px;
     height: 100%;
-    padding: 8px 0;
+    padding: 12px 0;
     float: left;
     margin-right: 30px;
 }
@@ -1233,7 +1233,7 @@ ul.menu li.leaf {
 
 .nav .block-menu>ul>li.expanded>a {
     padding-right: 15px;
-    background: url(/images/selectarrowwhite.svg) no-repeat right center;
+    background: url(../images/selectarrowwhite.svg) no-repeat right center;
     position: relative;
     z-index: 3;
 }
@@ -1258,7 +1258,7 @@ ul.menu li.leaf {
 
 .nav .block-menu>ul>li.expanded:hover>a {
     display: block;
-    background: url(/images/selectarrowwhiteup.svg) no-repeat right center;
+    background: url(../images/selectarrowwhiteup.svg) no-repeat right center;
 }
 
 .nav .block-menu>ul>li.expanded:hover>ul {
@@ -1285,7 +1285,7 @@ ul.menu li.leaf {
     line-height: 60px;
     color: #fff;
     opacity: 0.7;
-    background-image: url(/images/selectarrowwhite.svg);
+    background-image: url(../images/selectarrowwhite.svg);
     background-repeat: no-repeat;
     background-position: right center;
     cursor: pointer;
@@ -1295,7 +1295,7 @@ ul.menu li.leaf {
 }
 
 .lang-box:hover span.lang {
-    background-image: url(/images/selectarrowwhiteup.svg);
+    background-image: url(../images/selectarrowwhiteup.svg);
 }
 
 .lang-box span:hover {
@@ -1435,7 +1435,7 @@ body.slide-in .front-banner {
 
 .more-link span {
     padding-right: 15px;
-    background: url(/images/arrow-more.svg) no-repeat right center;
+    background: url(../images/arrow-more.svg) no-repeat right center;
 }
 
 .footer-region {
@@ -1765,7 +1765,7 @@ body.slide-in .front-banner {
     border: 0;
     line-height: 48px;
     margin: 0 auto;
-    background: url(/images/btnlineblue.svg) no-repeat;
+    background: url(../images/btnlineblue.svg) no-repeat;
     clear: both;
     width: 160px;
     color: #333;
@@ -1965,7 +1965,7 @@ body.slide-in .front-banner {
     position: absolute;
     top: 134px;
     left: 0;
-    background: url(/images/bg-front2.svg) no-repeat bottom center;
+    background: url(../images/bg-front2.svg) no-repeat bottom center;
     background-size: 100%;
 }
 
@@ -1982,11 +1982,11 @@ body.slide-in .front-banner {
     top: 0;
     left: 0;
     height: 523px;
-    background: url(/images/bgaicity.svg) no-repeat top center;
+    background: url(../images/bgaicity.svg) no-repeat top center;
 }
 
 .aicity-last-top {
-    background: url(/images/aicity-last-top.svg) no-repeat bottom center;
+    background: url(../images/aicity-last-top.svg) no-repeat bottom center;
     background-size: 100%;
     overflow: hidden;
     padding-bottom: 60px;
@@ -2079,27 +2079,27 @@ body.slide-in .front-banner {
 }
 
 .hangye-type li.znaf {
-    background-image: url(/images/bg-znaf.jpg);
+    background-image: url(../images/bg-znaf.jpg);
 }
 
 .hangye-type li.ytyl {
-    background-image: url(/images/bg-ytyl.jpg);
+    background-image: url(../images/bg-ytyl.jpg);
 }
 
 .hangye-type li.zhjr {
-    background-image: url(/images/bg-zhjr.jpg);
+    background-image: url(../images/bg-zhjr.jpg);
 }
 
 .hangye-type li.zhls {
-    background-image: url(/images/bg-zhls.jpg);
+    background-image: url(../images/bg-zhls.jpg);
 }
 
 .hangye-type li.zhyq {
-    background-image: url(/images/bg-zhyq.jpg);
+    background-image: url(../images/bg-zhyq.jpg);
 }
 
 .hangye-type li.ai-city {
-    background-image: url(/images/bg-aicity.jpg);
+    background-image: url(../images/bg-aicity.jpg);
 }
 
 .hangye-type li a {
@@ -2117,7 +2117,7 @@ body.slide-in .front-banner {
     display: block;
     position: absolute;
     overflow: hidden;
-    background-image: url(/images/border.svg);
+    background-image: url(../images/border.svg);
     background-repeat: no-repeat;
     transition: all 0.5s;
     width: 0;
@@ -2235,114 +2235,114 @@ body.slide-in .front-banner {
 }
 
 .nav .block-menu>ul>li>ul li a.znaf {
-    background-image: url(/images/s-znaf.png);
+    background-image: url(../image/大数据备份.png);
 }
 
 .nav .block-menu>ul>li>ul li a.ytyl {
-    background-image: url(/images/s-ytyl.png);
+    background-image: url(../image/系统集成备份.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhjr {
-    background-image: url(/images/s-zhjr.png);
+    background-image: url(../image/系统组成备份.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhls {
-    background-image: url(/images/s-zhls.png);
+    background-image: url(../image/平台备份.png);
 }
 
 .nav .block-menu>ul>li>ul li a.zhyq {
-    background-image: url(/images/s-zhyq.png);
+    background-image: url(../image/应用备份.png);
 }
 
 .nav .block-menu>ul>li>ul li a.ai-city {
-    background-image: url(/images/s-aicity.png);
+    background-image: url(../images/s-aicity.png);
 }
 
 .nav .block-menu>ul>li>ul li a.hzhb {
-    background-image: url(/images/s-hzhb.png);
+    background-image: url(../images/s-hzhb.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.znaf,
 .nav .block-menu>ul>li>ul li a.znaf:hover {
-    background-image: url(/images/s-znaf-h.png);
+    background-image: url(../image/大数据.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.ytyl,
 .nav .block-menu>ul>li>ul li a.ytyl:hover {
-    background-image: url(/images/s-ytyl-h.png);
+    background-image: url(../image/系统集成.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhjr,
 .nav .block-menu>ul>li>ul li a.zhjr:hover {
-    background-image: url(/images/s-zhjr-h.png);
+    background-image: url(../image/系统组成.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhls,
 .nav .block-menu>ul>li>ul li a.zhls:hover {
-    background-image: url(/images/s-zhls-h.png);
+    background-image: url(../image/平台.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.zhyq,
 .nav .block-menu>ul>li>ul li a.zhyq:hover {
-    background-image: url(/images/s-zhyq-h.png);
+    background-image: url(../image/应用.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.ai-city,
 .nav .block-menu>ul>li>ul li a.ai-city:hover {
-    background-image: url(/images/s-aicity-h.png);
+    background-image: url(../images/s-aicity-h.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.hzhb,
 .nav .block-menu>ul>li>ul li a.hzhb:hover {
-    background-image: url(/images/s-hzhb-h.png);
+    background-image: url(../images/s-hzhb-h.png);
 }
 
 .hangye-type li.znaf a span {
-    background-image: url(/images/icon-znaf.png);
+    background-image: url(../images/icon-znaf.png);
 }
 
 .hangye-type li.ytyl a span {
-    background-image: url(/images/icon-ytyl.png);
+    background-image: url(../images/icon-ytyl.png);
 }
 
 .hangye-type li.zhjr a span {
-    background-image: url(/images/icon-zhjr.png);
+    background-image: url(../images/icon-zhjr.png);
 }
 
 .hangye-type li.zhls a span {
-    background-image: url(/images/icon-zhls.png);
+    background-image: url(../images/icon-zhls.png);
 }
 
 .hangye-type li.zhyq a span {
-    background-image: url(/images/icon-zhyq.png);
+    background-image: url(../images/icon-zhyq.png);
 }
 
 .hangye-type li.ai-city a span {
-    background-image: url(/images/icon-aicity.png);
+    background-image: url(../images/icon-aicity.png);
 }
 
 .hangye-type li.znaf a:hover span {
-    background-image: url(/images/icon-znaf-h.png);
+    background-image: url(../images/icon-znaf-h.png);
 }
 
 .hangye-type li.ytyl a:hover span {
-    background-image: url(/images/icon-ytyl-h.png);
+    background-image: url(../images/icon-ytyl-h.png);
 }
 
 .hangye-type li.zhjr a:hover span {
-    background-image: url(/images/icon-zhjr-h.png);
+    background-image: url(../images/icon-zhjr-h.png);
 }
 
 .hangye-type li.zhls a:hover span {
-    background-image: url(/images/icon-zhls-h.png);
+    background-image: url(../images/icon-zhls-h.png);
 }
 
 .hangye-type li.zhyq a:hover span {
-    background-image: url(/images/icon-zhyq-h.png);
+    background-image: url(../images/icon-zhyq-h.png);
 }
 
 .hangye-type li.ai-city a:hover span {
-    background-image: url(/images/icon-aicity-h.png);
+    background-image: url(../images/icon-aicity-h.png);
 }
 
 .hr-line {
@@ -2370,12 +2370,12 @@ body.slide-in .front-banner {
 
 .hr-line:before {
     float: left;
-    background-image: url(/images/hr-left.svg);
+    background-image: url(../images/hr-left.svg);
 }
 
 .hr-line:after {
     float: right;
-    background-image: url(/images/hr-right.svg);
+    background-image: url(../images/hr-right.svg);
 }
 
 .title-tab {
@@ -2396,7 +2396,7 @@ body.slide-in .front-banner {
 .title-tab a.all span {
     display: inline-block;
     padding-right: 20px;
-    background: url(/images/arrowblue.svg) no-repeat right center;
+    background: url(../images/arrowblue.svg) no-repeat right center;
 }
 
 .title-tab ul {
@@ -2667,7 +2667,7 @@ body.slide-in .front-banner {
     position: absolute;
     top: 25px;
     left: 12px;
-    background: url(/images/flag-middle.png) no-repeat;
+    background: url(../images/flag-middle.png) no-repeat;
     background-size: 100% 100%;
     font-family: PingFangSC-Medium;
     font-size: 14px;
@@ -2689,7 +2689,7 @@ body.slide-in .front-banner {
     display: block;
     width: 100%;
     height: 13px;
-    background: url(/images/flag-top.png) no-repeat;
+    background: url(../images/flag-top.png) no-repeat;
     background-size: 100%;
     position: absolute;
     top: -13px;
@@ -2701,7 +2701,7 @@ body.slide-in .front-banner {
     display: block;
     width: 100%;
     height: 14px;
-    background: url(/images/flag-bottom.png) no-repeat;
+    background: url(../images/flag-bottom.png) no-repeat;
     background-size: 100%;
     position: absolute;
     bottom: -14px;
@@ -2790,7 +2790,7 @@ body.slide-in .front-banner {
 
 .open-voice {
     height: 375px;
-    background: url(/images/bg-front3.jpg) no-repeat center;
+    background: url(../images/bg-front3.jpg) no-repeat center;
     background-size: cover;
     padding: 0 34% 0 96px;
     text-align: left;
@@ -2852,7 +2852,7 @@ body.slide-in .front-banner {
 }
 
 .front6 {
-    background: url(/images/bg-front6.svg) no-repeat center;
+    background: url(../images/bg-front6.svg) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2914,7 +2914,7 @@ body.slide-in .front-banner {
 
 .pop-bar {
     height: 100px;
-    background: url(/images/popbar.jpg) no-repeat center;
+    background: url(../images/popbar.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
 }
@@ -3010,7 +3010,7 @@ input[disabled='disabled'] {
 .submit-success h2 {
     font-size: 32px;
     padding-top: 111px;
-    background: url(/images/success.svg) no-repeat center top;
+    background: url(../images/success.svg) no-repeat center top;
     color: #000000;
     text-align: center;
     margin-bottom: 20px;
@@ -3063,7 +3063,7 @@ input[disabled='disabled'] {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background: transparent url(/images/arrow.svg) no-repeat right 10px center;
+    background: transparent url(../images/arrow.svg) no-repeat right 10px center;
     background-size: 10px;
 }
 
@@ -3081,14 +3081,14 @@ input[disabled='disabled'] {
     padding-left: 22px;
     font-size: 14px;
     color: #000000;
-    background: url(/images/radio.svg) no-repeat left center;
+    background: url(../images/radio.svg) no-repeat left center;
     margin-right: 30px;
     line-height: 22px;
     cursor: pointer;
 }
 
 .radio.checked {
-    background: url(/images/radiochecked.svg) no-repeat left center;
+    background: url(../images/radiochecked.svg) no-repeat left center;
 }
 
 ::-webkit-input-placeholder {
@@ -3109,7 +3109,7 @@ input[disabled='disabled'] {
     height: 48px;
     border-radius: 48px;
     padding: 0 20px;
-    background: url(/images/btnlineblue.svg) no-repeat;
+    background: url(../images/btnlineblue.svg) no-repeat;
 }
 
 .pop a.close {
@@ -3119,7 +3119,7 @@ input[disabled='disabled'] {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: url(/images/close.svg) no-repeat center;
+    background: url(../images/close.svg) no-repeat center;
     z-index: 80;
 }
 
@@ -3136,7 +3136,7 @@ input[disabled='disabled'] {
 
 .solutions {
     padding: 70px 35px;
-    background: url(/images/bgbusiness2.svg) no-repeat center top;
+    background: url(../images/bgbusiness2.svg) no-repeat center top;
     background-size: cover;
 }
 
@@ -3187,11 +3187,11 @@ input[disabled='disabled'] {
 }
 
 .solution-prev {
-    background-image: url(/images/s-left.svg);
+    background-image: url(../images/s-left.svg);
 }
 
 .solution-next {
-    background-image: url(/images/s-right.svg);
+    background-image: url(../images/s-right.svg);
 }
 
 .solution-prev.swiper-button-disabled,
@@ -3278,11 +3278,11 @@ input[disabled='disabled'] {
 }
 
 .showhide-btn.show span {
-    background-image: url(/images/jia.svg);
+    background-image: url(../images/jia.svg);
 }
 
 .showhide-btn.hide span {
-    background-image: url(/images/jian.svg);
+    background-image: url(../images/jian.svg);
 }
 
 .solution-detail {
@@ -3324,15 +3324,15 @@ input[disabled='disabled'] {
 }
 
 .solution-detail dl.hxgn {
-    background-image: url(/images/icon-hxgn.svg);
+    background-image: url(../images/icon-hxgn.svg);
 }
 
 .solution-detail dl.gjys {
-    background-image: url(/images/icon-gjys.svg);
+    background-image: url(../images/icon-gjys.svg);
 }
 
 .solution-detail dl.yycj {
-    background-image: url(/images/icon-yycj.svg);
+    background-image: url(../images/icon-yycj.svg);
 }
 
 .solution-detail dl dt {
@@ -3355,7 +3355,7 @@ input[disabled='disabled'] {
 
 .solution-detail dl dd li {
     padding-left: 20px;
-    background: url(/images/pointer.svg) no-repeat left 10px;
+    background: url(../images/pointer.svg) no-repeat left 10px;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 150%;
@@ -3405,7 +3405,7 @@ input[disabled='disabled'] {
     top: 50%;
     left: 50%;
     margin: -48px 0 0 -48px;
-    background: url(/images/icon-play.svg) no-repeat;
+    background: url(../images/icon-play.svg) no-repeat;
     z-index: 8;
 }
 
@@ -3542,7 +3542,7 @@ input[disabled='disabled'] {
 .case-more-btn {
     height: 48px;
     width: 82px;
-    background: rgba(0, 0, 0, 0.2) url(/images/more2.svg) no-repeat center 18px;
+    background: rgba(0, 0, 0, 0.2) url(../images/more2.svg) no-repeat center 18px;
     border-radius: 24px;
     position: absolute;
     left: 35px;
@@ -3674,7 +3674,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.yuanqu:before {
-    background-image: url(/images/flag-yq.svg);
+    background-image: url(../images/flag-yq.svg);
 }
 
 .case-list li span.type.lingshou {
@@ -3683,7 +3683,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.lingshou:before {
-    background-image: url(/images/flag-ls.svg);
+    background-image: url(../images/flag-ls.svg);
 }
 
 .case-list li span.type.yiliao {
@@ -3692,7 +3692,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.yiliao:before {
-    background-image: url(/images/flag-yl.svg);
+    background-image: url(../images/flag-yl.svg);
 }
 
 .case-list li span.type.anfang {
@@ -3701,7 +3701,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.anfang:before {
-    background-image: url(/images/flag-af.svg);
+    background-image: url(../images/flag-af.svg);
 }
 
 .case-list li span.type.jinrong {
@@ -3710,7 +3710,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.jinrong:before {
-    background-image: url(/images/flag-jr.svg);
+    background-image: url(../images/flag-jr.svg);
 }
 
 .case-list li span.type.aicity {
@@ -3719,7 +3719,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.aicity:before {
-    background-image: url(/images/flag-other.svg);
+    background-image: url(../images/flag-other.svg);
 }
 
 .case-list li span.type.others {
@@ -3728,7 +3728,7 @@ input[disabled='disabled'] {
 }
 
 .case-list li span.type.others:before {
-    background-image: url(/images/flag-other.svg);
+    background-image: url(../images/flag-other.svg);
 }
 
 .job-banner .banner-content {
@@ -3845,14 +3845,14 @@ input[disabled='disabled'] {
 
 .job-list li .overview {
     padding: 40px;
-    background-image: url(/images/arrowdown.svg);
+    background-image: url(../images/arrowdown.svg);
     background-repeat: no-repeat;
     background-position: right 50px center;
     cursor: pointer;
 }
 
 .job-list li.active .overview {
-    background-image: url(/images/arrowup.svg);
+    background-image: url(../images/arrowup.svg);
 }
 
 .job-list .overview h5 {
@@ -3924,7 +3924,7 @@ input[disabled='disabled'] {
 }
 
 .page li.active {
-    background: url(/images/btncircle.svg) no-repeat;
+    background: url(../images/btncircle.svg) no-repeat;
     background-size: 100%;
     cursor: pointer;
 }
@@ -3989,17 +3989,17 @@ input[disabled='disabled'] {
 }
 
 .classify li.social a {
-    background-image: url(/images/job-social.png);
+    background-image: url(../images/job-social.png);
     background-size: 73px;
 }
 
 .classify li.school a {
-    background-image: url(/images/job-school.png);
+    background-image: url(../images/job-school.png);
     background-size: 77px;
 }
 
 .classify li.intern a {
-    background-image: url(/images/job-intern.png);
+    background-image: url(../images/job-intern.png);
     background-size: 77px;
 }
 
@@ -4024,7 +4024,7 @@ input[disabled='disabled'] {
     color: #0A69C6;
     padding-right: 18px;
     line-height: 22px;
-    background: url(/images/more.png) no-repeat right center/8px;
+    background: url(../images/more.png) no-repeat right center/8px;
 }
 
 .service-classify li {
@@ -4045,12 +4045,12 @@ input[disabled='disabled'] {
 }
 
 .service-classify li.icon-mail a {
-    background-image: url(/images/service-icon-mail.svg);
+    background-image: url(../images/service-icon-mail.svg);
     padding-left: 180px;
 }
 
 .service-classify li.icon-phone a {
-    background-image: url(/images/service-icon-phone.svg);
+    background-image: url(../images/service-icon-phone.svg);
     padding-left: 190px;
 }
 
@@ -4097,7 +4097,7 @@ input[disabled='disabled'] {
     bottom: 25px;
     width: 58px;
     height: 15px;
-    background: url(/images/arrowline.png);
+    background: url(../images/arrowline.png);
     background-size: 100%;
 }
 
@@ -4243,7 +4243,7 @@ input[disabled='disabled'] {
 .search-box span {
     width: 24px;
     height: 40px;
-    background: url(/images/icon-search.png) no-repeat center/100%;
+    background: url(../images/icon-search.png) no-repeat center/100%;
 }
 
 .content-filter .form-item-title input,
@@ -4257,7 +4257,7 @@ input[disabled='disabled'] {
 
 .content-filter .form-item-title input {
     padding-left: 40px;
-    background: url(/images/icon-search.png) no-repeat 8px center;
+    background: url(../images/icon-search.png) no-repeat 8px center;
     background-size: 24px;
     width: 200px;
     box-sizing: border-box;
@@ -4403,7 +4403,7 @@ input[type="radio"]:checked~.h5-radio:after {
 
 .news-list h3.has-video {
     padding-right: 49px;
-    background: url(/images/icon-video.png) no-repeat right center/27px;
+    background: url(../images/icon-video.png) no-repeat right center/27px;
 }
 
 .news-list p,
@@ -4485,7 +4485,7 @@ input[type="radio"]:checked~.h5-radio:after {
     border-radius: 48px;
     min-width: 160px;
     padding: 0 20px;
-    background: url(/images/btnlineblue.svg) no-repeat;
+    background: url(../images/btnlineblue.svg) no-repeat;
 }
 
 .news-last:before {
@@ -4493,7 +4493,7 @@ input[type="radio"]:checked~.h5-radio:after {
 }
 
 .box.bg-diwen {
-    background-image: url(/images/bg-diwen.svg);
+    background-image: url(../images/bg-diwen.svg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100%;
@@ -4613,55 +4613,55 @@ input[type="radio"]:checked~.h5-radio:after {
 }
 
 .fx-box a.wechat {
-    background-image: url(/images/wx.svg);
+    background-image: url(../images/wx.svg);
 }
 
 .fx-box a.qq {
-    background-image: url(/images/qq.svg);
+    background-image: url(../images/qq.svg);
 }
 
 .fx-box a.weibo {
-    background-image: url(/images/wb.svg);
+    background-image: url(../images/wb.svg);
 }
 
 .fx-box a.facebook {
-    background-image: url(/images/facebook.svg);
+    background-image: url(../images/facebook.svg);
     background-size: 16px;
     background-position: center bottom;
 }
 
 .fx-box a.linkedin {
-    background-image: url(/images/linkedin.svg);
+    background-image: url(../images/linkedin.svg);
     background-size: 25px;
 }
 
 .fx-box a.twitter {
-    background-image: url(/images/twitter.svg);
+    background-image: url(../images/twitter.svg);
     background-size: 25px;
 }
 
 .fx-box a:hover.wechat {
-    background-image: url(/images/wx-h.svg);
+    background-image: url(../images/wx-h.svg);
 }
 
 .fx-box a:hover.qq {
-    background-image: url(/images/qq-h.svg);
+    background-image: url(../images/qq-h.svg);
 }
 
 .fx-box a:hover.weibo {
-    background-image: url(/images/wb-h.svg);
+    background-image: url(../images/wb-h.svg);
 }
 
 .fx-box a:hover.facebook {
-    background-image: url(/images/facebook-h.svg);
+    background-image: url(../images/facebook-h.svg);
 }
 
 .fx-box a:hover.linkedin {
-    background-image: url(/images/linkedin-h.svg);
+    background-image: url(../images/linkedin-h.svg);
 }
 
 .fx-box a:hover.twitter {
-    background-image: url(/images/twitter-h.svg);
+    background-image: url(../images/twitter-h.svg);
 }
 
 .bdshare-button-style0-16:after {
@@ -4725,7 +4725,7 @@ embed {
     margin-top: 4px;
     padding-left: 18px;
     cursor: pointer;
-    background: url(/images/refresh.svg) no-repeat left center/16px;
+    background: url(../images/refresh.svg) no-repeat left center/16px;
 }
 
 .recommand-list {
@@ -4765,7 +4765,7 @@ embed {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(/images/about-line.svg) no-repeat center bottom;
+    background: url(../images/about-line.svg) no-repeat center bottom;
     background-size: 100% auto;
     position: absolute;
     bottom: 0;
@@ -4794,7 +4794,7 @@ embed {
     bottom: 0;
     right: 0;
     transform: scale(2) translate3d(100%, 0, 0) rotate(90deg);
-    background: url(/images/bg-yj-logo.svg) no-repeat repeat bottom;
+    background: url(../images/bg-yj-logo.svg) no-repeat repeat bottom;
     opacity: 0;
     transition: all 1s;
 }
@@ -4813,7 +4813,7 @@ embed {
     top: 68px;
     left: 50%;
     margin-left: -155px;
-    background: url(/images/bg-yj-title.svg) no-repeat;
+    background: url(../images/bg-yj-title.svg) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -4965,7 +4965,7 @@ embed {
     top: 30px;
     left: 50%;
     margin-left: -720px;
-    background: url(/images/bg-history-line.svg) no-repeat;
+    background: url(../images/bg-history-line.svg) no-repeat;
     background-size: 100%;
     transition: all 1s;
     transform-origin: center center;
@@ -5001,7 +5001,7 @@ embed {
 
 .history-info li {
     padding-left: 13px;
-    background: url(/images/pointer.svg) no-repeat left 10px;
+    background: url(../images/pointer.svg) no-repeat left 10px;
     opacity: 0.7;
     font-size: 16px;
     color: #FFFFFF;
@@ -5154,7 +5154,7 @@ embed {
     margin-top: -48px;
     right: -260px;
     overflow: hidden;
-    background: url(/images/play.svg) no-repeat;
+    background: url(../images/play.svg) no-repeat;
     background-size: 100%;
 }
 
@@ -5162,7 +5162,7 @@ embed {
     position: relative;
     overflow: hidden;
     padding-top: 70px;
-    background: url(/images/yinhao-up.svg) no-repeat left top;
+    background: url(../images/yinhao-up.svg) no-repeat left top;
 }
 
 .team-group dl {
@@ -5434,7 +5434,7 @@ ul.links .statistics_counter {
     position: relative;
     width: 16px;
     height: 16px;
-    background: url(/images/service-link.svg) no-repeat center center;
+    background: url(../images/service-link.svg) no-repeat center center;
     opacity: 0.4;
 }
 
@@ -5466,7 +5466,7 @@ ul.links .statistics_counter {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/images/zcyfw-fuwuneirong-line.svg) no-repeat center top;
+    background: url(../images/zcyfw-fuwuneirong-line.svg) no-repeat center top;
     background-size: 100%;
 }
 

@@ -21,13 +21,13 @@
 }
 
 html.js input.form-autocomplete {
-    background-image: url(/images/throbber-inactive.png);
+    background-image: url(./images/throbber-inactive.png);
     background-position: 100% center;
     background-repeat: no-repeat;
 }
 
 html.js input.throbbing {
-    background-image: url(/images/throbber-active.gif);
+    background-image: url(./images/throbber-active.gif);
     background-position: 100% center;
 }
 
@@ -60,7 +60,7 @@ fieldset.collapsible .fieldset-legend {
 }
 
 .resizable-textarea .grippie {
-    background: #eee url(/images/grippie.png) no-repeat center 2px;
+    background: #eee url(./images/grippie.png) no-repeat center 2px;
     border: 1px solid #ddd;
     border-top-width: 0;
     cursor: s-resize;
@@ -86,7 +86,7 @@ a.tabledrag-handle:hover {
 }
 
 a.tabledrag-handle .handle {
-    background: url(/images/draggable.png) no-repeat 6px 9px;
+    background: url(./images/draggable.png) no-repeat 6px 9px;
     height: 13px;
     margin: -0.4em 0.5em;
     padding: 0.42em 0.5em;
@@ -106,15 +106,15 @@ div.indentation {
 }
 
 div.tree-child {
-    background: url(/images/tree.png) no-repeat 11px center;
+    background: url(./images/tree.png) no-repeat 11px center;
 }
 
 div.tree-child-last {
-    background: url(/images/tree-bottom.png) no-repeat 11px center;
+    background: url(./images/tree-bottom.png) no-repeat 11px center;
 }
 
 div.tree-child-horizontal {
-    background: url(/images/tree.png) no-repeat -11px center;
+    background: url(./images/tree.png) no-repeat -11px center;
 }
 
 .tabledrag-toggle-weight-wrapper {
@@ -146,7 +146,7 @@ table.sticky-header {
 }
 
 .ajax-progress .throbber {
-    background: transparent url(/images/throbber-active.gif) no-repeat 0px center;
+    background: transparent url(./images/throbber-active.gif) no-repeat 0px center;
     float: left;
     height: 15px;
     margin: 2px;
@@ -229,12 +229,12 @@ ul.menu li {
 }
 
 ul li.expanded {
-    list-style-image: url(/images/menu-expanded.png);
+    list-style-image: url(./images/menu-expanded.png);
     list-style-type: circle;
 }
 
 ul li.collapsed {
-    list-style-image: url(/images/menu-collapsed.png);
+    list-style-image: url(./images/menu-collapsed.png);
     list-style-type: disc;
 }
 
@@ -342,7 +342,7 @@ div.messages {
 }
 
 div.status {
-    background-image: url(/images/message-24-ok.png);
+    background-image: url(./images/message-24-ok.png);
     border-color: #be7;
 }
 
@@ -357,7 +357,7 @@ table tr.ok {
 }
 
 div.warning {
-    background-image: url(/images/message-24-warning.png);
+    background-image: url(./images/message-24-warning.png);
     border-color: #ed5;
 }
 
@@ -372,7 +372,7 @@ table tr.warning {
 }
 
 div.error {
-    background-image: url(/images/message-24-error.png);
+    background-image: url(./images/message-24-error.png);
     border-color: #ed541d;
 }
 
@@ -530,7 +530,7 @@ input.form-radio {
 }
 
 .more-help-link a {
-    background: url(/images/help.png) 0 50% no-repeat;
+    background: url(./images/help.png) 0 50% no-repeat;
     padding: 1px 0 1px 20px;
 }
 
@@ -556,12 +556,12 @@ input.form-radio {
 }
 
 html.js fieldset.collapsible .fieldset-legend {
-    background: url(/images/menu-expanded.png) 5px 65% no-repeat;
+    background: url(./images/menu-expanded.png) 5px 65% no-repeat;
     padding-left: 15px;
 }
 
 html.js fieldset.collapsed .fieldset-legend {
-    background-image: url(/images/menu-collapsed.png);
+    background-image: url(./images/menu-collapsed.png);
     background-position: 5px 50%;
 }
 
@@ -610,5 +610,5 @@ th.checkbox {
 }
 
 .progress .filled {
-    background: #0072b9 url(/images/progress.gif);
+    background: #0072b9 url(./images/progress.gif);
 }
