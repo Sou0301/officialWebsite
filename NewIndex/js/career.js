@@ -21,9 +21,11 @@ else {
 }
 var orgDomain = 'https://api.mokahr.com', orgid = 'yitu-inc';
 
-getjobs();
-getjobLocation();
-getJobZhineng();
+// getjobs();
+// 工作地点接口
+// getjobLocation();
+// 职位类型接口
+// getJobZhineng();
 //获取职位地址列表
 function getjobLocation(){
     getData('jobs-groupedby-location/'+orgid,{"mode":mode},function(data){
@@ -71,7 +73,7 @@ function getjobs(page){
     }
 
     getData('jobs/'+orgid,{"mode":mode,"locationIds":lo,"zhinengId":zhinengId,"keyword":keywords,"limit":limit,"offset":page*limit},function(data){
-        var total = data.total;
+        // var total = data.total;
         var jobArray = data.jobs;
         for(var i=0;i<jobArray.length;i++){//去除已关闭职位
             if(jobArray[i].status == "closed"){
