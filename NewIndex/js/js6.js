@@ -7708,11 +7708,11 @@ $(function () {
 
         }
     });
-    $(".btns-wrapper").click(function (e) {
-        var _event = e || window.event;
-        _event.preventDefault();
-        showDialog('partnerLanding');
-    })
+    // $(".btns-wrapper").click(function (e) {
+    //     var _event = e || window.event;
+    //     _event.preventDefault();
+    //     showDialog('partnerLanding');
+    // })
 
     $("#partnerLanding .to-apply").click(function () {
         hideDialog('partnerLanding');
