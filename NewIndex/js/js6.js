@@ -7713,6 +7713,11 @@ $(function () {
     //     _event.preventDefault();
     //     showDialog('partnerLanding');
     // })
+    $(".dong").click(function (e) {
+        var _event = e || window.event;
+        _event.preventDefault();
+        showDialog('partnerLanding');
+    })
 
     $("#partnerLanding .to-apply").click(function () {
         hideDialog('partnerLanding');

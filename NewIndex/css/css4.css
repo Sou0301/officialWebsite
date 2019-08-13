@@ -7039,8 +7039,9 @@ ul.links .statistics_counter {
     }
 
     .landing-btns a.btn-bg-blue {
-        height: 36px;
-        line-height: 36px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
     }
 
     .landing-info {
