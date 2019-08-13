@@ -26,9 +26,9 @@
 
 
     <!--[if lt IE 9]-->
-<!--    <link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs" media="all"/>-->
+    <!--    <link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs" media="all"/>-->
     <style>
-        .gd_infinite_scroll-ajax-loader{
+        .gd_infinite_scroll-ajax-loader {
             display: none !important;
         }
     </style>
@@ -71,7 +71,7 @@
 <div class="w">
     <div class="tabs"></div>
 </div>
-
+<!--四个新闻导航-->
 <div id="block-views-news-block" class="block block-views">
     <div class="box bg-diwen">
         <div class="w">
@@ -107,61 +107,64 @@
 <div id="block-system-main" class="block block-system">
     <div class="view view-news view-id-news view-display-id-page view-dom-id-e69373d4e09a5eda426ec2914660a450 box front3">
         <div class="w">
-            <!--    <div class="view-header">-->
-            <p class="hidden-placeholder">搜索关键词</p><!--    </div>-->
-            <div class="content-filter clearfix">
-                <form class="ctools-auto-submit-full-form" action="/cn/news" method="get"
-                      id="views-exposed-form-news-page"
-                      accept-charset="UTF-8">
-                    <div>
-                        <div class="views-exposed-form">
-                            <div class="views-exposed-widgets clearfix">
-                                <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
-                                    <div class="views-widget">
-                                        <div class="form-item form-type-textfield form-item-title">
-                                            <input type="text" id="edit-title" name="title" value="" size="30"
-                                                   maxlength="128"
-                                                   class="form-text"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="edit-news-tid-wrapper"
-                                     class="views-exposed-widget views-widget-filter-field_news_type2_tid">
-                                    <div class="views-widget">
-                                        <div id="edit-news-tid" class="form-radios bef-select-as-radios">
-                                            <div class="form-item form-type-radio form-item-news-tid">
-                                                <input class="bef-select-as-radios form-radio" type="radio"
-                                                       id="edit-news-tid-all"
-                                                       name="news_tid" value="All"/>
-                                                <label class="option" for="edit-news-tid-all">全部</label>
-                                            </div>
-                                            <div class="form-item form-type-radio form-item-news-tid">
-                                                <input class="bef-select-as-radios form-radio" type="radio"
-                                                       id="edit-news-tid-28"
-                                                       name="news_tid" value="28" checked="checked"/>
-                                                <label class="option" for="edit-news-tid-28">传清动态</label>
-                                            </div>
-                                            <div class="form-item form-type-radio form-item-news-tid">
-                                                <input class="bef-select-as-radios form-radio" type="radio"
-                                                       id="edit-news-tid-29"
-                                                       name="news_tid" value="29"/>
-                                                <label class="option" for="edit-news-tid-29">传清发展</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="views-exposed-widget views-submit-button">
-                                    <input class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit"
-                                           type="submit"
-                                           id="edit-submit-news" name="" value="应用"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+<!--新闻搜索-->
+            <div>
+<!--                <p class="hidden-placeholder">搜索关键词</p>-->
+<!--                <div class="content-filter clearfix">-->
+<!--                    <form class="ctools-auto-submit-full-form" action="/cn/news" method="get"-->
+<!--                          id="views-exposed-form-news-page"-->
+<!--                          accept-charset="UTF-8">-->
+<!--                        <div>-->
+<!--                            <div class="views-exposed-form">-->
+<!--                                <div class="views-exposed-widgets clearfix">-->
+<!--                                    <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">-->
+<!--                                        <div class="views-widget">-->
+<!--                                            <div class="form-item form-type-textfield form-item-title">-->
+<!--                                                <input type="text" id="edit-title" name="title" value="" size="30"-->
+<!--                                                       maxlength="128"-->
+<!--                                                       class="form-text"/>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div id="edit-news-tid-wrapper"-->
+<!--                                         class="views-exposed-widget views-widget-filter-field_news_type2_tid">-->
+<!--                                        <div class="views-widget">-->
+<!--                                            <div id="edit-news-tid" class="form-radios bef-select-as-radios">-->
+<!--                                                <div class="form-item form-type-radio form-item-news-tid">-->
+<!--                                                    <input class="bef-select-as-radios form-radio" type="radio"-->
+<!--                                                           id="edit-news-tid-all"-->
+<!--                                                           name="news_tid" value="All"/>-->
+<!--                                                    <label class="option" for="edit-news-tid-all">全部</label>-->
+<!--                                                </div>-->
+<!--                                                <div class="form-item form-type-radio form-item-news-tid">-->
+<!--                                                    <input class="bef-select-as-radios form-radio" type="radio"-->
+<!--                                                           id="edit-news-tid-28"-->
+<!--                                                           name="news_tid" value="28" checked="checked"/>-->
+<!--                                                    <label class="option" for="edit-news-tid-28">传清动态</label>-->
+<!--                                                </div>-->
+<!--                                                <div class="form-item form-type-radio form-item-news-tid">-->
+<!--                                                    <input class="bef-select-as-radios form-radio" type="radio"-->
+<!--                                                           id="edit-news-tid-29"-->
+<!--                                                           name="news_tid" value="29"/>-->
+<!--                                                    <label class="option" for="edit-news-tid-29">传清发展</label>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="views-exposed-widget views-submit-button">-->
+<!--                                        <input class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit"-->
+<!--                                               type="submit"-->
+<!--                                               id="edit-submit-news" name="" value="应用"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
             </div>
+<!--新闻列表-->
             <div class="view-content">
-                <ul class="news-list">
+                <ul class="news-list" style="padding-top: 50px">
                     <li class="">
                         <a href="newsInfo.html" class="flex">
                             <div class="icon">
@@ -220,7 +223,8 @@
                             <div class="content">
                                 <h3 class="">天津市委书记视察“智慧农业”与“国产数据库”</h3>
                                 <div class="news-description clearfix">
-                                    <p>2018年12月20日，天津市委常委、副书记阴和俊协同津南区长贺亦农，带领市农委、市发改委相关同志，莅临位于阿里云创新中心（津南）基地的蓝米粒科技（天津）有限公司</p>
+                                    <p>
+                                        2018年12月20日，天津市委常委、副书记阴和俊协同津南区长贺亦农，带领市农委、市发改委相关同志，莅临位于阿里云创新中心（津南）基地的蓝米粒科技（天津）有限公司</p>
                                     <span class="date-display-single">2019-07-05</span>
                                 </div>
                             </div>
@@ -236,7 +240,8 @@
                             <div class="content">
                                 <h3 class="">数界科技（天津）有限公司参加首届阿里云创新中心津南基地融创会</h3>
                                 <div class="news-description clearfix">
-                                    <p>2019年1月22日，由津南区工信局、区科技局，区经济开发区以及区城投公司支持，阿里云创新中心津南基地、信创资本携手主办的人工智能与智慧城市之前沿科技分享会，</p>
+                                    <p>
+                                        2019年1月22日，由津南区工信局、区科技局，区经济开发区以及区城投公司支持，阿里云创新中心津南基地、信创资本携手主办的人工智能与智慧城市之前沿科技分享会，</p>
                                     <span class="date-display-single">2019-06-24</span>
                                 </div>
                             </div>

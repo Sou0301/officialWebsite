@@ -65,6 +65,7 @@
 <div id="block-system-main" class="block block-system">
     <div class="view view-case view-id-case view-display-id-page view-dom-id-1835c825e1d5596850f2ec1579e400d6 case-wrapper">
         <div class="w clearfix">
+            <!--      侧边栏      -->
             <div class="case-type">
                 <form action="/cn/cases" method="get" id="views-exposed-form-case-page" accept-charset="UTF-8">
                     <div>
@@ -78,32 +79,31 @@
                                                 <div class="form-item">
                                                     <div id="edit-case-type-tid-all"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-all">
-                                                        <a href="https://www.yitutech.com/cn/cases"
-                                                           class="active">全部</a>
+                                                        <a class="active">全部</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-16"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-16">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=16">建站开发</a>
+                                                        <a>建站开发</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-17"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-17">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=17">微信小程序</a>
+                                                        <a>微信小程序</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-18"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-18">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=18">APP开发</a>
+                                                        <a>APP开发</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-20"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-20">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=20">ishop电商</a>
+                                                        <a>ishop电商</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-19"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-19">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=19">智慧平台</a>
+                                                        <a>智慧平台</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-31"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-31">
-                                                        <a href="https://www.yitutech.com/cn/cases?case_type_tid=31">其他</a>
+                                                        <a>其他</a>
                                                     </div>
                                                 </div>
                                                 <select class="ctools-auto-submit form-select" style="display: none;"
@@ -131,6 +131,7 @@
                     </div>
                 </form>
             </div>
+            <!--      列表      -->
             <div class="case-list">
                 <ul>
                     <!--  yiliao=建站
@@ -139,35 +140,75 @@
                     yuanqu=ishop电商
                     lingshou=智慧平台
                     aicity=其他-->
+                    <style>
+                        .imgBox{
+                            background-color:white;
+                            width: 35%;height: 100%;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            text-align: center;
+                        }
+                        .imgBox img{
+                            width: auto;
+                            height: 100%;
+                        }
+                        .desc{
+                            width: 60%;
+                        }
+                    </style>
                     <li class="">
-                        <div style="width: 60%;">
+                        <div class="desc">
                             <h3 class="pf-medium">星芽APP</h3>
                             <p>星芽APP，打造网红的娱乐社交平台。是网红与MCN机构之间的合作平台，也为传媒机构提供网红资源。</p>
                         </div>
                         <span class="type jinrong">APP开发</span>
-                        <div style="background-color:white;width: 40%;height: 100%;position: absolute;top: 0;right: 0;text-align: center">
-                            <img src="image/service1.png" alt="" style="width: auto;height: 100%;">
+                        <div class="imgBox">
+                            <img src="image/case6.jpg" alt="">
+                            <img src="image/case7.jpg" alt="">
                         </div>
                     </li>
                     <li class="">
-                        <div style="width: 60%;">
+                        <div class="desc">
                             <h3 class="pf-medium">智慧农林</h3>
                             <p>用户可通过手机APP，远程查看并控制基地生产现场。手机远程实时查看数据并追溯历史记录，实现全自动运行监测控制。</p>
                         </div>
                         <span class="type lingshou">智慧平台</span>
-                        <div style="background-color:white;width: 40%;height: 100%;position: absolute;top: 0;right: 0;text-align: center">
-                            <img src="image/case1.png" alt="" style="width: auto;height: 100%;">
+                        <div class="imgBox">
+                            <img src="image/case1.png" alt="">
                         </div>
                     </li>
                     <li class="">
-                        <h3 class="pf-medium">云易销电商平台</h3>
-                        <p>云易销电商平台</p>
+                        <div class="desc">
+                            <h3 class="pf-medium">云易销电商平台</h3>
+                            <p>云易销电商平台</p>
+                        </div>
                         <span class="type yuanqu">ishop电商</span>
+                        <div class="imgBox">
+                            <img src="image/case2.jpg" alt="">
+                        </div>
                     </li>
                     <li class="">
-                        <h3 class="pf-medium">良货百出</h3>
-                        <p>良货百出</p>
+                        <div class="desc">
+                            <h3 class="pf-medium">良货百出</h3>
+                            <p>良货百出</p>
+                        </div>
                         <span class="type anfang">微信小程序</span>
+                        <div class="imgBox">
+                            <img src="image/case3.jpg" alt="">
+                            <img src="image/case4.jpg" alt="">
+                            <img src="image/case5.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="desc">
+                            <h3 class="pf-medium">左岸酒窖官网</h3>
+                            <p>左岸酒窖官网</p>
+                        </div>
+                        <span class="type yiliao">建站开发</span>
+                        <div class="imgBox">
+                            <img src="image/case8.png" alt="">
+                        </div>
                     </li>
                     <li class="">
                         <h3 class="pf-medium">乾霖官网</h3>
@@ -175,11 +216,7 @@
                         <span class="type yiliao">建站开发</span>
                     </li>
 
-                    <li class="">
-                        <h3 class="pf-medium">左岸酒窖官网</h3>
-                        <p>左岸酒窖官网</p>
-                        <span class="type yiliao">建站开发</span>
-                    </li>
+
                     <li class="">
                         <h3 class="pf-medium">弱电工程</h3>
                         <p>弱电工程</p>
@@ -215,15 +252,15 @@
                 </ul>
             </div>
             <h2 class="element-invisible">页面</h2>
-            <div class="item-list">
-                <ul class="pager">
-                    <li class="pager-current first">1</li>
-                    <li class="pager-item"><a title="到第 2 页" href="/cn/cases?page=1">2</a></li>
-                    <li class="pager-item"><a title="到第 3 页" href="/cn/cases?page=2">3</a></li>
-                    <li class="pager-next"><a title="转到下一页" href="/cn/cases?page=1">下一页 ›</a></li>
-                    <li class="pager-last last"><a title="转到最后一页" href="/cn/cases?page=2">末页 »</a></li>
-                </ul>
-            </div>
+<!--            <div class="item-list">-->
+<!--                <ul class="pager">-->
+<!--                    <li class="pager-current first">1</li>-->
+<!--                    <li class="pager-item"><a title="到第 2 页" href="/cn/cases?page=1">2</a></li>-->
+<!--                    <li class="pager-item"><a title="到第 3 页" href="/cn/cases?page=2">3</a></li>-->
+<!--                    <li class="pager-next"><a title="转到下一页" href="/cn/cases?page=1">下一页 ›</a></li>-->
+<!--                    <li class="pager-last last"><a title="转到最后一页" href="/cn/cases?page=2">末页 »</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div>
     </div>
 </div>
