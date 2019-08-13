@@ -612,3 +612,9 @@ th.checkbox {
 .progress .filled {
     background: #0072b9 url(./images/progress.gif);
 }
+
+/*修改的*/
+label.xreuired before {
+    content: '* ';
+    color: red;
+}
