@@ -1926,6 +1926,18 @@ body.slide-in .front-banner {
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 15px;
+    /* background:rgba(0, 0, 0, 0.5); */
+    transition:All 0.8s ease-in-out;
+    -webkit-transition:All 0.8s ease-in-out;
+    -moz-transition:All 0.8s ease-in-out;
+    -o-transition:All 0.8s ease-in-out;
+}
+.front1-icon:hover{
+    transform:rotate(360deg) scale(1); 
+    -webkit-transform:rotate(360deg) scale(1);  
+    -moz-transform:rotate(360deg) scale(1);   
+    -o-transform:rotate(360deg) scale(1);  /*transform 属性下 rotate（旋转）和scale（放大）属性；可以同时用*/
+    -ms-transform:rotate(360deg) scale(1);
 }
 
 .front1 h3 {
@@ -2292,7 +2304,69 @@ body.slide-in .front-banner {
 
 .nav .block-menu>ul>li>ul li.active-trail a.ai-city,
 .nav .block-menu>ul>li>ul li a.ai-city:hover {
-    background-image: url(../images/s-aicity-h.png);
+    background-image: url(../image/al66.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.hzhb,
+.nav .block-menu>ul>li>ul li a.hzhb:hover {
+    background-image: url(../images/s-hzhb-h.png);
+}
+.nav .block-menu>ul>li>ul li.cp a.znaf {
+    background-image: url(../image/al1.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.ytyl {
+    background-image: url(../image/al2.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.zhjr {
+    background-image: url(../image/al3.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.zhls {
+    background-image: url(../image/al4.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.zhyq {
+    background-image: url(../image/al5.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.ai-city {
+    background-image: url(../image/al6.png);
+}
+
+.nav .block-menu>ul>li>ul li.cp a.hzhb {
+    background-image: url(../images/s-hzhb.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.znaf,
+.nav .block-menu>ul>li>ul li.cp a.znaf:hover {
+    background-image: url(../image/al11.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.ytyl,
+.nav .block-menu>ul>li>ul li.cp a.ytyl:hover {
+    background-image: url(../image/al22.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.zhjr,
+.nav .block-menu>ul>li>ul li.cp a.zhjr:hover {
+    background-image: url(../image/al33.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.zhls,
+.nav .block-menu>ul>li>ul li.cp a.zhls:hover {
+    background-image: url(../image/al44.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.zhyq,
+.nav .block-menu>ul>li>ul li.cp a.zhyq:hover {
+    background-image: url(../image/al55.png);
+}
+
+.nav .block-menu>ul>li>ul li.active-trail a.ai-city,
+.nav .block-menu>ul>li>ul li.cp a.ai-city:hover {
+    background-image: url(../image/al66.png);
 }
 
 .nav .block-menu>ul>li>ul li.active-trail a.hzhb,
@@ -3439,7 +3513,7 @@ input[disabled='disabled'] {
 
 .case-core-list {
     height: 100%;
-    width: 25%;
+    width: 20%;
     float: left;
     border-right: 1px solid rgba(255, 255, 255, 0.4);
     padding: 100px 35px 0;
@@ -3448,7 +3522,7 @@ input[disabled='disabled'] {
     cursor: pointer;
 }
 
-.en .case-core-list {
+/* .en .case-core-list {
     padding-top: 50px;
 }
 
@@ -3468,8 +3542,8 @@ input[disabled='disabled'] {
 .case-core-hover .case-core-list {
     padding-top: 62px;
     width: 20%;
-}
-
+} */
+/* 
 .en .case-core-hover .case-core-list {
     padding-top: 20px;
 }
@@ -3480,12 +3554,12 @@ input[disabled='disabled'] {
 
 .case-core-hover.cell3 .case-core-list {
     width: 25%;
-}
+} */
 
 .case-core-hover .case-core-list.current {
     width: 40%;
 }
-
+/* 
 .case-core-hover.cell1 .case-core-list.current {
     width: 100%;
 }
@@ -3496,7 +3570,10 @@ input[disabled='disabled'] {
 
 .case-core-hover.cell3 .case-core-list.current {
     width: 50%;
-}
+} */
+.case-core-hover .case-core-list {
+    width: 15%;
+} 
 
 .case-core-list:last-of-type {
     border-right: none;
