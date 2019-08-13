@@ -8,35 +8,35 @@
     <div class="nav">
         <div id="block-system-main-menu" class="block block-system block-menu sub-nav-item">
             <ul class="menu clearfix">
-                <li class="first leaf"><a href="./Index.html" class="active">首页</a></li>
-                <li class="expanded"><a href="./business.html">核心业务</a>
+                <li class="first leaf"><a href="./index.html" class="menuEle">首页</a></li>
+                <li class="expanded"><a href="./business.html" class="menuEle">核心业务</a>
                     <ul class="menu clearfix">
-                        <li class="first leaf"><a href="./business.html" class="znaf">大数据应用</a>
+                        <li class="first leaf"><a href="./business.html?dsj" class="znaf">大数据应用</a>
                         </li>
-                        <li class="leaf"><a href="./business.html" class="ytyl">系统集成</a></li>
-                        <li class="leaf"><a href="./business.html" class="zhjr">系统组成</a></li>
-                        <li class="leaf"><a href="./business.html" class="zhyq">大型网络平台</a></li>
-                        <li class="leaf"><a href="./business.html" class="zhls">IT服务</a></li>
+                        <li class="leaf"><a href="./business.html?xtjc" class="ytyl">系统集成</a></li>
+                        <li class="leaf"><a href="./business.html?xtzc" class="zhjr">系统组成</a></li>
+                        <li class="leaf"><a href="./business.html?pt" class="zhyq">大型网络平台</a></li>
+                        <li class="leaf"><a href="./business.html?it" class="zhls">IT服务</a></li>
                         <!-- <li class="last leaf"><a href="/business.html" class="ai-city">AI CITY</a></li> -->
                     </ul>
                 </li>
-                <li class="leaf"><a href="./cases.html">经典案例</a>
+                <li class="leaf"><a href="./cases.html" class="menuEle">经典案例</a>
                 </li>
-                <li class="expanded"><a href="" class="speech" target="_blank">产品介绍</a>
+                <li class="expanded"><a href="./product.html" class="speech menuEle" target="_blank">产品介绍</a>
                     <ul class="menu clearfix">
                         <li class="first leaf cp"><a href="./product.html" class="znaf">智慧农林</a></li>
-                        <li class="leaf cp"><a href="./product.html" class="ytyl">智慧城市</a></li>
-                        <li class="leaf cp"><a href="./product.html" class="zhjr">弱电工程</a></li>
-                        <li class="leaf cp"><a href="./product.html" class="zhyq">智慧建筑检测</a></li>
-                        <li class="leaf cp"><a href="./product.html" class="zhls">智慧港口与物流</a></li>
-                        <li class="last leaf cp"><a href="./product.html" class="ai-city">智慧政务与智慧校园</a></li>
+                        <li class="leaf cp"><a href="./product.html?zhcs" class="ytyl">智慧城市</a></li>
+                        <li class="leaf cp"><a href="./product.html?rdgc" class="zhjr">弱电工程</a></li>
+                        <li class="leaf cp"><a href="./product.html?zhjzjc" class="zhyq">智慧建筑监测</a></li>
+                        <li class="leaf cp"><a href="./product.html?zhgkywl" class="zhls">智慧港口与物流</a></li>
+                        <li class="last leaf cp"><a href="./product.html?zhzwyxy" class="ai-city">智慧政务与校园</a></li>
                     </ul>
                 </li>
-                <li class="leaf"><a href="./news.html">新闻中心</a></li>
-                <li class="leaf"><a href="./about-us.html">关于我们</a></li>
-                <li class="leaf"><a href="./downlaod.html" id="hzhb" class="hzhb">下载中心</a></li>
-                <li class="leaf"><a href="./join-us.html">加入传清</a></li>
-                <li class="last leaf"><a href="./service.html">支持与服务</a></li>
+                <li class="leaf"><a href="./news.html"  class="menuEle">新闻中心</a></li>
+                <li class="leaf"><a href="./about-us.html"  class="menuEle">关于我们</a></li>
+                <li class="leaf"><a href="./downlaod.html" id="hzhb" class="hzhb menuEle">下载中心</a></li>
+                <li class="leaf"><a href="./join-us.html" class="menuEle">加入传清</a></li>
+                <li class="last leaf"><a href="./service.html" class="menuEle">支持与服务</a></li>
             </ul>
         </div>
         <div class="m-close">&times;</div>
@@ -62,14 +62,21 @@
         <span></span>
     </div>
 </div>
+<script src="./js/career.js"></script>
+<script src="./js/js6.js"></script>
 <script>
     var pathName = window.location.pathname;
+    pathName = '.' + pathName;
     var Href = '';
-    $('.menu a').each(function(){
+    $('.menuEle').each(function(){
         console.log($(this))
         Href = $(this).attr('href')
+        console.log(Href , pathName)
         if(pathName == Href){
-            console.log(pathName, Href)
+            $(this).addClass('active')
+            console.log(pathName, Href, 'a')
+        }else{
+            $(this).removeClass('active')
         }
     })
 </script>
