@@ -33,12 +33,12 @@
       <video src="images/1.mp4" id="openScreenVideo" autoplay="autoplay" muted="muted"></video>
   </div>-->
 
-  <div class="header"></div>
-    <script>
-        $(document).ready(function(){
-            $(".header").load("./header.html");
-        });
-    </script>
+<div class="header"></div>
+<script>
+    $(document).ready(function () {
+        $(".header").load("./header.html");
+    });
+</script>
 
 <div class="top-banner page-banner">
     <div class="swiper-container view view-banner view-id-banner view-display-id-block_7 view-dom-id-cdd1cfcf4a853ed4734ce83aa4bf5d86">
@@ -143,21 +143,42 @@
                     lingshou=智慧平台
                     aicity=其他-->
                     <style>
-                        .imgBox{
-                            background-color:white;
-                            width: 35%;height: 100%;
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            text-align: center;
+                        @media (max-width: 767px) {
+                            .imgBox{
+                                background-color: white;
+                                width: 100%;
+                                height: 28vh;
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                            .imgBox img {
+                                width: auto;
+                                height: 100%;
+                            }
+                            .desc {
+                                width: 100%;
+                            }
                         }
-                        .imgBox img{
-                            width: auto;
-                            height: 100%;
+
+                        @media (min-width: 767px) {
+                            .imgBox {
+                                background-color: white;
+                                width: 35%;
+                                height: 100%;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                text-align: center;
+                            }
+                            .imgBox img {
+                                width: auto;
+                                height: 100%;
+                            }
+                            .desc {
+                                width: 60%;
+                            }
                         }
-                        .desc{
-                            width: 60%;
-                        }
+
                     </style>
                     <li class="">
                         <div class="desc">
@@ -254,15 +275,15 @@
                 </ul>
             </div>
             <h2 class="element-invisible">页面</h2>
-<!--            <div class="item-list">-->
-<!--                <ul class="pager">-->
-<!--                    <li class="pager-current first">1</li>-->
-<!--                    <li class="pager-item"><a title="到第 2 页" href="/cn/cases?page=1">2</a></li>-->
-<!--                    <li class="pager-item"><a title="到第 3 页" href="/cn/cases?page=2">3</a></li>-->
-<!--                    <li class="pager-next"><a title="转到下一页" href="/cn/cases?page=1">下一页 ›</a></li>-->
-<!--                    <li class="pager-last last"><a title="转到最后一页" href="/cn/cases?page=2">末页 »</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
+            <!--            <div class="item-list">-->
+            <!--                <ul class="pager">-->
+            <!--                    <li class="pager-current first">1</li>-->
+            <!--                    <li class="pager-item"><a title="到第 2 页" href="/cn/cases?page=1">2</a></li>-->
+            <!--                    <li class="pager-item"><a title="到第 3 页" href="/cn/cases?page=2">3</a></li>-->
+            <!--                    <li class="pager-next"><a title="转到下一页" href="/cn/cases?page=1">下一页 ›</a></li>-->
+            <!--                    <li class="pager-last last"><a title="转到最后一页" href="/cn/cases?page=2">末页 »</a></li>-->
+            <!--                </ul>-->
+            <!--            </div>-->
         </div>
     </div>
 </div>
