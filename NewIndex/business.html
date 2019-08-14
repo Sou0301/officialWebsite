@@ -19,6 +19,7 @@
     <link type="text/css" rel="stylesheet" href="./css/css2.css" media="all" />
     <link type="text/css" rel="stylesheet" href="./css/css3.css" media="all" />
     <link type="text/css" rel="stylesheet" href="./css/css4.css" media="all" />
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 
     <!--[if lt IE 9]>
 <link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs" media="all" />
@@ -27,91 +28,18 @@
 
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-66 node-type-business i18n-zh-hans zh-hans">
     <div class="header">
-        <div class="w clearfix">
-            <div class="logo">
-                <a href="./index.html" title="传清科技集团" rel="home" id="logo">
-                    <img src="./image/Wlogo.png" alt="传清科技集团">
-                </a>
-            </div>
-            <div class="nav">
-                <div id="block-system-main-menu" class="block block-system block-menu sub-nav-item">
-                    <ul class="menu clearfix">
-                        <li class="leaf"><a href="./Index.html">首页</a></li>
-                        <li class="expanded active-trail"><a href="./business.html" class="active-trail active">核心业务</a>
-                            <ul class="menu clearfix">
-                                <li class="first leaf"><a href="./business.html" class="znaf">大数据应用</a>
-                                </li>
-                                <li class="leaf"><a href="./business.html" class="ytyl">系统集成</a></li>
-                                <li class="leaf"><a href="./business.html" class="zhjr">系统组成</a></li>
-                                <li class="leaf"><a href="./business.html" class="zhyq">大型网络平台</a></li>
-                                <li class="leaf"><a href="./business.html" class="zhls">IT服务</a></li>
-                            </ul>
-                        </li>
-                        <li class="expanded"><a href="./cases.html">经典案例</a>
-                            <ul class="menu clearfix">
-                                <li class="first leaf"><a href="./cases.html" class="znaf">智能安防</a>
-                                </li>
-                                <li class="leaf"><a href="./cases.html" class="ytyl">传清医疗</a></li>
-                                <li class="leaf"><a href="./cases.html" class="zhjr">智慧金融</a></li>
-                                <li class="leaf"><a href="./cases.html" class="zhyq">智慧园区</a></li>
-                                <li class="leaf"><a href="./cases.html" class="zhls">智慧零售</a></li>
-                                <li class="last leaf"><a href="./cn/business/ai-city" class="ai-city">AI CITY</a></li>
-                            </ul>
-                        </li>
-                        <li class="expanded"><a href="" class="speech" target="_blank">产品介绍</a>
-                            <ul class="menu clearfix">
-                                <li class="first leaf"><a href="./cn/business/intelligent-security" class="znaf">智能安防</a>
-                                </li>
-                                <li class="leaf"><a href="./cn/business/yitu-heathcare" class="ytyl">传清医疗</a></li>
-                                <li class="leaf"><a href="./cn/business/smart-finance" class="zhjr">智慧金融</a></li>
-                                <li class="leaf"><a href="./cn/business/smart-park" class="zhyq">智慧园区</a></li>
-                                <li class="leaf"><a href="./cn/business/smart-retail" class="zhls">智慧零售</a></li>
-                                <li class="last leaf"><a href="./cn/business/ai-city" class="ai-city">AI CITY</a></li>
-                            </ul>
-                        </li>
-                        <li class="leaf"><a href="./news.html">新闻中心</a></li>
-                        <li class="leaf"><a href="./about-us.html">关于我们</a></li>
-                        <li class="leaf"><a href="./downlaod.html" id="hzhb" class="hzhb">下载中心</a></li>
-                        <li class="leaf"><a href="./join-us.html">加入传清</a></li>
-                        <li class="last leaf"><a href="./service.html">支持与服务</a></li>
-                    </ul>
-                </div>
-                <div class="m-close">&times;</div>
-                <!-- <div class="lang-box">
-                    <div id="block-locale-language" class="block block-locale">
-
-                        <span class="lang">&nbsp;</span>
-                        <ul class="language-switcher-locale-url">
-                            <li class="zh-hans first active"><a href="/cn" class="language-link active"
-                                    xml:lang="zh-hans">中国站 - 简体中文</a></li>
-                            <li class="en last"><a href="/en" class="language-link" xml:lang="en">International - EN</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
-            </div>
-
-
-            <div class="header-right">
-                <div id="block-block-19" class="block block-block">
-                    <!-- <div class="btn-blue apply-btn"><a href="javascript:;">业务咨询</a></div> -->
-                </div>
-            </div>
-
-
-            <div class="nav-btn">
-                <span></span>
-            </div>
-
-
-        </div>
     </div>
+    <script>
+        $(document).ready(function(){
+            $(".header").load("./header.html"); 
+        });
+    </script>
     <div class="top-banner page-banner">
         <div
             class="swiper-container view view-banner view-id-banner view-display-id-block_1 view-dom-id-9bce22e2994f3a0fa3dffbef6374b809">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" id="banner70">
-                    <img src="./image/dsj02.jpg" width="2880" height="1080" alt="智能安防" />
+                    <img src="./image/dsj02.jpg" width="2880" height="1080" alt="" />
                     <div class="banner-content flex flex-v">
                         <div class="w">
                             <div class="banner-main">
@@ -129,8 +57,35 @@
             </div>
             <div class="swiper-pagination top-banner-pagination"></div>
         </div>
-
     </div>
+    <script>
+        $(function(){
+            if(url == '?xtjc'){
+                console.log('系统集成')
+                $('.banner-main h2.pf-medium').text('一体化指挥平台');
+                $('.banner-main h3.pf-medium').text('业务·系统集成');
+                $('.banner-main div.banner-body p').text('一体化指挥平台是适应新时代智慧城市发展需求的全新系统集成平台。')
+            }else if(url == '?xtzc'){
+                console.log('系统组成')
+                $('.banner-main h2.pf-medium').text('智能化堆场系统');
+                $('.banner-main h3.pf-medium').text('业务·系统组成');
+                $('.banner-main div.banner-body p').text('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化管理，在各种复杂的环境中都能够提供有效的运营华管理。该系统集中实现自动卡口。')
+            }else if(url == '?pt'){
+                console.log('平台')
+                $('.banner-main h2.pf-medium').text('云易销');
+                $('.banner-main h3.pf-medium').text('业务·大型网络平台');
+                $('.banner-main div.banner-body p').text('云易销是一款进销存全流程大数据专家级分析系统，专为传统商贸行业解决进销存管理的ERP软件。')
+            }else if(url == '?it'){
+                console.log('IT')
+                $('.banner-main h2.pf-medium').text('左岸酒窖');
+                $('.banner-main h3.pf-medium').text('业务·IT服务');
+                $('.banner-main div.banner-body p').text('左岸酒窖')
+                
+            }else{
+                console.log('大数据')
+            }
+        })
+    </script>
     <div class="w">
         <div class="tabs"></div>
     </div>
@@ -146,10 +101,33 @@
                 </div>
                 <div class="business-core-img align-center">
 
-                    <p><img alt="传清-智能安防" src="./image/dsj.jpg" /></p>
+                    <p><img alt="传清核心业务" class="busTu1" src="./image/dsj.png" /></p>
 
                 </div>
             </div>
+            <script>
+                $(function(){
+                    if(url == '?xtjc'){
+                        console.log('系统集成')
+                        $('.business1 .title-region h2').text('集成·发展所需');
+                        $('.busTu1').attr("src", './image/imgJC.png');
+                    }else if(url == '?xtzc'){
+                        console.log('系统组成')
+                        $('.business1 .title-region h2').text('组成·现代化管理');
+                        $('.busTu1').attr("src", './image/imgZC.png');
+                    }else if(url == '?pt'){
+                        console.log('平台')
+                        $('.business1 .title-region h2').text('平台·迈向互联网');
+                        $('.busTu1').attr("src", './image/imgPT.jpg');
+                    }else if(url == '?it'){
+                        console.log('IT')
+                        $('.business1 .title-region h2').text('服务·全方位');
+                        $('.busTu1').attr("src", '');
+                    }else{
+                        console.log('大数据')
+                    }
+                });
+            </script>
         </div>
         <div class="hr-line"></div>
         <div class="box solution-box">
@@ -159,7 +137,6 @@
                         系统操作
                     </h2>
                 </div>
-
                 <div id="block-views-solutions-block" class="block block-views">
                     <h2> </h2>
                     <div class="title-tab solution-tab">
@@ -181,19 +158,17 @@
                                     <!--</a></li>-->
                                     <div class="swiper-slide">
                                         <div class="solution-pic">
-
                                             <img src="./image/yewu1.jpg" width="952" height="708" />
                                         </div>
                                         <div class="solution-main">
                                             <h3 class="pf-medium">
                                                 1.导入数据库
                                             </h3>
-
-                                            <p>主流数据库全方位支持、数据库完全接入、自动分析数据库内容。
+                                            <p>
+                                                主流数据库全方位支持、数据库完全接入、自动分析数据库内容。
                                                 <br>
                                                 对原数据库无任何改变。
                                             </p>
-
                                         </div>
                                         <div class="solution-detail show">
                                                 <dl class="hxgn col2">
@@ -202,7 +177,6 @@
                                                         <ul>
                                                             <li>
                                                                 云开大数据（Open Cloud） 是一套完整的企业大数据分析平台，产品依托大数据挖掘，神经网络分析、图形化建模等先进的数据管理理念代入到企业日常管理中。
-                                                                
                                                             </li>
                                                         </ul>
                                                     </dd>
@@ -240,10 +214,9 @@
                                             <h3 class="pf-medium">
                                                 2.拖拽维度/度量
                                             </h3>
-
-                                            <p>图像化操作，将分析完毕数据拖拽到要显示的行/列中，生成可视化图标。
+                                            <p>
+                                                图像化操作，将分析完毕数据拖拽到要显示的行/列中，生成可视化图标。
                                             </p>
-
                                         </div>
                                         <div class="solution-detail show">
                                                 <dl class="hxgn col2">
@@ -252,7 +225,6 @@
                                                         <ul>
                                                             <li>
                                                                 云开大数据（Open Cloud） 是一套完整的企业大数据分析平台，产品依托大数据挖掘，神经网络分析、图形化建模等先进的数据管理理念代入到企业日常管理中。
-                                                                
                                                             </li>
                                                         </ul>
                                                     </dd>
@@ -330,6 +302,112 @@
                 </div>
             </div>
         </div>
+        <script>
+                $(function(){
+                    if(url == '?xtjc'){
+                        console.log('系统集成')
+                        $('.solution-box .title-region h2').text('一体化指挥平台');
+                        $('#block-views-solutions-block li').each(function(index){
+                            if(index == 0){
+                                $(this).text('综合指挥调度席位')
+                            }else if(index == 1){
+                                $(this).text('应急指挥模式')
+                            }else if(index == 2){
+                                $(this).text('自动化预案')
+                            }
+                        });
+                        $('.solution').each(function(index){
+                            if(index == 0){
+                                $(this).find('h3').text('综合指挥调度席位')
+                                $(this).find('.solution-main p').html('随着计算机和网络技术不断成熟，音频技术，视频、音频技术和信息技术的迅速崛起，在即时通讯系统中呈现相互融合,共同发展的趋势，随着社会信息加速推进，调度指挥系统为各相关单位带来了交流沟通环境和便捷的指挥调度操作环境，调度指挥系统建设是信息化建设必不可少的信息基础设施。')
+                                $(this).find('img').attr('src', './image/jcImg1.png');
+                            }else if(index == 1){
+                                $(this).find('h3').text('应急指挥模式')
+                                $(this).find('.solution-main p').html('应急指挥通过研判自动化预案进行辅助决策,对应急资源进行组织、协调和管理控制。')
+                                $(this).find('img').attr('src', './image/jcImg2.png');
+                            }else if(index == 2){
+                                $(this).find('h3').text('自动化预案')
+                                $(this).find('.solution-main p').html('自动化预案通过对数据的手机应用了大数据融合技术，数据交叉分析深度学习AI技术，产生不同预案。')
+                                $(this).find('img').attr('src', './image/jcImg3.png');
+
+                            }
+                        })
+                        $('.hxgn dt').text('功能设计');
+                        $('.hxgn li').text('基础功能：围绕给用户提供的三个使用终端展开，分别是：手机端、Pad端、PC端。');
+                        $('.gjys dt').text('功能设计')
+                        $('.gjys li').text('联合功能：围绕通过三种不同终端，以及其他一些传感器、设备等资源，站在业务角度，围绕公交系统现有功能需求联合完成的功能。');
+                    }else if(url == '?xtzc'){
+                        console.log('系统组成')
+                        $('.solution-box .title-region h2').text('现代化管理系统');
+                        $('#block-views-solutions-block li').each(function(index){
+                            if(index == 0){
+                                $(this).text('智能化堆场系统')
+                            }else if(index == 1){
+                                $(this).text('自动过磅系统/自动卡口系统')
+                            }else if(index == 2){
+                                $(this).text('无线全覆盖系统')
+                            }
+                        });
+                        $('.solution').each(function(index){
+                            if(index == 0){
+                                $(this).find('h3').text('智能化堆场系统')
+                                $(this).find('.solution-main p').html('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化、自动化管理，在各种复杂的环境中都能够提供有效的自动化运营管理。该系统集中实现自动卡口、无人值守自动过衡，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。<br/>智能化堆场系统以网络和电子设备为依托，完成了现场作业的自动化，全流程的无人化，形成闭环管控，智能化系统自动完成作业计划，同时能够确保客户货物堆存及出入库的安全控制，消除潜在安全风险，为客户提供快速高效、便捷及时、安全可靠的个性化服务体验，助力客户创造最大的价值。')
+                                $(this).find('img').attr('src', './image/zcImg1.jpg');
+                            }else if(index == 1){
+                                $(this).find('h3').text('自动过磅系统/自动卡口系统')
+                                $(this).find('.solution-main p').html('自动过磅系统采用先进的身份识别技术，实现场区作业车辆称量自动化管理，利用先进的远距离身份识别技术、电子车牌识别技术、人机交互技术、电子档杆技术、控制信号集成技术设备等智能设备组成，通过对过磅作业的规范化管理，提高作业效率，避免人为作弊的情况发生。<br/>自动卡口系统采用远距离身份识别技术与电子车牌识别技术相结合，双重认证车辆身份，自动识别进入卡口作业车辆，利用电子档杆以及LED显示屏等自动化控制设备控制所有出入场区的作业车辆，实现卡口无人化值守。')
+                                $(this).find('img').attr('src', './image/zcImg2.jpg');
+                            }else if(index == 2){
+                                $(this).find('h3').text('无线全覆盖系统')
+                                $(this).find('.solution-main p').html('天津港中企联合物流有限公司堆场进行无线全覆盖，实现移动办公，在堆场内进行照片和视频的传输。无线网络以“高带宽、广覆盖、大容量” 的特点可以为员工提供高速无线上网服务，为全面感知和高速传输提供“无线” 可能，并将逐渐改善员工的工作、生活方式，体现互联网时代人人参与发展、人人参与创新的理念。<br/>按照“整体规划、分期实施，试点先行、以点代面，科学布网、注重安全，企业应用、兼顾民用”原则，构建堆场无线网络，建立物联网无线感知基础网络，并且利用无线网络架构的方便、快捷、灵活、覆盖广等特点，满足了日益增强的生产自动化的需求，和多业务、多平台资源共享的需求。')
+                                $(this).find('img').attr('src', './image/zcImg3.jpg');
+
+                            }
+                        })
+                        $('.hxgn dt').text('系统设计');
+                        $('.hxgn li').text('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化管理，在各种复杂的环境中都能够提供有效的运营华管理。');
+                        $('.gjys dt').text('系统设计')
+                        $('.gjys li').text('该系统集中实现自动卡口。自动过衡无人值守，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。');
+                    }else if(url == '?pt'){
+                        console.log('平台')
+                        $('.solution-box .title-region h2').text('全新ERP');
+                        $('#block-views-solutions-block li').each(function(index){
+                            if(index == 0){
+                                $(this).text('智能化堆场系统')
+                            }else if(index == 1){
+                                $(this).text('自动过磅系统/自动卡口系统')
+                            }else if(index == 2){
+                                $(this).text('无线全覆盖系统')
+                            }
+                        });
+                        $('.solution').each(function(index){
+                            if(index == 0){
+                                $(this).find('h3').text('智能化堆场系统')
+                                $(this).find('.solution-main p').html('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化、自动化管理，在各种复杂的环境中都能够提供有效的自动化运营管理。该系统集中实现自动卡口、无人值守自动过衡，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。<br/>智能化堆场系统以网络和电子设备为依托，完成了现场作业的自动化，全流程的无人化，形成闭环管控，智能化系统自动完成作业计划，同时能够确保客户货物堆存及出入库的安全控制，消除潜在安全风险，为客户提供快速高效、便捷及时、安全可靠的个性化服务体验，助力客户创造最大的价值。')
+                                $(this).find('img').attr('src', './image/zcImg1.jpg');
+                            }else if(index == 1){
+                                $(this).find('h3').text('自动过磅系统/自动卡口系统')
+                                $(this).find('.solution-main p').html('自动过磅系统采用先进的身份识别技术，实现场区作业车辆称量自动化管理，利用先进的远距离身份识别技术、电子车牌识别技术、人机交互技术、电子档杆技术、控制信号集成技术设备等智能设备组成，通过对过磅作业的规范化管理，提高作业效率，避免人为作弊的情况发生。<br/>自动卡口系统采用远距离身份识别技术与电子车牌识别技术相结合，双重认证车辆身份，自动识别进入卡口作业车辆，利用电子档杆以及LED显示屏等自动化控制设备控制所有出入场区的作业车辆，实现卡口无人化值守。')
+                                $(this).find('img').attr('src', './image/zcImg2.jpg');
+                            }else if(index == 2){
+                                $(this).find('h3').text('无线全覆盖系统')
+                                $(this).find('.solution-main p').html('天津港中企联合物流有限公司堆场进行无线全覆盖，实现移动办公，在堆场内进行照片和视频的传输。无线网络以“高带宽、广覆盖、大容量” 的特点可以为员工提供高速无线上网服务，为全面感知和高速传输提供“无线” 可能，并将逐渐改善员工的工作、生活方式，体现互联网时代人人参与发展、人人参与创新的理念。<br/>按照“整体规划、分期实施，试点先行、以点代面，科学布网、注重安全，企业应用、兼顾民用”原则，构建堆场无线网络，建立物联网无线感知基础网络，并且利用无线网络架构的方便、快捷、灵活、覆盖广等特点，满足了日益增强的生产自动化的需求，和多业务、多平台资源共享的需求。')
+                                $(this).find('img').attr('src', './image/zcImg3.jpg');
+
+                            }
+                        })
+                        $('.hxgn dt').text('系统设计');
+                        $('.hxgn li').text('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化管理，在各种复杂的环境中都能够提供有效的运营华管理。');
+                        $('.gjys dt').text('系统设计')
+                        $('.gjys li').text('该系统集中实现自动卡口。自动过衡无人值守，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。');
+                    }else if(url == '?it'){
+                        console.log('IT')
+                        $('.title-region h2').text('服务·全方位');
+                    }else{
+                        console.log('大数据')
+                    }
+                });
+            </script>
         <div class="hr-line"></div>
         <div class="box applycation-box">
             <div class="w">
@@ -347,9 +425,9 @@
                         <!-- <video muted="" src="/sites/all/themes/yitu./images/znaf.mp4">&nbsp;</video> -->
                     </div>
                 </div>
-
             </div>
         </div>
+
         <div class="hr-line"></div>
         <div class="box core-case-box" data-defaultsrc="./image/dsj09.jpg   
 ">
@@ -362,7 +440,6 @@
                             打通企业各个系统数据,拖拉拽实现数据分析
                     </p>
                 </div>
-
                 <div id="block-views-case-block" class="block block-views">
                     <div class="view view-case view-id-case view-display-id-block view-dom-id-4f246c2a29b46cb152795ee8eb8df919 case-core">
                         <div class="case-core-list" data-bg="./image/dsj7.jpg">
@@ -411,8 +488,69 @@
                     </div> -->
                 </div>
             </div>
+            
         </div>
+        <script>
+            $(function(){
+                if(url == '?xtjc'){
+                    console.log('系统集成')
+                    $('.applycation-box p').text('基于专门业务领域管理知识资源的社会化分工');
+                    $('.core-case-box .title-region h2').text('放大一体化');
+                    $('.core-case-box .title-region p').text('一体化指挥、协同出发及移动沟通');
+                    $('.case-core-list').each(function(i){
+                        if(i == 0){
+                            $(this).find('h3').text('系统概念');
+                            $(this).find('p').text('企业将其包括设计开发、生产、物流、办公、生活等方面的某一非核心业务领域的全部运作和管理集成为一个整体，作为一个以管理业务为主的外包项目，转包给专门的一体化管理供应商。它不是传统的基于工序或产品的社会化分工，而是在信息化和知识经济时代，基于专门业务领域管理知识资源的社会化分工，是企业非核心业务管理职能社会化的实现模式。');
+                        }else if(i == 1){
+                            $(this).find('h3').text('大数据融合');
+                            $(this).find('p').text('静态数据（如GIS、建筑物、派出所、消防大队、医院、学校、企业等）与动态数据（如站点、站牌、人群、等）完美的结合，实现了更智能、更精准的交通情报、变“被动应用”为“主动出击”，使时间与指挥的融合度有了更好的提升。');
+                        }else if(i == 2){
+                            $(this).find('h3').text('系统应用');
+                            $(this).find('p').text('指挥系统是公交车非常重要的部分，是各类信息化系统的综合应用。随着公交车业务需求的发展，迫切需要打造集“一体化指挥、协同出发及移动沟通”于一体的智能指挥平台。 ');
+                        }else if(i == 3){
+                            $(this).find('h3').text('系统发展');
+                            $(this).find('p').html('过去：简单实用、相互独立、但是效率低下、融合困难 <br/> 现在：物联网、大数据融合、资源共享、业务协同、大数据交叉分析、一体化指挥、融合通讯<br/> 未来：智能分析、自动布控、智能化/自动化、AI+机器人');
+                        }else if(i == 4){
+                            $(this).find('h3').text('系统优势');
+                            $(this).find('p').text('路况信息的实时推送，定点定位的周边人群，保证在拥堵路段可即使避免，任何交通情况第一时间得到反馈，一体化指挥平台一站式服务，给社会带来更大的发展和更便捷的交通环境。');
+                        }
+                    });
+                    }else if(url == '?xtzc'){
+                        console.log('系统组成')
+                        $('.applycation-box h2').text('系统优势');
+                        $('.applycation-box p').text('高效管理 智能运维');
+                        $('.core-case-box .title-region h2').text('直击现代化');
+                        $('.core-case-box .title-region p').text('突破现有业务模型，拓宽发展之路');
+                        $('.case-core-list').each(function(i){
+                            if(i == 0){
+                                $(this).find('h3').text('保证称重数据的真实性/界面友好，直观');
+                                $(this).find('p').html('数据自动生成，避免和输入。稳定称重，数据在稳定时候称重，否则不能读取数据。<br/>自动生成数据报表，并提供多平台查询平台，用户可根据实际情况采取多种管理手段。');
+                            }else if(i == 1){
+                                $(this).find('h3').text('高度自动化，减少人为干预/系统自我维护');
+                                $(this).find('p').html('提高通关速度，海关官员能在各卡口的中控室对本卡口的 通车情况进行监控，能够在总监控中心实现对所有卡口通 车情况的监控，并可以远程对卡口采集数据进行补采。干预放行处理。<br/>系统具有自我维护功能，对卡口设备启用/禁用控制，对设备检测、对卡口设备异常报警监控，自动保存相关数据，提供日志查询统计功能。');
+                            }else if(i == 2){
+                                $(this).find('h3').text('全天候24小时不间断工作/海关系统对接');
+                                $(this).find('p').html('系统能将通过卡口的车辆的图片、采集信息、放行信息等保存，便于 时候的核查和浏览；环境适性强、能够全天候24小时不间断工作。<br/>与海关系统的实现完整对接，对海关所需的相关权限，相关信 息都可以完整的呈现，并针对入库、入库计划、入库货物监 管、出库、出库计划。车车监管、异常情况都可实时了解。');
+                            }else if(i == 3){
+                                $(this).find('h3').text('智能卡口系统/智能过磅系统');
+                                $(this).find('p').html('自动卡口系统采用远距离身份识别技术与电子车牌识别技术相结合， 双重认证车辆身份，自动识别进入卡口作业车辆，利用电子档杆以及 LED显示屏等自动设备控制所有出入场区的作业车辆，实现卡口无人化值守。 <br/> 现在：物联网、大数据融合、资源共享、业务协同、大数据交叉分析、一体化指挥、融合通讯<br/> 自动过磅系统采用先进的身份识别技术，实现场区作业车辆 称量自动化管理，利用先进的远距离身份识别技术、电子车 牌识别技术、人机交互技术、电子档杆技术、控制信号集成 等智能设备组成，通过对过磅作业的规范化管理，提高作业 效率，避免人为作弊情况的发生。');
+                            }else if(i == 4){
+                                $(this).find('h3').text('库场管理系统/辅助管理系统/收费系统');
+                                $(this).find('p').html('库场管理系统将现有多项管理工作融合一体，使企业通过库场管理系统操作现有的工作，将申请、凭证、计划、交接、记录、出入库、盘算等工作统一在系统实 现。库场管理系统包含：业务管理、计划管理。调度管理、堆场管理等。<br/>生产辅助管理系统将含有当前作业情况、交接班、统计分 析、基础数据维护、车牌绑定的功能模板进行平台管控，将 日常工作通过系统来进行操作，缩减工作时间，提高工作效 率，更快、更好的完成工作任务。<br/>收费系统涵盖了现有行业内的所有计费模式、收费系统是由换单 收费、换单收费（进口）、费用管理、运输费用、中专功能、配 送功能等相关功能组成。');
+                            }
+                        });
+                    }else if(url == '?pt'){
+                        console.log('平台')
 
+                    }else if(url == '?it'){
+                        console.log('IT')
+
+                    }else{
+                        console.log('大数据')
+                    }
+                
+            });
+        </script>
         <div class="box gradient-blue front2">
             <div class="w">
                 <div class="title-region">
@@ -1020,6 +1158,9 @@
         </div>
         <a href="javascript:;" class="close">&nbsp;</a>
     </div>
+    <script>
+        let url = window.location.search;
+    </script>
     <script type="text/javascript" src="./js/js5.js"></script>
     <script type="text/javascript" src="./js/js9.js"></script>
     <script type="text/javascript" src="./js/js7.js"></script>

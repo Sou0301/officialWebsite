@@ -25,102 +25,29 @@
     <link type="text/css" rel="stylesheet" href="./css/css3.css" media="all"/>
     <link type="text/css" rel="stylesheet" href="./css/css4.css" media="all"/>
 
+
     <!--[if lt IE 9]>
     <link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs"
           media="all"/>
     <![endif]-->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 </head>
-
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-87 node-type-page i18n-zh-hans zh-hans">
 <!--<div class="open-screen">
       <video src="images/1.mp4" id="openScreenVideo" autoplay="autoplay" muted="muted"></video>
   </div>-->
-<div class="header">
-    <div class="w clearfix">
-        <div class="logo">
-            <a href="./index.html" title="传清科技集团" rel="home" id="logo">
-                <img src="./image/Wlogo.png" alt="传清科技集团">
-            </a>
-        </div>
-        <div class="nav">
-            <div id="block-system-main-menu" class="block block-system block-menu sub-nav-item">
-                <ul class="menu clearfix">
-                    <li class="leaf"><a href="./Index.html">首页</a></li>
-                    <li class="expanded"><a href="./business.html">核心业务</a>
-                        <ul class="menu clearfix">
-                            <li class="first leaf"><a href="./business.html" class="znaf">大数据应用</a>
-                            </li>
-                            <li class="leaf"><a href="./business.html" class="ytyl">系统集成</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhjr">系统组成</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhyq">大型网络平台</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhls">IT服务</a></li>
-                        </ul>
-                    </li>
-                    <li class="expanded"><a href="./cases.html">经典案例</a>
-                        <ul class="menu clearfix">
-                            <li class="first leaf"><a href="./cases.html" class="znaf">智能安防</a>
-                            </li>
-                            <li class="leaf"><a href="./cases.html" class="ytyl">传清医疗</a></li>
-                            <li class="leaf"><a href="./cases.html" class="zhjr">智慧金融</a></li>
-                            <li class="leaf"><a href="./cases.html" class="zhyq">智慧园区</a></li>
-                            <li class="leaf"><a href="./cases.html" class="zhls">智慧零售</a></li>
-                            <li class="last leaf"><a href="./cn/business/ai-city" class="ai-city">AI CITY</a></li>
-                        </ul>
-                    </li>
-                    <li class="expanded"><a href="./product.html" class="speech">产品介绍</a>
-                        <ul class="menu clearfix">
-                            <li class="first leaf"><a href="./cn/business/intelligent-security" class="znaf">智能安防</a>
-                            </li>
-                            <li class="leaf"><a href="./cn/business/yitu-heathcare" class="ytyl">传清医疗</a></li>
-                            <li class="leaf"><a href="./cn/business/smart-finance" class="zhjr">智慧金融</a></li>
-                            <li class="leaf"><a href="./cn/business/smart-park" class="zhyq">智慧园区</a></li>
-                            <li class="leaf"><a href="./cn/business/smart-retail" class="zhls">智慧零售</a></li>
-                            <li class="last leaf"><a href="./cn/business/ai-city" class="ai-city">AI CITY</a></li>
-                        </ul>
-                    </li>
-                    <li class="leaf"><a href="./news.html">新闻中心</a></li>
-                    <li class="leaf"><a href="./about-us.html">关于我们</a></li>
-                    <li class="leaf"><a href="./downlaod.html">下载中心</a></li>
-                    <li class="leaf active-trail"><a href="./join-us.html" class="active-trail active">加入传清</a></li>
-                    <li class="last leaf"><a href="./service.html">支持与服务</a></li>
-                </ul>
-            </div>
-            <div class="m-close">&times;</div>
-            <!-- <div class="lang-box">
-                    <div id="block-locale-language" class="block block-locale">
 
-                        <span class="lang">&nbsp;</span>
-                        <ul class="language-switcher-locale-url">
-                            <li class="zh-hans first active"><a href="/cn" class="language-link active"
-                                    xml:lang="zh-hans">中国站 - 简体中文</a></li>
-                            <li class="en last"><a href="/en" class="language-link" xml:lang="en">International - EN</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
-        </div>
+  <div class="header"></div>
+  <script>
+      $(document).ready(function(){
+          $(".header").load("./header.html"); 
+      });
+  </script>
 
-
-        <div class="header-right">
-            <div id="block-block-19" class="block block-block">
-                <!-- <div class="btn-blue apply-btn"><a href="javascript:;">业务咨询</a></div> -->
-            </div>
-        </div>
-
-
-        <div class="nav-btn">
-            <span></span>
-        </div>
-
-
-    </div>
-</div>
 <div class="w">
     <div class="tabs"></div>
 </div>
 <div id="block-system-main" class="block block-system">
-
-
     <div class="top-banner job-banner">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -129,7 +56,6 @@
                         <div class="w">
                             <h2 class="pf-medium career-mode">社会招聘</h2>
                             <!--<h3></h3>-->
-
                             <p>期待与你一起探索智慧的奥秘，拓展智能新疆界</p>
                         </div>
                     </div>
@@ -182,16 +108,13 @@
         <!--</div>-->
         <!--</div>-->
     </div>
-
     <div class="box">
         <div class="w">
             <div class="search"><input placeholder="输入职位关键词、背景专业名称" type="text" id="searchInput">
                 <button id="search">搜索
                 </button>
             </div>
-
             <div class="option-wrapper"><span class="title">工作地点</span>
-
                 <ul class="clearfix" id="location">
                     <li class="active" data-id="">全部</li>
                     <li data-id="15375,26878">经济开发区</li>
@@ -212,9 +135,7 @@
                     <!--<li data-id="17285">湖南</li>-->
                 </ul>
             </div>
-
             <div class="option-wrapper"><span class="title">职位类型</span>
-
                 <ul class="clearfix" id="zhineng">
                     <li class="active">全部</li>
                     <li data-id="9477">技术类</li>
@@ -226,7 +147,6 @@
                     <li data-id="9481">市场类</li>
                 </ul>
             </div>
-
             <div class="result">
                 <!--<div class="result-title clearfix"><span class="fl" id="allPages">共：<i id="totalPage">6</i>页 | <i-->
                 <!--id="totalNum">177</i>个职位</span><span class="fr">当前：第<i id="activePage">1</i>页</span></div>-->
@@ -268,7 +188,8 @@
                                     <p>- 能够设计数据库表结构。了解某个数据库(RDBMS或KV)实现原理更好。</p>
                                     <p>- 有钻研精神，学习能力强，高度的责任心、良好的沟通技巧和团队合作精神，正直进取，有上进心，热爱研发事业。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -308,7 +229,7 @@
                                     <p>- 熟悉工厂运作模式，有丰富的供应商现场管理经验，能指导和推动供应商质量改善。</p>
                                     <p>- 良好的逻辑表达和报告书写能力，良好的内外部沟通与协调能力。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -346,7 +267,7 @@
                                     </ol>
                                 </div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -384,7 +305,7 @@
                                     <p>- 对AI技术有兴趣，有激情，有较强的学习能力和以结果为导向的工作态度。</p>
                                     <p>- 具备独立解决问题的能力，具有很强的抗压能力，敢于接受新挑战，以结果为导向的工作态度。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -412,7 +333,7 @@
                                     <p>6、能适应一定程度的出差和驻场工作。</p>
                                     <p>7、有ETL开发或数据集成经验者优先，本岗位接受优秀的应届生投递。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -442,7 +363,7 @@
                                     <p>学习能力强，适应力强，积极主动；</p>
                                     <p>有良好的职业道德、团队精神以及职业操守，职业忠诚度高，具备创业心态和积极奋斗的价值观，有较强的适应能力和冲劲。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -482,7 +403,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -509,7 +430,7 @@
                                     <p>6、具备良好的抽象和结构化思维,能独立完成项目的设计和开发，对进度和质量有掌控力。</p>
                                     <p>7、有较强的责任心，具有良好的沟通能力和团队合作精神，工作积极主动。</p></div>
                             </div>
-                            <div class="btns-wrapper">
+                            <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
@@ -518,26 +439,19 @@
                 <div class="page-wrapper">
                     <div class="page">
                         <div class="fl"><a href="javascript:;" id="prevPage">上一页</a></div>
-
                         <ul class="clearfix" id="selectPage">
                         </ul>
-
                         <div class="fr"><a href="javascript:;" id="nextPage">下一页</a></div>
                     </div>
                 </div>
             </div>
-
             <!--<div class="no-val">抱歉，没有找到相关职位</div>-->
         </div>
     </div>
-
 </div>
-
-
 <div id="layer">
     <div class="pop partner-landing" id="partnerLanding">
         <div id="block-block-20" class="block block-block">
-
             <div class="pop-bar">
                 <h2>加入我们</h2>
             </div>
@@ -580,7 +494,6 @@
                         </div>
                     </div>
                     <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
-
                 </div>
             </div>
         </div>
@@ -863,8 +776,6 @@
     </div>
 </div>
 </div>
-
-
 <div class="footer-region">
     <div class="w">
         <div class="footer-top clearfix">

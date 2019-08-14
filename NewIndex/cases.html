@@ -22,6 +22,8 @@
     <link type="text/css" rel="stylesheet" href="./css/css2.css" media="all"/>
     <link type="text/css" rel="stylesheet" href="./css/css3.css" media="all"/>
     <link type="text/css" rel="stylesheet" href="./css/css4.css" media="all"/>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
     <!--[if lt IE 9]-->
     <!--    <link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs"-->
     <!--          media="all"/>-->
@@ -30,79 +32,14 @@
 <!--<div class="open-screen">
       <video src="images/1.mp4" id="openScreenVideo" autoplay="autoplay" muted="muted"></video>
   </div>-->
-<div class="header">
-    <div class="w clearfix">
-        <div class="logo">
-            <a href="./index.html" title="传清科技集团" rel="home" id="logo">
-                <img src="./image/Wlogo.png" alt="传清科技集团">
-            </a>
-        </div>
-        <div class="nav">
-            <div id="block-system-main-menu" class="block block-system block-menu sub-nav-item">
-                <ul class="menu clearfix">
-                    <li class="leaf"><a href="./Index.html">首页</a></li>
-                    <li class="expanded"><a href="./business.html">核心业务</a>
-                        <ul class="menu clearfix">
-                            <li class="first leaf"><a href="./business.html" class="znaf">大数据应用</a></li>
-                            <li class="leaf"><a href="./business.html" class="ytyl">系统集成</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhjr">系统组成</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhyq">大型网络平台</a></li>
-                            <li class="leaf"><a href="./business.html" class="zhls">IT服务</a></li>
-                            <!-- <li class="last leaf"><a href="/business.html" class="ai-city">AI CITY</a></li> -->
-                        </ul>
-                    </li>
-                    <li class="leaf"><a href="./cases.html">经典案例</a>
-                        <!--                    <li class="expanded active-trail"><a href="./cases.html" class="active-trail active">经典案例</a>-->
-                        <!--                        <ul class="menu clearfix">-->
-                        <!--                            <li class="first leaf"><a href="./cases.html" class="znaf">建站开发</a></li>-->
-                        <!--                            <li class="leaf"><a href="./cases.html" class="ytyl">微信小程序</a></li>-->
-                        <!--                            <li class="leaf"><a href="./cases.html" class="zhjr">APP开发</a></li>-->
-                        <!--                            <li class="leaf"><a href="./cases.html" class="zhjr">ishop电商</a></li>-->
-                        <!--                            <li class="leaf"><a href="./cases.html" class="zhjr">智慧平台</a></li>-->
-                        <!--                            <li class="last leaf"><a href="./cn/business/ai-city" class="ai-city">其他</a></li>-->
-                        <!--                        </ul>-->
-                        <!--                    </li>-->
-                    <li class="expanded"><a href="" class="speech" target="_blank">产品介绍</a>
-                        <ul class="menu clearfix">
-                            <li class="first leaf cp"><a href="./product.html" class="znaf">智慧农林</a></li>
-                            <li class="leaf cp"><a href="./product.html" class="ytyl">智慧城市</a></li>
-                            <li class="leaf cp"><a href="./product.html" class="zhjr">弱电工程</a></li>
-                            <li class="leaf cp"><a href="./product.html" class="zhyq">智慧建筑检测</a></li>
-                            <li class="leaf cp"><a href="./product.html" class="zhls">智慧港口与物流</a></li>
-                            <li class="last leaf cp"><a href="./product.html" class="ai-city">智慧政务与智慧校园</a></li>
-                        </ul>
-                    </li>
-                    <li class="leaf"><a href="./news.html">新闻中心</a></li>
-                    <li class="leaf"><a href="./about-us.html">关于我们</a></li>
-                    <li class="leaf"><a href="./downlaod.html" id="hzhb" class="hzhb">下载中心</a></li>
-                    <li class="leaf"><a href="./join-us.html">加入传清</a></li>
-                    <li class="last leaf"><a href="./service.html">支持与服务</a></li>
-                </ul>
-            </div>
-            <div class="m-close">&times;</div>
-            <!-- <div class="lang-box">
-                      <div id="block-locale-language" class="block block-locale">
 
-                          <span class="lang">&nbsp;</span>
-                          <ul class="language-switcher-locale-url">
-                              <li class="zh-hans first active"><a href="./cn" class="language-link active"
-                                      xml:lang="zh-hans">中国站 - 简体中文</a></li>
-                              <li class="en last"><a href="/en" class="language-link" xml:lang="en">International - EN</a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div> -->
-        </div>
-        <div class="header-right">
-            <div id="block-block-19" class="block block-block">
-                <!-- <div class="btn-blue apply-btn"><a href="javascript:;">业务咨询</a></div> -->
-            </div>
-        </div>
-        <div class="nav-btn">
-            <span></span>
-        </div>
-    </div>
-</div>
+  <div class="header"></div>
+    <script>
+        $(document).ready(function(){
+            $(".header").load("./header.html");
+        });
+    </script>
+
 <div class="top-banner page-banner">
     <div class="swiper-container view view-banner view-id-banner view-display-id-block_7 view-dom-id-cdd1cfcf4a853ed4734ce83aa4bf5d86">
         <div class="swiper-wrapper">
