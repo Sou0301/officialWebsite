@@ -79,7 +79,7 @@
                 console.log('IT')
                 $('.banner-main h2.pf-medium').text('左岸酒窖');
                 $('.banner-main h3.pf-medium').text('业务·IT服务');
-                $('.banner-main div.banner-body p').text('左岸酒窖')
+                $('.banner-main div.banner-body p').text('左岸酒窖项目是由后台管理系统、品牌官网、小程序商城等组成的一个完整的品牌服务。互联网把企业驰入了全球信息高速公路，企业通过互联网在全世界发布最新的商业信息，供全球检索 以此来宣传自己的企业，宣传企业的产品，宣传企业的服务，全面展示企业形象，并且通过互联网寻找客户和货源。许多企业都在互联网上找到了机会，创造了辉煌。')
                 
             }else{
                 console.log('大数据')
@@ -90,8 +90,6 @@
         <div class="tabs"></div>
     </div>
     <div id="block-system-main" class="block block-system">
-
-
         <div class="box business1">
             <div class="w">
                 <div class="title-region">
@@ -122,7 +120,7 @@
                     }else if(url == '?it'){
                         console.log('IT')
                         $('.business1 .title-region h2').text('服务·全方位');
-                        $('.busTu1').attr("src", '');
+                        $('.busTu1').attr("src", './image/imgIt.jpg');
                     }else{
                         console.log('大数据')
                     }
@@ -373,36 +371,90 @@
                         $('.solution-box .title-region h2').text('全新ERP');
                         $('#block-views-solutions-block li').each(function(index){
                             if(index == 0){
-                                $(this).text('智能化堆场系统')
+                                $(this).text('进货/库存')
                             }else if(index == 1){
-                                $(this).text('自动过磅系统/自动卡口系统')
+                                $(this).text('销售')
                             }else if(index == 2){
-                                $(this).text('无线全覆盖系统')
+                                $(this).text('预测/分析')
                             }
                         });
                         $('.solution').each(function(index){
                             if(index == 0){
-                                $(this).find('h3').text('智能化堆场系统')
-                                $(this).find('.solution-main p').html('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化、自动化管理，在各种复杂的环境中都能够提供有效的自动化运营管理。该系统集中实现自动卡口、无人值守自动过衡，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。<br/>智能化堆场系统以网络和电子设备为依托，完成了现场作业的自动化，全流程的无人化，形成闭环管控，智能化系统自动完成作业计划，同时能够确保客户货物堆存及出入库的安全控制，消除潜在安全风险，为客户提供快速高效、便捷及时、安全可靠的个性化服务体验，助力客户创造最大的价值。')
-                                $(this).find('img').attr('src', './image/zcImg1.jpg');
+                                $(this).find('h3').text('进货/库存')
+                                $(this).find('.solution-main p').html('进货：进货单可以随时更改数据，业务员和商家都可以用手机一键扫码下单，更方便快捷，无需人力抄单。<br/>库存：准确分析库存余量，库存不足及时警报提醒采购人员补货，以免造成订单损失，发货进度一键查看，销售额与销售数据和库存进行及时的配比，防止造成库存丢失，给企业带来损失，财务账单明细表可以随时查看，方便财务人员做每天的统计。')
+                                $(this).find('img').attr('src', './image/ptImg.png');
                             }else if(index == 1){
-                                $(this).find('h3').text('自动过磅系统/自动卡口系统')
-                                $(this).find('.solution-main p').html('自动过磅系统采用先进的身份识别技术，实现场区作业车辆称量自动化管理，利用先进的远距离身份识别技术、电子车牌识别技术、人机交互技术、电子档杆技术、控制信号集成技术设备等智能设备组成，通过对过磅作业的规范化管理，提高作业效率，避免人为作弊的情况发生。<br/>自动卡口系统采用远距离身份识别技术与电子车牌识别技术相结合，双重认证车辆身份，自动识别进入卡口作业车辆，利用电子档杆以及LED显示屏等自动化控制设备控制所有出入场区的作业车辆，实现卡口无人化值守。')
-                                $(this).find('img').attr('src', './image/zcImg2.jpg');
+                                $(this).find('h3').text('销售')
+                                $(this).find('.solution-main p').html('销售：准确的市场定位与分析，销售市场的单量对比，单品销售量的数据调查，将这些数据准确的提供给用户，让用户清楚自己产品的销量情况，并且对自己的库存产品及时作出解决方案。')
+                                $(this).find('img').attr('src', './image/ptImg2.png');
                             }else if(index == 2){
-                                $(this).find('h3').text('无线全覆盖系统')
-                                $(this).find('.solution-main p').html('天津港中企联合物流有限公司堆场进行无线全覆盖，实现移动办公，在堆场内进行照片和视频的传输。无线网络以“高带宽、广覆盖、大容量” 的特点可以为员工提供高速无线上网服务，为全面感知和高速传输提供“无线” 可能，并将逐渐改善员工的工作、生活方式，体现互联网时代人人参与发展、人人参与创新的理念。<br/>按照“整体规划、分期实施，试点先行、以点代面，科学布网、注重安全，企业应用、兼顾民用”原则，构建堆场无线网络，建立物联网无线感知基础网络，并且利用无线网络架构的方便、快捷、灵活、覆盖广等特点，满足了日益增强的生产自动化的需求，和多业务、多平台资源共享的需求。')
-                                $(this).find('img').attr('src', './image/zcImg3.jpg');
+                                $(this).find('h3').text('预测/分析')
+                                $(this).find('.solution-main p').html(`
+                                    产品营销预测：新品上市，分析市场，分析市场竞品，专业的数据库与市场调查的对比，提供准确的数据对比，知彼知己，百战不殆，了解市场行情，准确的对自己产品进行市场定位，不做无用功！
+                                    <br/>
+                                    销售额预测：云易销通过数据对比分析、智能AI计算预测产品销售额是否可以达到用户的期望值，并且分析市场同款产品的销量情况、以及竞品的推广方式
+                                    <br/>                                    
+                                    产品数据分析：将用户产品定位，分析市场推广模式，找出最适合用户产品的推广方式并给出预计数据与销售情况，让用户自己能够准确了解投放资金的去向以及销售额的来源；分析不同城市、省份以及县级的市场群众接受模式，定位人群、选择更适合于这款产品的推广方式，并给出合适的建议报告`)
+                                $(this).find('img').attr('src', './image/ptImg3.png');
 
                             }
                         })
                         $('.hxgn dt').text('系统设计');
-                        $('.hxgn li').text('智能化堆场系统是一套适用于堆场的现代化管理系统，该系统通过信息集成技术，物联网传感技术以及现场总线控制技术对堆场实施现代化管理，在各种复杂的环境中都能够提供有效的运营华管理。');
+                        $('.hxgn li').text('云易销是一个面对超市toB形式的电商批发平台，商家想要什么商品可以通过了手机移动端直接下单，对商家来讲这样能更自由的全天候订货，也更能自主订货订自己真正想要的货。');
                         $('.gjys dt').text('系统设计')
-                        $('.gjys li').text('该系统集中实现自动卡口。自动过衡无人值守，自动采集现场数据，自动生成各种原始单据和报表，使堆场管理更加简便，更具成本效益。');
+                        $('.gjys li').text('云易销对于市场来讲首先节省了业务员的时间（老业主要在商家抄单子订货）节省了成本，再有对市场上小批发的散量送货做出了改进，统一装车订点送货在一定程度上节省了物流资源，杜绝了资源浪费，现如今云易销用户已超过一千家，市场反应良好。');
                     }else if(url == '?it'){
                         console.log('IT')
-                        $('.title-region h2').text('服务·全方位');
+                        console.log('平台')
+                        $('.solution-box .title-region h2').text('全新ERP');
+                        $('#block-views-solutions-block li').each(function(index){
+                            if(index == 0){
+                                $(this).text('品牌官网')
+                            }else if(index == 1){
+                                $(this).text('响应式官网')
+                            }else if(index == 2){
+                                $(this).text('小程序')
+                            }
+                        });
+                        $('.solution').each(function(index){
+                            if(index == 0){
+                                $(this).find('h3').text('品牌官网')
+                                $(this).find('.solution-main p').html(`
+                                    左岸酒窖品牌官网重心抓准企业核心用户群体，充分凸显企业核心竞争力，让网络平台具有“灵魂”根据用户搜索行为阶段进行精准关键词匹配，挖掘高质量客户。
+                                    <br/>
+                                    该网站利用Html5 CSS3动画、 JS特效呈现更好的动态效果，使页面设计高端大气，交互性强，吸引客户眼球。
+                                `)
+                                $(this).find('img').attr('src', './image/itImg1.png');
+                            }else if(index == 1){
+                                $(this).find('h3').text('响应式官网')
+                                $(this).find('.solution-main p').html(`
+                                    自动适配电脑、手机、平板、电视、投影等各种终端设备及不同屏幕尺寸,帮助企业真正意义上实现多终端、全平台的完美品牌形象展现。
+                                    <br/>
+                                    因此左岸酒窖秉承着“一次设计、普遍适用”，设计时尚大气，更好的展示该企业品牌形象、更利于网站优化、后台管理更便捷。
+                                `);
+                                $(this).find('img').attr('src', './image/itImg2.jpg');
+                                $(this).find('img').css({
+                                    width: 'auto',
+                                    height: '350px'
+                                })
+                            }else if(index == 2){
+                                $(this).find('h3').text('小程序')
+                                $(this).find('.solution-main p').html(`
+                                小程序是一种新的开放能力，开发者可以快速地开发一个小程序。小程序可以在微信内被便捷地获取和传播，同时具有出色的使用体验。
+                                <br/>
+                                由此可见在小程序已然成为我们生活中的一部分，然而左岸酒窖里面我们提供了电商的各种全方面功能，可以让用户及其商家进行线上交易。`)
+                                $(this).find('img').attr('src', './image/itImg3.jpg');
+                                $(this).find('img').css({
+                                    width: 'auto',
+                                    height: '350px'
+                                })
+
+                            }
+                        })
+                        $('.hxgn dt').text('系统设计');
+                        $('.hxgn li').text('云易销是一个面对超市toB形式的电商批发平台，商家想要什么商品可以通过了手机移动端直接下单，对商家来讲这样能更自由的全天候订货，也更能自主订货订自己真正想要的货。');
+                        $('.gjys dt').text('系统设计')
+                        $('.gjys li').text('云易销对于市场来讲首先节省了业务员的时间（老业主要在商家抄单子订货）节省了成本，再有对市场上小批发的散量送货做出了改进，统一装车订点送货在一定程度上节省了物流资源，杜绝了资源浪费，现如今云易销用户已超过一千家，市场反应良好。');
                     }else{
                         console.log('大数据')
                     }
@@ -419,25 +471,22 @@
                         云开大数据，让数据分析变得更简单
                     </p>
                 </div>
-
-                <div class="video-full auto-play-video"><img alt="" src="./image/yewu6.jpg" />
+                <div class="video-full auto-play-video"><img alt="" src="./image/dsjYy.jpg" />
                     <div class="videobox auto-play-video">
                         <!-- <video muted="" src="/sites/all/themes/yitu./images/znaf.mp4">&nbsp;</video> -->
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="hr-line"></div>
-        <div class="box core-case-box" data-defaultsrc="./image/dsj09.jpg   
-">
+        <div class="box core-case-box" data-defaultsrc="./image/dsj09.jpg">
             <div class="w">
                 <div class="title-region">
                     <h2>
                         系统优势
                     </h2>
                     <p>
-                            打通企业各个系统数据,拖拉拽实现数据分析
+                        打通企业各个系统数据,拖拉拽实现数据分析
                     </p>
                 </div>
                 <div id="block-views-case-block" class="block block-views">
@@ -541,9 +590,76 @@
                         });
                     }else if(url == '?pt'){
                         console.log('平台')
-
+                        $('.applycation-box h2').text('系统优势');
+                        $('.applycation-box p').text('高效管理 数据分析');
+                        $('.core-case-box .title-region h2').text('云易销·最好的服务');
+                        $('.core-case-box .title-region p').text('成为传统行业迈向互联网的坚固桥梁');
+                        $('.case-core-list').each(function(i){
+                            if(i == 0){
+                                $(this).find('h3').text('什么是云易销？');
+                                $(this).find('p').html('云易销app是一款非常方便实用的办公软件app，十分适合从事采购业的人员和工商个体商贩使用，云易销这款软件可以帮助你轻松的管理好自己的工作行程，每一次的销售行为、采购行为，通通帮你记录下载，让你不会在算错任何一笔账！更有专业的仓库数据分析管理帮你打理好所有事宜，为你甄选畅销商品并提醒你即时补货！');
+                            }else if(i == 1){
+                                $(this).find('h3').text('云易销的亮点是什么？');
+                                $(this).find('p').html(`能够很好地管理你的进货数据，扫码轻松录入就能带给你更加便捷的服务；
+                                    <br/>
+                                　　能根据你的销售情况来进行市场定位分析，及时做出汗调整方案，了解销售情况；
+                                    <br/>
+                                　　准确的库存信息提醒你及时补货，再也不用没货可卖了，避免订单损失。`);
+                            }else if(i == 2){
+                                $(this).find('h3').text('云易销的特色是什么？');
+                                $(this).find('p').html(`
+                                    简洁的操作界面，一目了然呈现信息的精准数据；
+                                    <br/>
+                                　　云易销app是一款十分便捷的企业管理平台，轻松就能管理好自己的销售情况。
+                                    <br/>
+                                　　精准的数据分析，将同行的产品竞争数据进行专业的对比，才能知己知彼，战无不胜；
+                                    <br/>
+                                　　同时还有一个很好的预测分析，智能分析每天的数据，准确度很高。
+                                `);
+                            }else if(i == 3){
+                                $(this).find('h3').text('云易销具体做了什么？');
+                                $(this).find('p').html(`
+                                    通过列表、对比增长图、走势图来进行全面分析，针对于经销商和品牌商，做不同角色分析。
+                                    <br/>
+                                    经销商：通过数据来可分析出上阶段优劣势，以及下阶段工作重点。
+                                    <br/>
+                                    品牌商：品牌商可通过云易销平台分析来了解本品牌产品在所想发展区域，同类型竞品的需求对比，并对品牌商入住提供咨询和建议，准确分析各项数据。
+                                    <br/>
+                                    系统实现降低资金使用总量、提高资金流转效率、提供客户订货速度、降低客户维护成本、采购发货一站直达、盘活库存变现、优秀商品提示。
+                                `);
+                            }else if(i == 4){
+                                $(this).find('h3').text('云易销的存在目的是什么？');
+                                $(this).find('p').html('云易销不仅是一款进销存软件，更是一款可以为用户提高工作效率，节省运营成本，降低人工操作，实现与互联网相结合大跨步的有利平台。');
+                            }
+                        });
                     }else if(url == '?it'){
                         console.log('IT')
+                        $('.applycation-box h2').text('系统优势');
+                        $('.applycation-box p').text('高效管理 数据分析');
+                        $('.core-case-box .title-region h2').text('什么是好网站');
+                        $('.core-case-box .title-region p').text('做网站就好比开商铺做生意,旺铺才能赚钱');
+                        $('.case-core-list').each(function(i){
+                            if(i == 0){
+                                $(this).find('h3').text('企业、品牌官网建设');
+                                $(this).find('p').html('适用于中小企业和个人网站，达到网站结构清晰明快的效果，树立企业形象。用于中小企业展示和宣传。为您量身定做属于您的网站产品。<br/>通过在品牌主题中提炼创意，对传统设计元素进行解构、整合、重塑，设计师完成了对细节的形态优化，从而让新元素既富有品牌特色，又能在整体中起到点缀作用.');
+                            }else if(i == 1){
+                                $(this).find('h3').text(' 商城类项目开发');
+                                $(this).find('p').html(`商城类项目开发就是通过网络推广把线上的消费者带到现实的商店中去在线支付，购买线下的商品和服务，再到线下去提货和享受服务。`);
+                            }else if(i == 2){
+                                $(this).find('h3').text(' 响应式网站建设');
+                                $(this).find('p').html(`
+                                定制型针对某特定的行业，面向该行业的企业、个人用户、政府、科研机构，提供综合的信息服务，搭建行业的电子商务平台。网站用户可以通过行业网站浏览行业动态、通过企业建库。
+                                `);
+                            }else if(i == 3){
+                                $(this).find('h3').text('营销型网站建设');
+                                $(this).find('p').html(`
+                                企业可以依托该平台在网上开展业务，可以实现产品展示，销售，在线支付一条龙服务；同时可以进行商户交流、客户信息管理、简单订单管理等，可以按企业的各种需求实现个性化。
+                                `);
+                            }else if(i == 4){
+                                $(this).find('h3').text('小程序项目开发');
+                                $(this).find('p').html('目前小程序被人们应用到各行各界，而我们拥有多年网站开发设计的高端人才，可以为您量身定做属于您的高端站点，全方位展现您的企业优势。');
+                            }
+                        });
 
                     }else{
                         console.log('大数据')
@@ -553,27 +669,27 @@
         </script>
         <div class="box gradient-blue front2">
             <div class="w">
-                <div class="title-region">
+                <div cla ss="title-region">
                     <h2>相关推荐</h2>
                 </div>
                 <div class="hangye-type others">
                     <ul>
                         <!--<li class="znaf"><a href="/cn/business/intelligent-security"><i class="t">&nbsp;</i><i class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span class="title">智能安防</span></a></li>-->
-                        <li class="ytyl"><a href="/cn/business/yitu-heathcare"><i class="t">&nbsp;</i><i
+                        <li class="ytyl"><a href="./product.html?zhcs"><i class="t">&nbsp;</i><i
                                     class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span
                                     class="title">智慧城市</span></a></li>
-                        <li class="zhjr"><a href="/cn/business/smart-finance"><i class="t">&nbsp;</i><i
+                        <li class="zhjr"><a href="./product.html?rdgc"><i class="t">&nbsp;</i><i
                                     class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span
                                     class="title">弱电工程</span></a></li>
-                        <li class="zhyq"><a href="/cn/business/smart-park"><i class="t">&nbsp;</i><i
+                        <li class="zhyq"><a href="./product.html?zhjzjc"><i class="t">&nbsp;</i><i
                                     class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span
-                                    class="title">智慧建筑检测</span></a></li>
-                        <li class="zhls"><a href="/cn/business/smart-retail"><i class="t">&nbsp;</i><i
+                                    class="title">智慧建筑监测</span></a></li>
+                        <li class="zhls"><a href="./product.html?zhgkywl"><i class="t">&nbsp;</i><i
                                     class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span
                                     class="title">智慧港口与物流</span></a></li>
-                        <li class="ai-city"><a href="/cn/business/ai-city"><i class="t">&nbsp;</i><i
+                        <li class="ai-city"><a href="./product.html?zhzwyxy"><i class="t">&nbsp;</i><i
                                     class="r">&nbsp;</i><i class="b"> &nbsp;</i><i class="l">&nbsp;</i><span
-                                    class="title">智慧政务与智慧校园</span></a></li>
+                                    class="title">智慧政务与校园</span></a></li>
                     </ul>
                 </div>
             </div>

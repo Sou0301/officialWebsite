@@ -69,12 +69,9 @@
     pathName = '.' + pathName;
     var Href = '';
     $('.menuEle').each(function(){
-        console.log($(this))
         Href = $(this).attr('href')
-        console.log(Href , pathName)
         if(pathName == Href){
             $(this).addClass('active')
-            console.log(pathName, Href, 'a')
         }else{
             $(this).removeClass('active')
         }
