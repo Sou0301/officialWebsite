@@ -36,12 +36,12 @@
   <!--<div class="open-screen">
         <video src="images/1.mp4" id="openScreenVideo" autoplay="autoplay" muted="muted"></video>
     </div>-->
-    <div class="header"></div>
-    <script>
-        $(document).ready(function(){
-            $(".header").load("./header.html"); 
-        });
-    </script>
+  <div class="header"></div>
+  <script>
+    $(document).ready(function () {
+      $(".header").load("./header.html");
+    });
+  </script>
   <div class="w">
     <div class="tabs"></div>
   </div>
@@ -50,7 +50,7 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img alt="" id="myImageBanner" src="./image/zhnl_222.jpg" />
+            <img alt="" id="myImageBanner" src="" />
             <!-- <video src="./image/zhnl_video.mp4" id="video1" autoplay muted></video> -->
             <!-- <div class="banner-content flex flex-v">
               <div class="w">
@@ -67,7 +67,7 @@
       <div class="swiper-pagination">&nbsp;</div>
     </div>
     <div class="ai-history">
-      <div class="w">
+      <div class="w" id="productCore">
         <ul id="productCore">
           <li>
             <h2 class="time">技术支持</h2>
@@ -115,11 +115,11 @@
         </div>
       </div>
     </div> -->
-    <div class="section">
-      <h2>农业智能的时代</h2>
+    <div class="section" id="productConcept">
+      <!-- <h2>农业智能的时代</h2>
       <div class="section-box">
         <img alt="" src="images/fbh1-img1.jpg" width="710" />
-      </div>
+      </div> -->
     </div>
     <div class="section">
       <h2>独创运营</h2>
@@ -127,7 +127,7 @@
         <div class="w">
           <div class="content hezi-a clearfix">
             <div class="hezi-wrapper clearfix">
-              <img alt="" src="./image/zhnl_dcyy.png" class="my-image-desc" />
+              <img alt="" id="productDesc" src="./image/zhnl_desc.png" class="my-image-desc" />
               <!-- <div class="hezi-info text-l">
                 <h5>强大视觉</h5>
                 <p>依图世界级算法优化</p>
@@ -160,11 +160,11 @@
       </div>
     </div>
     <div class="section">
-      <h2>智能的未来：掌上智能数据app</h2>
+      <h2>智能的未来：掌上智能数据</h2>
       <div class="section-box ai">
         <div class="w">
           <div class="fbh-product-img">
-            <img alt="" src="./image/zhnl_app.jpg" />
+            <img alt="" src="./image/zhnl_jiagou2.jpg" />
           </div>
           <!-- <div class="fbh-pro" style="display: none;">
             <div class="fbh-pro-img">
@@ -195,7 +195,7 @@
             <img alt="" src="images/fbh1-img4.png" />
           </div>
         </div> -->
-        <img alt="" src="./image/zhnl_jiagoutu.jpg" />
+        <img alt="" src="./image/zhnl_jiagou1.jpeg" />
       </div>
     </div>
     <div class="section">
@@ -771,10 +771,51 @@
   <script>
     let url = window.location.search;
     console.log(url)
-
     if (url === '') {
       // 替换banner图
-      // $('#myImageBanner').attr('src', './image/zhnl_222.jpg');
+      $('#myImageBanner').attr('src', './image/zhnl_banner.png');
+
+      // 替换文字
+      $('#productCore').empty().append(`<ul>
+          <li>
+            <h2 class="time">技术支持</h2>
+            <p>传清科技与天津工业大学深度合作。<br />
+              保证技术研发迭代、运维水平的持续提升。</p>
+          </li>
+          <li>
+            <h2 class="time">核心团队</h2>
+            <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
+              优质的外部智库，提供项目支持与发展建议。</p>
+          </li>
+          <li>
+            <h2 class="time">政企联合</h2>
+            <p>与项目当地政府、农企达成紧密合作。<br />
+              加速项目落地，保证项目的实施与推广。</p>
+          </li>
+          <li>
+            <h2 class="time">产业覆盖</h2>
+            <p>进行产业链的全环节覆盖。<br />
+              确保项目工业化、流水化运作。</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>智慧农业是农业生产的高级阶段，集新兴的互联网+、物联网、大数据和云计算技术为一体。</dd>
+            <dd>依托部署在农业生产现场的各种传感节点和无线通信网络。</dd>
+            <dd>实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。</dd>
+            <dd>为农业生产提供精准化种植、可视化管理、智能化决策。</dd>
+          </dl>
+        </div>`)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>农业智能的时代</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/zhnl_concept.png" width="710" />
+        </div>
+      `)
+      // 替换描述图
+      $('#productDesc').attr('src', './image/zhnl_desc.png');
+
       // 替换文字
       /* let coreStr = [
         {
@@ -818,6 +859,51 @@
         `)
       }) */
     } else if (url === '?zhcs') {
+      // 替换banner图
+      $('#myImageBanner').attr('src', './image/zhcs_banner.png');
+
+      // 替换文字
+      $('#productCore').empty().append(`<ul>
+          <li>
+            <h2 class="time">智慧基础设施</h2>
+            <p>云计算、大数据中心。<br />
+              城市基础地理信息资源。<br />
+              城市无线网络。</p>
+          </li>
+          <li>
+            <h2 class="time">智慧政务应用</h2>
+            <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
+              优质的外部智库，提供项目支持与发展建议。</p>
+          </li>
+          <li>
+            <h2 class="time">智慧民生应用</h2>
+            <p>智慧社区综合管理服务平台。<br />
+              城市配送公共服务平台。<br />
+              综合便利O2O服务平台。</p>
+          </li>
+          <li>
+            <h2 class="time">智慧产业应用</h2>
+            <p>中小企业转型升级服务平台。<br />
+              智慧园区综合管理服务平台。</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>智慧城市是按照2个中心+N个智慧应用模式来构建智慧城市的建设。</dd>
+            <dd>在基础设施、管理服务、生态宜居、产业发展等方向进行相关智慧城市项目的建设。</dd>
+            <dd>为相关领域提供基础服务支撑的数据支撑。</dd>
+          </dl>
+        </div>`)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>城市智能的时代</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/zhcs_concept.png" width="710" />
+        </div>
+      `)
+      // 替换描述图
+      $('#productDesc').attr('src', './image/zhcs_desc.png');
+
       /* let str = '哈哈哈哈。哈哈哈哈。啊啊啊啊啊。';
       let strArr = [];
       strArr = str.split('。'); // 字符串分割。返回一个新数组
@@ -830,13 +916,184 @@
         `)
       }) */
     } else if (url === '?rdgc') {
+      // 替换banner图
+      $('#myImageBanner').attr('src', './image/rdgc_banner.png');
+      // 替换文字
+      $('#productCore').empty().append(`
+        <ul>
+          <li>
+            <h2 class="time">网络安全</h2>
+            <p>全网安全可视<br />
+              全方位持续监测，动态感知。<br />
+              更快速的响应。</p>
+          </li>
+          <li>
+            <h2 class="time">医院三维管控平台</h2>
+            <p>应急方案、应急指挥、应急处置。<br />
+              了解事件的全局。</p>
+          </li>
+          <li>
+            <h2 class="time">雪亮工程</h2>
+            <p>以县、乡、村三级综治中心为指挥平台。<br />
+              以综治信息化为支撑、以网格化管理为基础。<br />
+              应用公共安全视频监控联网。</p>
+          </li>
+          <li>
+            <h2 class="time">磐石工程</h2>
+            <p>纵深防卫远端过滤的外围屏障体系。<br />
+              全面覆盖目标区域的综合报警体系。</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>提供安全、高效、舒适、便利的工作与生活环境</dd>
+            <dd>提供建筑的设备（或系统）、功能和信息共享的智能管理环境</dd>
+            <dd>提高建筑现代化管理水平，降低运行成本</dd>
+          </dl>
+        </div>
+        `)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>智导互联</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/rdgc_concept.png" width="710" />
+        </div>
+      `)
+    } else if (url === '?zhjzjc') {
+      // 替换banner图
+      $('#myImageBanner').attr('src', './image/zhjzjc_banner.png');
 
-    } else if (url === '?zhjzjz') {
+      // 替换文字
+      $('#productCore').empty().append(`
+        <ul>
+          <li>
+            <h2 class="time">建筑结构监测云平台</h2>
+            <p>采取有效措施消除隐患。<br />
+              避免危险因素进一步转化。<br />
+              确保结构的安全运营。</p>
+          </li>
+          <li>
+            <h2 class="time">智能玻璃幕墙监测云平台</h2>
+            <p>实现运营期内科学化管养。<br />
+              避免出现重大的安全事故。</p>
+          </li>
+          <li>
+            <h2 class="time">智慧工地云平台</h2>
+            <p>智慧工地是智慧地球理念在工程领域的行业具现。<br />
+              是一种崭新的工程全生命周期管理理念。</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>整个工作效率得于提高</dd>
+            <dd>提高整个建筑工程安全生产管理水平</dd>
+          </dl>
+        </div>
+      `)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>智慧建筑监测的时代</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/zhjzjc_concept.png" width="710" />
+        </div>
+      `)
 
     } else if (url === '?zhgkywl') {
+      // 替换banner图
+      $('#myImageBanner').attr('src', './image/zhgkywl_banner.png');
+      // 替换文字
+      $('#productCore').empty().append(`
+        <ul>
+          <li>
+            <h2 class="time">智能货场/码头</h2>
+            <p>机房自动运维系统。<br />
+              周界监控。<br />
+              MIS系统、磅房管控系统。</p>
+          </li>
+          <li>
+            <h2 class="time">智慧物流</h2>
+            <p>信息技术为支撑。<br />
+              各个环节实现系统感知。<br />
+              促进物流企业提质增效。</p>
+          </li>
+          <li>
+            <h2 class="time">智能卡口</h2>
+            <p>货场运输车辆通过速度提高，增强公司吞吐量。<br />
+              物理规范车辆进出口次序，有效降低安全隐患。<br />
+              实现车辆作业绑定，提高工作效率。</p>
+          </li>
+          <li>
+            <h2 class="time">智能过磅</h2>
+            <p>采用先进的身份识别技术。<br />
+              实现场区作业车辆称量自动化管理。</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>运输业务透明化，货物跟踪可视化。</dd>
+            <dd>线上业务开展，整合物流资源，打造物流生态圈。</dd>
+            <dd>落地运输方案，促成无车承运人交易实现。</dd>
+            <dd>大数据沉淀分析，降低物流成本，完善物流信用。</dd>
+          </dl>
+        </div>
+      `)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>智慧港口与物流的时代</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/zhgkywl_concept.png" width="710" />
+        </div>
+      `)
 
     } else if (url === '?zhzwyxy') {
+      // 替换banner图
+      $('#myImageBanner').attr('src', './image/zhzwyxy_banner.png');
 
+      // 替换文字
+      $('#productCore').empty().append(`
+        <ul>
+          <li>
+            <h2 class="time">智慧党建云平台</h2>
+            <p>平台运维全展示<br />
+              三会一课全监督<br />
+              移动互联全支持<br />
+              党务工作全覆盖</p>
+          </li>
+          <li>
+            <h2 class="time">应急指挥平台</h2>
+            <p>大屏幕综合研判<br />
+              实战指挥<br />
+              勤务管理<br />
+              智能应用</p>
+          </li>
+          <li>
+            <h2 class="time">校园人脸宿管</h2>
+            <p>人脸识别对比<br />
+              宿舍信息展现<br />
+              人员信息管理</p>
+          </li>
+          <li>
+            <h2 class="time">校园课堂督导系统</h2>
+            <p>对学生及学生相关信息全记录<br />
+              对区域内的学生抓拍人脸并于人脸库进行对比<br />
+              完成学生上课考勤登记</p>
+          </li>
+        </ul>
+        <div class="history-today">
+          <dl id="product-content">
+            <dd>以开放共享、敏捷高效、安全可靠的政务信息化解决方案</dd>
+            <dd>助力政府提升行政效率、推动公共服务创新、</dd>
+            <dd>促进经济增长和社会公平，更好地服务于政府转型的大战略。</dd>
+          </dl>
+        </div>
+      `)
+      // 替换概念图
+      $('#productConcept').empty().append(`
+        <h2>智慧政务与校园的时代</h2>
+        <div class="section-box my-prod-conceptimg">
+          <img alt="" src="./image/zhzwyxy_concept.png" width="710" />
+        </div>
+      `)
     }
     // console.log($('#video1'))
     // $('#video1')[0].playbackRate = "2.0"

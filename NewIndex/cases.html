@@ -68,7 +68,7 @@
     <div class="view view-case view-id-case view-display-id-page view-dom-id-1835c825e1d5596850f2ec1579e400d6 case-wrapper">
         <div class="w clearfix">
             <!--      侧边栏      -->
-            <div class="case-type">
+            <div class="case-type" id="caseBar">
                 <form action="/cn/cases" method="get" id="views-exposed-form-case-page" accept-charset="UTF-8">
                     <div>
                         <div class="views-exposed-form">
@@ -83,30 +83,30 @@
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-all">
                                                         <a class="active">全部</a>
                                                     </div>
-                                                    <div id="edit-case-type-tid-16"
-                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-16">
-                                                        <a>建站开发</a>
-                                                    </div>
-                                                    <div id="edit-case-type-tid-17"
-                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-17">
-                                                        <a>微信小程序</a>
-                                                    </div>
                                                     <div id="edit-case-type-tid-18"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-18">
-                                                        <a>APP开发</a>
-                                                    </div>
-                                                    <div id="edit-case-type-tid-20"
-                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-20">
-                                                        <a>ishop电商</a>
+                                                        <a href="#app">APP开发</a>
                                                     </div>
                                                     <div id="edit-case-type-tid-19"
                                                          class="form-item form-type-bef-link form-item-edit-case-type-tid-19">
-                                                        <a>智慧平台</a>
+                                                        <a href="#zhihui">智慧平台</a>
                                                     </div>
-                                                    <div id="edit-case-type-tid-31"
-                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-31">
-                                                        <a>其他</a>
+                                                    <div id="edit-case-type-tid-20"
+                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-20">
+                                                        <a href="#ishop">ishop电商</a>
                                                     </div>
+                                                    <div id="edit-case-type-tid-17"
+                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-17">
+                                                        <a href="#xiaochengxu">微信小程序</a>
+                                                    </div>
+                                                    <div id="edit-case-type-tid-16"
+                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-16">
+                                                        <a href="#wangzhan">建站开发</a>
+                                                    </div>
+<!--                                                    <div id="edit-case-type-tid-31"-->
+<!--                                                         class="form-item form-type-bef-link form-item-edit-case-type-tid-31">-->
+<!--                                                        <a>其他</a>-->
+<!--                                                    </div>-->
                                                 </div>
                                                 <select class="ctools-auto-submit form-select" style="display: none;"
                                                         id="edit-case-type-tid"
@@ -133,6 +133,42 @@
                     </div>
                 </form>
             </div>
+            <script>
+                window.onload=
+                    function(){
+                        var caseBar = document.getElementById("caseBar"),
+                            H = 0,
+                            Y = caseBar;
+                        while (Y) {
+                            H += Y.offsetTop;
+                            Y = Y.offsetParent;
+                        }
+                        window.onscroll = function()
+                        {
+                            var s = document.body.scrollTop || document.documentElement.scrollTop;
+
+                            if(s>H) {
+                                var docWidth = document.body.clientWidth;
+                                // console.log(docWidth);
+                                if(docWidth<767){
+                                    $('#caseBar').css({
+                                        'position':'fixed !important',
+                                        'top':'10px',
+                                        'z-index':'99',
+                                        'background':'#fff'
+                                    });
+                                }else{
+                                    $('#caseBar').css({
+                                        'position':'fixed',
+                                        'top':'70px'
+                                    });
+                                }
+                            } else {
+                                caseBar.style = ""
+                            }
+                        }
+                    }
+            </script>
             <!--      列表      -->
             <div class="case-list">
                 <ul>
@@ -159,7 +195,6 @@
                                 width: 100%;
                             }
                         }
-
                         @media (min-width: 767px) {
                             .imgBox {
                                 background-color: white;
@@ -178,8 +213,19 @@
                                 width: 60%;
                             }
                         }
-
                     </style>
+                    <li class="" id="app">
+                        <div class="desc">
+                            <h3 class="pf-medium">融合通信平台</h3>
+                            <p>创新型融合通信技术的出现，能够打破各独立通信系统之间的隔离限制，在保护并利用原有通信网络及系统、融合新型通信方式的基础上实现数据融合和功能融合，为各类业务应用系统提供多样化的、切合实际需求的、稳定的、创新的、一站式的通信解决方案。</p>
+                        </div>
+                        <span class="type jinrong">APP开发</span>
+                        <div class="imgBox">
+                            <img src="image/case9.png" alt="">
+                            <img src="image/case10.png" alt="">
+<!--                            <img src="image/case11.png" alt="">-->
+                        </div>
+                    </li>
                     <li class="">
                         <div class="desc">
                             <h3 class="pf-medium">星芽APP</h3>
@@ -191,7 +237,7 @@
                             <img src="image/case7.jpg" alt="">
                         </div>
                     </li>
-                    <li class="">
+                    <li class="" id="zhihui">
                         <div class="desc">
                             <h3 class="pf-medium">智慧农林</h3>
                             <p>用户可通过手机APP，远程查看并控制基地生产现场。手机远程实时查看数据并追溯历史记录，实现全自动运行监测控制。</p>
@@ -203,6 +249,36 @@
                     </li>
                     <li class="">
                         <div class="desc">
+                            <h3 class="pf-medium">智慧政务云平台</h3>
+                            <p>利用互联网、移动互联网及大数据分析等技术服务服务协议，对政协活动等相关内容进行统一规划，建立包括活动管理、信息发布、履职流程管理等功能的信息化管理平台</p>
+                        </div>
+                        <span class="type lingshou">智慧平台</span>
+                        <div class="imgBox">
+                            <img src="image/case12.png" alt="">
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="desc">
+                            <h3 class="pf-medium">智慧建筑检测</h3>
+                            <p>智慧工地是智慧理念在工程领域的行业具现，能够降低运营成本，节省人力投资，减少安全隐患，规范施工管理，提高工程管理信息化水平</p>
+                        </div>
+                        <span class="type lingshou">智慧建筑检测</span>
+                        <div class="imgBox">
+                            <img src="image/case13.png" alt="">
+                        </div>
+                    </li>
+                    <li class="">
+                        <h3 class="pf-medium">弱电工程</h3>
+                        <p>弱电工程</p>
+                        <span class="type lingshou">智慧平台</span>
+                    </li>
+                    <li class="">
+                        <h3 class="pf-medium">智慧港口与物流</h3>
+                        <p>智慧港口与物流</p>
+                        <span class="type lingshou">智慧平台</span>
+                    </li>
+                    <li class="" id="ishop">
+                        <div class="desc">
                             <h3 class="pf-medium">云易销电商平台</h3>
                             <p>云易销电商平台</p>
                         </div>
@@ -211,7 +287,7 @@
                             <img src="image/case2.jpg" alt="">
                         </div>
                     </li>
-                    <li class="">
+                    <li class="" id="xiaochengxu">
                         <div class="desc">
                             <h3 class="pf-medium">良货百出</h3>
                             <p>良货百出</p>
@@ -224,6 +300,11 @@
                         </div>
                     </li>
                     <li class="">
+                        <h3 class="pf-medium">星芽小程序</h3>
+                        <p>星芽小程序</p>
+                        <span class="type anfang">微信小程序</span>
+                    </li>
+                    <li class="" id="wangzhan">
                         <div class="desc">
                             <h3 class="pf-medium">左岸酒窖官网</h3>
                             <p>左岸酒窖官网</p>
@@ -238,40 +319,11 @@
                         <p>乾霖官网</p>
                         <span class="type yiliao">建站开发</span>
                     </li>
-
-
-                    <li class="">
-                        <h3 class="pf-medium">弱电工程</h3>
-                        <p>弱电工程</p>
-                        <span class="type lingshou">智慧平台</span>
-                    </li>
-                    <li class="">
-                        <h3 class="pf-medium">智慧建筑检测</h3>
-                        <p>智慧建筑检测</p>
-                        <span class="type lingshou">智慧平台</span>
-                    </li>
-                    <li class="">
-                        <h3 class="pf-medium">智慧港口与物流</h3>
-                        <p>智慧港口与物流</p>
-                        <span class="type lingshou">智慧平台</span>
-                    </li>
-                    <li class="">
-                        <h3 class="pf-medium">智慧政务与智慧校园</h3>
-                        <p>智慧政务与智慧校园</p>
-                        <span class="type lingshou">智慧平台</span>
-                    </li>
-
-                    <li class="">
-                        <h3 class="pf-medium">星芽小程序</h3>
-                        <p>星芽小程序</p>
-                        <span class="type anfang">微信小程序</span>
-                    </li>
-
-                    <li class="">
-                        <h3 class="pf-medium">其他</h3>
-                        <p></p>
-                        <span class="type aicity">其他</span>
-                    </li>
+<!--                    <li class="">-->
+<!--                        <h3 class="pf-medium">其他</h3>-->
+<!--                        <p></p>-->
+<!--                        <span class="type aicity">其他</span>-->
+<!--                    </li>-->
                 </ul>
             </div>
             <h2 class="element-invisible">页面</h2>
