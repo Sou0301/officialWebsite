@@ -37,12 +37,12 @@
       <video src="images/1.mp4" id="openScreenVideo" autoplay="autoplay" muted="muted"></video>
   </div>-->
 
-  <div class="header"></div>
-  <script>
-      $(document).ready(function(){
-          $(".header").load("./header.html"); 
-      });
-  </script>
+<div class="header"></div>
+<script>
+    $(document).ready(function () {
+        $(".header").load("./header.html");
+    });
+</script>
 
 <div class="w">
     <div class="tabs"></div>
@@ -55,7 +55,6 @@
                     <div class="banner-content flex flex-v">
                         <div class="w">
                             <h2 class="pf-medium career-mode">社会招聘</h2>
-                            <!--<h3></h3>-->
                             <p>期待与你一起探索智慧的奥秘，拓展智能新疆界</p>
                         </div>
                     </div>
@@ -117,80 +116,103 @@
             <div class="option-wrapper"><span class="title">工作地点</span>
                 <ul class="clearfix" id="location">
                     <li class="active" data-id="">全部</li>
-                    <li data-id="15375,26878">经济开发区</li>
-                    <li data-id="15377">海洋高新区</li>
-                    <li data-id="15376,18255">津南区</li>
-                    <!--<li data-id="17132,17135">武汉市</li>-->
-                    <!--<li data-id="17136">广州市</li>-->
-                    <!--<li data-id="18365">山东</li>-->
-                    <!--<li data-id="17286">福建</li>-->
-                    <!--<li data-id="18841">福州市</li>-->
-                    <!--<li data-id="15445">成都市</li>-->
-                    <!--<li data-id="15394">西安市</li>-->
-                    <!--<li data-id="40685">乌鲁木齐市</li>-->
-                    <!--<li data-id="18265">河南</li>-->
-                    <!--<li data-id="18260">甘肃</li>-->
-                    <!--<li data-id="17451">四川</li>-->
-                    <!--<li data-id="17441">江苏</li>-->
-                    <!--<li data-id="17285">湖南</li>-->
+                    <li id="qw" data-id="15375,26878">经济开发区</li>
+                    <li id="we" data-id="15377">海洋高新区</li>
+                    <li id="er" data-id="15376,18255">津南区</li>
+
                 </ul>
             </div>
             <div class="option-wrapper"><span class="title">职位类型</span>
                 <ul class="clearfix" id="zhineng">
-                    <li class="active">全部</li>
-                    <li data-id="9477">技术类</li>
-                    <li data-id="9482">职能类</li>
-                    <li data-id="9478">产品类</li>
-                    <li data-id="9483">销售类</li>
-                    <li data-id="9480">运营类</li>
-                    <li data-id="9484">管理类</li>
-                    <li data-id="9481">市场类</li>
+                    <li id="a" class="active">全部</li>
+                    <li id="b" data-id="9477">技术类</li>
+                    <li id="c" data-id="9478">产品类</li>
+                    <li id="d" data-id="9483">销售类</li>
+                    <li id="e" data-id="9480">运营类</li>
+                    <li id="f" data-id="9484">管理类</li>
+                    <li id="g" data-id="9481">市场类</li>
+                    <li id="h" data-id="2895">新媒体类</li>
                 </ul>
             </div>
             <div class="result">
                 <!--<div class="result-title clearfix"><span class="fl" id="allPages">共：<i id="totalPage">6</i>页 | <i-->
                 <!--id="totalNum">177</i>个职位</span><span class="fr">当前：第<i id="activePage">1</i>页</span></div>-->
-
-                <ul class="job-list">
+                <ul class="job-list" data-id="b">
                     <li>
                         <div class="overview" data-id="e7adf984-e723-4e1f-80c0-75e1fe9d5346" data-orgid="yitu-inc">
-                            <h5>软件开发工程师（计算机视觉产品）</h5>
+                            <h5>产品经理</h5>
                             <div class="info clearfix">
-                                <span>职能类型：技术类</span><span>所属部门：产品研发部</span><span>工作地点：上海市</span></div>
+                                <span>职能类型：管理类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
                         </div>
                         <div class="requirement-wrapper">
                             <div class="requirement">
-                                <div class="description"><p><strong>关于依图：</strong></p>
-                                    <p>依图从事人工智能创新型研究，好奇智慧的奥秘，拓展智能的边界。</p>
-                                    <p>期待与您一起构建智能的未来。</p>
-                                    <p><br></p>
-                                    <p><strong>为什么选择依图：</strong></p>
-                                    <p>- 技术领先、低调务实的人工智能公司</p>
-                                    <p>- 和优秀的同伴一起快速成长</p>
-                                    <p>- 持续追求卓越、平等、尊重</p>
-                                    <p>- 富有竞争力的薪酬福利</p>
-                                    <p>- 创造巨大的社会价值</p>
+                                <div class="description">
+                                    <p><strong>职位诱惑：</strong></p>
+                                    <p>- 五险一金 双休 不打卡</p>
                                     <p><br></p>
                                     <p><strong>﻿岗位职责：</strong></p>
-                                    <p>- 负责硬件产品设备端的开发工作。</p>
-                                    <p>- 按照软件开发流程，根据产品、项目计划，按时完成所负责模块的设计文档编写、架构设计、编码、测试的全流程工作。</p>
-                                    <p>- 持续优化系统架构，提高系统在海量部署的情况下的可靠性与性能，提升整体系统的可运维性。</p>
-                                    <p>- 参与关键技术点攻坚工作，团队内的技术推广。</p>
+                                    <p>- 负责公司产品部产品的 需求获取 分析 原型设计 以及相关文档的编写。</p>
+                                    <p>- 配合ui工程师的UI图设计 配合开发和测试部门完成产品的研发和验收，监督产品质量和研发进度</p>
+                                    <p>- 对所负责的产品进行市场调研并进行分析，提出产品改进计划；</p>
+                                    <p>- 对产品的设计、开发、包装、渠道、定价、上市等过程进行全程监控；</p>
+                                    <p>- 对产品在不同阶段出现的问题进行记录并进行处理；</p>
+                                    <p>- 负责组织产品团队完成产品的功能设计和实施；</p>
+                                    <p>- 负责产品项目的开发，对进度和质量进行监控；</p>
+                                    <p>- 对产品市场有足够的把握，充分了解用户需求；</p>
+                                    <p>- 协助企业和部门领导完成有关产品的其它工作； </p>
+                                    <p>- 负责与相关部门（销售、制造、研发等）进行联络和协调 </p>
                                     <p><br></p>
                                     <p><strong>任职资格：</strong></p>
-                                    <p>- 有在设备端进行C/C++/Java开发的经验。</p>
-                                    <p>- 有能力设计测试用例，有开发测试工具的经验更好。</p>
-                                    <p>- 熟悉linux操作系统。熟悉windows系统、android系统更好。</p>
-                                    <p>- 能熟练使用C++或JAVA或iOS编程。熟悉Rust或Kotlin更好。熟悉其他非主流编程语言也可加分。</p>
-                                    <p>- 熟悉React native或Android原生界面开发更好。</p>
-                                    <p>- 熟练掌握各类常用数据结构和相关算法。了解并行数据结构更好。</p>
-                                    <p>- 熟悉HTTP通讯协议。熟悉HTTP/2、WebSocket或MQTT等物联网协议更好。</p>
-                                    <p>- 能够设计数据库表结构。了解某个数据库(RDBMS或KV)实现原理更好。</p>
-                                    <p>- 有钻研精神，学习能力强，高度的责任心、良好的沟通技巧和团队合作精神，正直进取，有上进心，热爱研发事业。</p></div>
-                            </div>
+                                    <p>- 一年及以上产品设计经验 </p>
+                                    <p>- 熟练使用 墨刀 Visio xmind axure office 等工具 </p>
+                                    <p>- 具有良好的文档撰写能力 熟悉移动 web 小程序等平台相关特性、交互设计规范及其异同点 </p>
+                                    <p>- 有erp或电商平台设计经验的优先 </p>
+                                    <p>- 有经验者优先</p>
+                                </div>
 
-                            <div class="btns-wrapper dong">
-                                <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                <div class="btns-wrapper dong">
+                                    <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="job-list" data-id="c">
+                    <li>
+                        <div class="overview" data-id="e7adf984-e723-4e1f-80c0-75e1fe9d5346" data-orgid="yitu-inc">
+                            <h5>产品经理</h5>
+                            <div class="info clearfix">
+                                <span>职能类型：管理类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
+                        </div>
+                        <div class="requirement-wrapper">
+                            <div class="requirement">
+                                <div class="description">
+                                    <p><strong>职位诱惑：</strong></p>
+                                    <p>- 五险一金 双休 不打卡</p>
+                                    <p><br></p>
+                                    <p><strong>﻿岗位职责：</strong></p>
+                                    <p>- 负责公司产品部产品的 需求获取 分析 原型设计 以及相关文档的编写。</p>
+                                    <p>- 配合ui工程师的UI图设计 配合开发和测试部门完成产品的研发和验收，监督产品质量和研发进度</p>
+                                    <p>- 对所负责的产品进行市场调研并进行分析，提出产品改进计划；</p>
+                                    <p>- 对产品的设计、开发、包装、渠道、定价、上市等过程进行全程监控；</p>
+                                    <p>- 对产品在不同阶段出现的问题进行记录并进行处理；</p>
+                                    <p>- 负责组织产品团队完成产品的功能设计和实施；</p>
+                                    <p>- 负责产品项目的开发，对进度和质量进行监控；</p>
+                                    <p>- 对产品市场有足够的把握，充分了解用户需求；</p>
+                                    <p>- 协助企业和部门领导完成有关产品的其它工作； </p>
+                                    <p>- 负责与相关部门（销售、制造、研发等）进行联络和协调 </p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 一年及以上产品设计经验 </p>
+                                    <p>- 熟练使用 墨刀 Visio xmind axure office 等工具 </p>
+                                    <p>- 具有良好的文档撰写能力 熟悉移动 web 小程序等平台相关特性、交互设计规范及其异同点 </p>
+                                    <p>- 有erp或电商平台设计经验的优先 </p>
+                                    <p>- 有经验者优先</p>
+                                </div>
+
+                                <div class="btns-wrapper dong">
+                                    <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -198,15 +220,57 @@
                         <div class="overview" data-id="e62992e4-601b-4257-a045-dcbab4e0a034" data-orgid="yitu-inc">
                             <h5>硬件高级质量工程师</h5>
                             <div class="info clearfix">
-                                <span>职能类型：技术类</span><span>所属部门：产品研发部</span><span>工作地点：上海市</span></div>
+                                <span>职能类型：技术类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
                         </div>
                         <div class="requirement-wrapper">
                             <div class="requirement">
-                                <div class="description"><p><strong>关于依图：</strong></p>
+                                <div class="description"><p><strong>关于传清：</strong></p>
                                     <p>依图从事人工智能创新型研究，好奇智慧的奥秘，拓展智能的边界。</p>
                                     <p>期待与您一起构建智能的未来。</p>
                                     <p><br></p>
-                                    <p><strong>为什么选择依图：</strong></p>
+                                    <p><strong>为什么选择传清：</strong></p>
+                                    <p>- 技术领先、低调务实的人工智能公司</p>
+                                    <p>- 和优秀的同伴一起快速成长</p>
+                                    <p>- 持续追求卓越、平等、尊重</p>
+                                    <p>- 富有竞争力的薪酬福利</p>
+                                    <p>- 创造巨大的社会价值</p>
+                                    <p><br></p>
+                                    <p><strong>岗位职责：</strong></p>
+                                    <p>- 新品导入：新品开发的质量保证计划、DFMEA、量产质量控制计划的编制与实施。</p>
+                                    <p>- 量产制程管控：监控指导供应商现场管控，编制产品验货标准，指导和安排完成验货任务，确保产品顺利交付。</p>
+                                    <p>- 不断优化质量控制计划QCP，制定关键工序、工艺、物料管控方案; 负责ECR/ECN的规范管理。</p>
+                                    <p>- 持续改进与客诉闭环: 统筹市场反馈质量问题(含客户体验问题)的技术改进；定期对核心量产产品过程分析，寻找品质提升机会。</p>
+                                    <p>- 认证管理：新品认证测试闭环跟进，风险预防；参与量产品的核心部件管控清单制定；量产品定期的认证风险排查。</p>
+                                    <p>- 推进事业部流程机制建设，持续改进质量管理体系。</p>
+                                    <p>- 负责质量团队的组织建设和工作管理。</p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 本科及以上学历，5年以上安防、大型家电或消费类电子企业的质量相关工作经验。</p>
+                                    <p>- 深刻理解ISO9001等质量管理体系要求，精通质量管理工具及产品开发、供应商管理、变更管理等流程。</p>
+                                    <p>- 能独立编制产品质量控制计划，产品测试和检验标准。</p>
+                                    <p>- 熟悉工厂运作模式，有丰富的供应商现场管理经验，能指导和推动供应商质量改善。</p>
+                                    <p>- 良好的逻辑表达和报告书写能力，良好的内外部沟通与协调能力。</p></div>
+                            </div>
+                            <div class="btns-wrapper dong">
+                                <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="job-list" data-id="d">
+                    <li>
+                        <div class="overview" data-id="e62992e4-601b-4257-a045-dcbab4e0a034" data-orgid="yitu-inc">
+                            <h5>硬件高级质量工程师</h5>
+                            <div class="info clearfix">
+                                <span>职能类型：技术类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
+                        </div>
+                        <div class="requirement-wrapper">
+                            <div class="requirement">
+                                <div class="description"><p><strong>关于传清：</strong></p>
+                                    <p>依图从事人工智能创新型研究，好奇智慧的奥秘，拓展智能的边界。</p>
+                                    <p>期待与您一起构建智能的未来。</p>
+                                    <p><br></p>
+                                    <p><strong>为什么选择传清：</strong></p>
                                     <p>- 技术领先、低调务实的人工智能公司</p>
                                     <p>- 和优秀的同伴一起快速成长</p>
                                     <p>- 持续追求卓越、平等、尊重</p>
@@ -238,7 +302,7 @@
                         <div class="overview" data-id="e5deddbe-d1b5-4f04-95d3-b7dd57fcabb8" data-orgid="yitu-inc">
                             <h5>高级前端开发工程师（医疗大数据方向）</h5>
                             <div class="info clearfix">
-                                <span>职能类型：技术类</span><span>所属部门：大数据事业部</span><span>工作地点：杭州市</span></div>
+                                <span>职能类型：技术类</span><span>所属部门：大数据事业部</span><span>工作地点：海洋高新区</span></div>
                         </div>
                         <div class="requirement-wrapper">
                             <div class="requirement">
@@ -310,64 +374,128 @@
                             </div>
                         </div>
                     </li>
+                </ul>
+                <ul class="job-list" data-id="e">
                     <li>
-                        <div class="overview" data-id="e415cc6c-0714-4c41-b92f-b53821162b6f" data-orgid="yitu-inc">
-                            <h5>ETL工程师（医疗方向）</h5>
+                        <div class="overview" data-id="e7adf984-e723-4e1f-80c0-75e1fe9d5346" data-orgid="yitu-inc">
+                            <h5>产品经理</h5>
                             <div class="info clearfix">
-                                <span>所属部门：业务技术部</span><span>工作地点：杭州市、上海市、北京市</span></div>
+                                <span>职能类型：管理类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
                         </div>
                         <div class="requirement-wrapper">
                             <div class="requirement">
-                                <div class="description"><p>职位描述：</p>
-                                    <p>1、负责医院信息系统源数据分析处理工作。</p>
-                                    <p>2、使用工具对医院信息系统数据进行提取、映射、关联、清洗、转换和整合，并能对工具改进提出需求。</p>
-                                    <p>3、进行数据任务流程调优及准确性改进，对数据处理的质量负责。</p>
-                                    <p>4、完成项目经理安排的其他工作</p>
-                                    <p>&nbsp;</p>
-                                    <p>岗位要求</p>
-                                    <p>1、对医疗临床业务知识有了解优先，对医疗信息系统（HIS、EMR、CDR等）开发及实施经验优先。</p>
-                                    <p>2、熟练掌握Oracle、SQL Server、MySQL等至少一种主流数据库的使用。</p>
-                                    <p>3、掌握Kettle，Airflow等至少一种ETL工具的使用，了解python脚本使用，能独立使用python编写代码优先。</p>
-                                    <p>4、熟练掌握SQL，PL/SQL，具备编写、优化复杂SQL的能力。</p>
-                                    <p>5、良好的沟通能力、学习思考、解决问题能力，良好的抗压和适应能力。</p>
-                                    <p>6、能适应一定程度的出差和驻场工作。</p>
-                                    <p>7、有ETL开发或数据集成经验者优先，本岗位接受优秀的应届生投递。</p></div>
-                            </div>
-                            <div class="btns-wrapper dong">
-                                <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="overview" data-id="e00e39dd-a621-4bfc-8327-bc829f50ad01" data-orgid="yitu-inc">
-                            <h5>福建 - 安防销售总监</h5>
-                            <div class="info clearfix">
-                                <span>所属部门：业务营销部</span></div>
-                        </div>
-                        <div class="requirement-wrapper">
-                            <div class="requirement">
-                                <div class="description"><p><strong><u>岗位职责与目标：</u></strong></p>
-                                    <p>1、负责大客户的开发与关系维护工作，与目标大客户建立良好的业务关系，挖掘大客户的需求，高效灵活的完成销售任务</p>
-                                    <p>2、定期与合作客户进行沟通,建立良好的长期合作关系，维护老客户的业务,挖掘新客户</p>
-                                    <p>3、实施客户管理，了解、分析客户需求，并进行方案规划</p>
-                                    <p>4、擅长交流沟通，亲和力强，积极主动，具有良好的销售策划、组织、管理、协调和沟通能力</p>
-                                    <p>5、熟悉公安、政府行业投标、竞标流程及运作，有公安政府行业相关客户资源优先</p>
-                                    <p>6、具有较强的沟通、协调能力和公关能力，良好的团队合作精神；能承受较大工作压力</p>
+                                <div class="description">
+                                    <p><strong>职位诱惑：</strong></p>
+                                    <p>- 五险一金 双休 不打卡</p>
                                     <p><br></p>
-                                    <p><strong><u>需要具备的能力和经验：</u></strong></p>
-                                    <p>8年以上解决方案销售经验、可独立开发目标客户群（公安、政府、大中型企业等）；</p>
-                                    <p>熟悉区域或行业业务，对市场和项目有明晰的分析和判断能力，项目协调、谈判能力；市场突破能力优秀，历史业绩突出，有标杆性的成功案例；</p>
-                                    <p>有比较扎实的客户关系，把握客户真实需求，形成较高客户粘合度；</p>
-                                    <p>市场布局和规划/策划能力强，做事有条理、有思路，能快速响应公司战略部署，具备较强的执行力和责任心；</p>
-                                    <p>有较强的协调和沟通能力，具备团队作战意识；</p>
-                                    <p>学习能力强，适应力强，积极主动；</p>
-                                    <p>有良好的职业道德、团队精神以及职业操守，职业忠诚度高，具备创业心态和积极奋斗的价值观，有较强的适应能力和冲劲。</p></div>
+                                    <p><strong>﻿岗位职责：</strong></p>
+                                    <p>- 负责公司产品部产品的 需求获取 分析 原型设计 以及相关文档的编写。</p>
+                                    <p>- 配合ui工程师的UI图设计 配合开发和测试部门完成产品的研发和验收，监督产品质量和研发进度</p>
+                                    <p>- 对所负责的产品进行市场调研并进行分析，提出产品改进计划；</p>
+                                    <p>- 对产品的设计、开发、包装、渠道、定价、上市等过程进行全程监控；</p>
+                                    <p>- 对产品在不同阶段出现的问题进行记录并进行处理；</p>
+                                    <p>- 负责组织产品团队完成产品的功能设计和实施；</p>
+                                    <p>- 负责产品项目的开发，对进度和质量进行监控；</p>
+                                    <p>- 对产品市场有足够的把握，充分了解用户需求；</p>
+                                    <p>- 协助企业和部门领导完成有关产品的其它工作； </p>
+                                    <p>- 负责与相关部门（销售、制造、研发等）进行联络和协调 </p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 一年及以上产品设计经验 </p>
+                                    <p>- 熟练使用 墨刀 Visio xmind axure office 等工具 </p>
+                                    <p>- 具有良好的文档撰写能力 熟悉移动 web 小程序等平台相关特性、交互设计规范及其异同点 </p>
+                                    <p>- 有erp或电商平台设计经验的优先 </p>
+                                    <p>- 有经验者优先</p>
+                                </div>
+
+                                <div class="btns-wrapper dong">
+                                    <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="job-list" data-id="f">
+                    <li>
+                        <div class="overview" data-id="e7adf984-e723-4e1f-80c0-75e1fe9d5346" data-orgid="yitu-inc">
+                            <h5>产品经理</h5>
+                            <div class="info clearfix">
+                                <span>职能类型：管理类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
+                        </div>
+                        <div class="requirement-wrapper">
+                            <div class="requirement">
+                                <div class="description">
+                                    <p><strong>职位诱惑：</strong></p>
+                                    <p>- 五险一金 双休 不打卡</p>
+                                    <p><br></p>
+                                    <p><strong>﻿岗位职责：</strong></p>
+                                    <p>- 负责公司产品部产品的 需求获取 分析 原型设计 以及相关文档的编写。</p>
+                                    <p>- 配合ui工程师的UI图设计 配合开发和测试部门完成产品的研发和验收，监督产品质量和研发进度</p>
+                                    <p>- 对所负责的产品进行市场调研并进行分析，提出产品改进计划；</p>
+                                    <p>- 对产品的设计、开发、包装、渠道、定价、上市等过程进行全程监控；</p>
+                                    <p>- 对产品在不同阶段出现的问题进行记录并进行处理；</p>
+                                    <p>- 负责组织产品团队完成产品的功能设计和实施；</p>
+                                    <p>- 负责产品项目的开发，对进度和质量进行监控；</p>
+                                    <p>- 对产品市场有足够的把握，充分了解用户需求；</p>
+                                    <p>- 协助企业和部门领导完成有关产品的其它工作； </p>
+                                    <p>- 负责与相关部门（销售、制造、研发等）进行联络和协调 </p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 一年及以上产品设计经验 </p>
+                                    <p>- 熟练使用 墨刀 Visio xmind axure office 等工具 </p>
+                                    <p>- 具有良好的文档撰写能力 熟悉移动 web 小程序等平台相关特性、交互设计规范及其异同点 </p>
+                                    <p>- 有erp或电商平台设计经验的优先 </p>
+                                    <p>- 有经验者优先</p>
+                                </div>
+
+                                <div class="btns-wrapper dong">
+                                    <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="overview" data-id="e62992e4-601b-4257-a045-dcbab4e0a034" data-orgid="yitu-inc">
+                            <h5>硬件高级质量工程师</h5>
+                            <div class="info clearfix">
+                                <span>职能类型：技术类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
+                        </div>
+                        <div class="requirement-wrapper">
+                            <div class="requirement">
+                                <div class="description"><p><strong>关于传清：</strong></p>
+                                    <p>依图从事人工智能创新型研究，好奇智慧的奥秘，拓展智能的边界。</p>
+                                    <p>期待与您一起构建智能的未来。</p>
+                                    <p><br></p>
+                                    <p><strong>为什么选择传清：</strong></p>
+                                    <p>- 技术领先、低调务实的人工智能公司</p>
+                                    <p>- 和优秀的同伴一起快速成长</p>
+                                    <p>- 持续追求卓越、平等、尊重</p>
+                                    <p>- 富有竞争力的薪酬福利</p>
+                                    <p>- 创造巨大的社会价值</p>
+                                    <p><br></p>
+                                    <p><strong>岗位职责：</strong></p>
+                                    <p>- 新品导入：新品开发的质量保证计划、DFMEA、量产质量控制计划的编制与实施。</p>
+                                    <p>- 量产制程管控：监控指导供应商现场管控，编制产品验货标准，指导和安排完成验货任务，确保产品顺利交付。</p>
+                                    <p>- 不断优化质量控制计划QCP，制定关键工序、工艺、物料管控方案; 负责ECR/ECN的规范管理。</p>
+                                    <p>- 持续改进与客诉闭环: 统筹市场反馈质量问题(含客户体验问题)的技术改进；定期对核心量产产品过程分析，寻找品质提升机会。</p>
+                                    <p>- 认证管理：新品认证测试闭环跟进，风险预防；参与量产品的核心部件管控清单制定；量产品定期的认证风险排查。</p>
+                                    <p>- 推进事业部流程机制建设，持续改进质量管理体系。</p>
+                                    <p>- 负责质量团队的组织建设和工作管理。</p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 本科及以上学历，5年以上安防、大型家电或消费类电子企业的质量相关工作经验。</p>
+                                    <p>- 深刻理解ISO9001等质量管理体系要求，精通质量管理工具及产品开发、供应商管理、变更管理等流程。</p>
+                                    <p>- 能独立编制产品质量控制计划，产品测试和检验标准。</p>
+                                    <p>- 熟悉工厂运作模式，有丰富的供应商现场管理经验，能指导和推动供应商质量改善。</p>
+                                    <p>- 良好的逻辑表达和报告书写能力，良好的内外部沟通与协调能力。</p></div>
                             </div>
                             <div class="btns-wrapper dong">
                                 <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
                             </div>
                         </div>
                     </li>
+                </ul>
+                <ul class="job-list" data-id="g">
                     <li>
                         <div class="overview" data-id="df18a1b6-e210-4572-984c-24c8f569c38b" data-orgid="yitu-inc">
                             <h5>Research工具研发</h5>
@@ -436,6 +564,46 @@
                         </div>
                     </li>
                 </ul>
+                <ul class="job-list" data-id="h">
+                    <li>
+                        <div class="overview" data-id="e7adf984-e723-4e1f-80c0-75e1fe9d5346" data-orgid="yitu-inc">
+                            <h5>产品经理</h5>
+                            <div class="info clearfix">
+                                <span>职能类型：管理类</span><span>所属部门：产品研发部</span><span>工作地点：经济开发区</span></div>
+                        </div>
+                        <div class="requirement-wrapper">
+                            <div class="requirement">
+                                <div class="description">
+                                    <p><strong>职位诱惑：</strong></p>
+                                    <p>- 五险一金 双休 不打卡</p>
+                                    <p><br></p>
+                                    <p><strong>﻿岗位职责：</strong></p>
+                                    <p>- 负责公司产品部产品的 需求获取 分析 原型设计 以及相关文档的编写。</p>
+                                    <p>- 配合ui工程师的UI图设计 配合开发和测试部门完成产品的研发和验收，监督产品质量和研发进度</p>
+                                    <p>- 对所负责的产品进行市场调研并进行分析，提出产品改进计划；</p>
+                                    <p>- 对产品的设计、开发、包装、渠道、定价、上市等过程进行全程监控；</p>
+                                    <p>- 对产品在不同阶段出现的问题进行记录并进行处理；</p>
+                                    <p>- 负责组织产品团队完成产品的功能设计和实施；</p>
+                                    <p>- 负责产品项目的开发，对进度和质量进行监控；</p>
+                                    <p>- 对产品市场有足够的把握，充分了解用户需求；</p>
+                                    <p>- 协助企业和部门领导完成有关产品的其它工作； </p>
+                                    <p>- 负责与相关部门（销售、制造、研发等）进行联络和协调 </p>
+                                    <p><br></p>
+                                    <p><strong>任职资格：</strong></p>
+                                    <p>- 一年及以上产品设计经验 </p>
+                                    <p>- 熟练使用 墨刀 Visio xmind axure office 等工具 </p>
+                                    <p>- 具有良好的文档撰写能力 熟悉移动 web 小程序等平台相关特性、交互设计规范及其异同点 </p>
+                                    <p>- 有erp或电商平台设计经验的优先 </p>
+                                    <p>- 有经验者优先</p>
+                                </div>
+
+                                <div class="btns-wrapper dong">
+                                    <div class="landing-btns"><a class="btn-bg-blue">立即申请</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
                 <div class="page-wrapper">
                     <div class="page">
                         <div class="fl"><a href="javascript:;" id="prevPage">上一页</a></div>
@@ -462,17 +630,22 @@
                     <div>
                         <div class="form-item webform-component webform-component-textfield webform-component--name webform-container-inline">
                             <label for="edit-submitted-name">您的姓名: <span class="form-required" title="此字段为必选项。">*</span></label>
-                            <input required="required" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text required">
+                            <input required="required" type="text" id="edit-submitted-name" name="submitted[name]"
+                                   value="" size="60" maxlength="128" class="form-text required">
                         </div>
                         <div style="margin: 10px 0"></div>
                         <div class="form-item webform-component webform-component-textfield webform-component--telphone webform-container-inline">
-                            <label for="edit-submitted-telphone">联系电话: <span class="form-required" title="此字段为必选项。">*</span></label>
-                            <input required="required" type="text" id="edit-submitted-telphone" name="submitted[telphone]" value="" size="60" maxlength="128" class="form-text required">
+                            <label for="edit-submitted-telphone">联系电话: <span class="form-required"
+                                                                             title="此字段为必选项。">*</span></label>
+                            <input required="required" type="text" id="edit-submitted-telphone"
+                                   name="submitted[telphone]" value="" size="60" maxlength="128"
+                                   class="form-text required">
                         </div>
                         <div style="margin: 10px 0"></div>
                         <div class="form-item webform-component webform-component-textfield webform-component--email webform-container-inline">
                             <label for="edit-submitted-email">Email: </label>
-                            <input type="text" id="edit-submitted-email" name="submitted[email]" value="" size="60" maxlength="128" class="form-text">
+                            <input type="text" id="edit-submitted-email" name="submitted[email]" value="" size="60"
+                                   maxlength="128" class="form-text">
                         </div>
                     </div>
                     <div class="apply-field-22XXb file_upload-1ynAE" style="margin: 10px 0">
@@ -484,7 +657,8 @@
                         <div class="ctrl-2Mfox">
                             <div class="file_upload">
                                 <div>
-                                    <input type="file" id="resumeKey" name="resumeKey" style="font-size: 12px; color: gray"
+                                    <input type="file" id="resumeKey" name="resumeKey"
+                                           style="font-size: 12px; color: gray"
                                            accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/wps-office.doc,application/wps-office.docx,.doc,.docx,application/mspowerpoint,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/wps-office.ppt,application/wps-office.pptx,.ppt,.pptx,.html,image/jpeg,.jpg,.jpeg,image/png,.png,application/rtf,application/x-rtf,text/richtext,text/rtf,.rtf,.wps,text/plain,.txt">
                                 </div>
                             </div>
@@ -790,7 +964,7 @@
                         <li><a href="tel:02225284075 ">022-25284075</a></li>
                     </ul>
                 </div>
-                 <div id="block-block-4" class="block block-block footer-block">
+                <div id="block-block-4" class="block block-block footer-block">
                     <h2>媒体采访</h2>
                     <ul>
                         <li><a href="javaScript:;">tianjincq_001@163.com</a></li>
@@ -812,9 +986,9 @@
                 <div id="block-block-7" class="block block-block footer-block">
                     <h2>加入我们</h2>
                     <ul>
-                        <li><a href="/social.html">社招</a></li>
-                        <li><a href="/social.html">校招</a></li>
-                        <li><a href="/social.html">实习热招</a></li>
+                        <li><a href="/social.html?snzp">社招</a></li>
+                        <li><a href="/social.html?xyzp">校招</a></li>
+                        <li><a href="/social.html?sxrz">实习热招</a></li>
                     </ul>
                 </div>
                 <div id="block-block-8" class="block block-block footer-block">
@@ -855,10 +1029,64 @@
 
 
 </div>
+<script>
+    $(function () {
+        console.log(url)
+        if (url == '?shzp') {
+            console.log('社会招聘')
+            $('#block-system-main h2.pf-medium').text('社会招聘')
+        } else if (url == '?xyzp') {
+            console.log('校园招聘')
+            $('#block-system-main h2.pf-medium').text('校园招聘')
+            $('#location li#qw').text('经济开发区')
+            $('#location li#we').text('津南')
+            $('#location li#er').text('')
+            $('#zhineng li#a').text('市场类')
+            $('#zhineng li#b').text('产品类')
+            $('#zhineng li#c').text('技术类')
+            $('#zhineng li#d').text('销售类')
+            $('#zhineng li#e').text('')
+            $('#zhineng li#f').text('')
+            $('#zhineng li#g').text('')
+            $('#zhineng li#p').text('')
+        } else if (url == '?sxrz') {
+            console.log('实习热招')
+            $('#block-system-main h2.pf-medium').text('实习热招')
+            $('#location li#qw').text('经济开发区')
+            $('#location li#we').text('')
+            $('#location li#er').text('')
+            $('#zhineng li#a').text('技术类')
+            $('#zhineng li#b').text('销售类')
+            $('#zhineng li#c').text('运营类')
+            $('#zhineng li#d').text('新媒体类')
+            $('#zhineng li#e').text('')
+            $('#zhineng li#f').text('')
+            $('#zhineng li#g').text('')
+            $('#zhineng li#p').text('')
+        }
+    })
+    $('#zhineng').on('click', 'li', function(){
+        console.log($(this))
+        var bigId = $(this).attr('id');
+        $('.job-list').each(function () {
+            $(this).removeClass('disP');
+            if(bigId == 'a'){
+                $(this).removeClass('disP');
+            }else if($(this).attr('data-id') != bigId){
+                $(this).addClass('disP');
+            }
+        })
+    })
+</script>
+<script>
+    let url = window.location.search;
+</script>
 <script type="text/javascript" src="./js/js5.js"></script>
-<script type="text/javascript" src="./js/js6.js"></script>
 <script type="text/javascript" src="./js/js9.js"></script>
 <script type="text/javascript" src="./js/js7.js"></script>
+<script type="text/javascript" src="./js/js10.js"></script>
+<!--<script src="./js/career.js" type="text/javascript"></script>-->
+<script type="text/javascript" src="./js/js6.js"></script>
 <script type="text/javascript">
 </script>
 <script type="text/javascript" src="./js/seckit.document_write.js"></script>
@@ -873,8 +1101,7 @@
 </noscript>
 <script type="text/javascript">
 </script>
-<script type="text/javascript" src="./js/js10.js"></script>
-<script type="text/javascript" src="./js/js6.js"></script>
+
 <script type="text/javascript">
     jQuery.extend(Drupal.settings, {
         "basePath": "\/",
@@ -972,7 +1199,7 @@
         }
     });
 </script>
-<script src="./js/career.js" type="text/javascript"></script>
+
 
 <script>
     var _hmt = _hmt || [];

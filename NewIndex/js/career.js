@@ -3,22 +3,22 @@
  */
 var loArr = [];
 var zhinengId = [];
-var mode = getQueryStringRegExp('mode')||'social';
+// var mode = getQueryStringRegExp('mode')||'social';
 // var mode = 'campus';
-var intern = getQueryStringRegExp('intern');
+// var intern = getQueryStringRegExp('intern');
 var keyword = '';
-
-if(intern) {
-    $(".career-mode").html('实习生热招');
-}
-else {
-    if(mode == 'social') {
-        $(".career-mode").html('社会招聘');
-    }
-    else {
-        $(".career-mode").html('校园招聘');
-    }
-}
+//
+// if(intern) {
+//     $(".career-mode").html('实习生热招');
+// }
+// else {
+//     if(mode == 'social') {
+//         $(".career-mode").html('社会招聘');
+//     }
+//     else {
+//         $(".career-mode").html('校园招聘');
+//     }
+// }
 var orgDomain = 'https://api.mokahr.com', orgid = 'yitu-inc';
 
 // getjobs();
@@ -56,7 +56,7 @@ $('#location').on('click','li',function(){
             loArr.push(parseInt(ids[i]));
         }
     }
-    getjobs();
+    // getjobs();
     $(this).addClass('active').siblings('li').removeClass('active');
 });
 //获取职位列表
@@ -209,7 +209,7 @@ $('#zhineng').on('click','li',function(){
     }else {
         zhinengId = [];
     }
-    getjobs();
+    // getjobs();
 });
 //获取单个职位信息
 function getJobInfo(id){
@@ -262,7 +262,7 @@ $('#nextPage').click(function(){
 //搜索职位
 $('#search').click(function(){
     keyword = $(this).prev().val();
-    getjobs();
+    // getjobs();
 });
 
 $("body").bind('keydown', function(event) {
