@@ -4065,17 +4065,17 @@ input[disabled='disabled'] {
 }
 
 .classify li.social a {
-    background-image: url(../images/job-social.png);
+    background-image: url(../image/job-social.png);
     background-size: 73px;
 }
 
 .classify li.school a {
-    background-image: url(../images/job-school.png);
+    background-image: url(../image/job-school.png);
     background-size: 77px;
 }
 
 .classify li.intern a {
-    background-image: url(../images/job-intern.png);
+    background-image: url(../image/job-intern.png);
     background-size: 77px;
 }
 
