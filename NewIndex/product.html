@@ -127,7 +127,7 @@
         <div class="w">
           <div class="content hezi-a clearfix">
             <div class="hezi-wrapper clearfix">
-              <img alt="" id="productDesc" src="./image/zhnl_desc.png" class="my-image-desc" />
+              <img alt="" id="productDesc" src="./image/product/zhnl/zhnl_desc.png" class="my-image-desc" />
               <!-- <div class="hezi-info text-l">
                 <h5>强大视觉</h5>
                 <p>依图世界级算法优化</p>
@@ -159,12 +159,12 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section" id="productJG1">
       <h2>智能的未来：掌上智能数据</h2>
       <div class="section-box ai">
         <div class="w">
-          <div class="fbh-product-img">
-            <img alt="" src="./image/zhnl_jiagou2.jpg" />
+          <div class="fbh-product-img" >
+            <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
           </div>
           <!-- <div class="fbh-pro" style="display: none;">
             <div class="fbh-pro-img">
@@ -187,7 +187,7 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section" id="productJG2">
       <h2>环境控制系统架构图</h2>
       <div class="section-box pt90">
         <!-- <div class="w">
@@ -195,13 +195,13 @@
             <img alt="" src="images/fbh1-img4.png" />
           </div>
         </div> -->
-        <img alt="" src="./image/zhnl_jiagou1.jpeg" />
+        <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
       </div>
     </div>
     <div class="section">
       <h2>现场感知 —— 农林+AI</h2>
       <div class="section-box p0">
-        <img alt="" src="./image/zhnl_xcgz.jpg" />
+        <img alt="" src="./image/product/zhnl/zhnl_system.png" />
       </div>
     </div>
     <div class="section">
@@ -210,10 +210,10 @@
         <div class="w">
           <div class="container swiper-container furture-swiper">
             <ul class="clearfix swiper-wrapper">
-              <li class="swiper-slide"><img alt="" src="./image/zhnl_show1.jpg" /></li>
-              <li class="swiper-slide"><img alt="" src="./image/zhnl_show2.jpg" /></li>
-              <li class="swiper-slide"><img alt="" src="./image/zhnl_show3.jpg" /></li>
-              <li class="swiper-slide"><img alt="" src="./image/zhnl_show4.jpg" /></li>
+              <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show1.jpg" /></li>
+              <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+              <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+              <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show4.jpg" /></li>
             </ul>
           </div>
           <div class="swiper-scrollbar">&nbsp;</div>
@@ -773,10 +773,11 @@
     console.log(url)
     if (url === '') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/zhnl_banner.png');
+      $('#myImageBanner').attr('src', './image/product/zhnl/zhnl_banner.png');
 
       // 替换文字
-      $('#productCore').empty().append(`<ul>
+      $('#productCore').empty().append(`
+      <ul>
           <li>
             <h2 class="time">技术支持</h2>
             <p>传清科技与天津工业大学深度合作。<br />
@@ -805,16 +806,36 @@
             <dd>实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。</dd>
             <dd>为农业生产提供精准化种植、可视化管理、智能化决策。</dd>
           </dl>
-        </div>`)
+        </div>
+      `)
       // 替换概念图
       $('#productConcept').empty().append(`
         <h2>农业智能的时代</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/zhnl_concept.png" width="710" />
+          <img alt="" src="./image/product/zhnl/zhnl_concept.png" width="710" />
         </div>
       `)
       // 替换描述图
-      $('#productDesc').attr('src', './image/zhnl_desc.png');
+      $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+
+      // // 替换架构图1
+      // $('#productJG1').empty().append(`
+      //   <h2>智能的未来：掌上智能数据</h2>
+      //   <div class="section-box ai">
+      //     <div class="w">
+      //       <div class="fbh-product-img" >
+      //         <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+      //       </div>
+      //     </div>
+      //   </div>
+      // `)
+      // // 替换架构图2
+      // $('#productJG2').empty().append(`
+      //   <h2>环境控制系统架构图</h2>
+      //   <div class="section-box pt90">
+      //     <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
+      //   </div>
+      // `)
 
       // 替换文字
       /* let coreStr = [
@@ -860,7 +881,7 @@
       }) */
     } else if (url === '?zhcs') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/zhcs_banner.png');
+      $('#myImageBanner').attr('src', './image/product/zhcs/zhcs_banner.png');
 
       // 替换文字
       $('#productCore').empty().append(`<ul>
@@ -898,11 +919,30 @@
       $('#productConcept').empty().append(`
         <h2>城市智能的时代</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/zhcs_concept.png" width="710" />
+          <img alt="" src="./image/product/zhcs/zhcs_concept.png" width="710" />
         </div>
       `)
       // 替换描述图
-      $('#productDesc').attr('src', './image/zhcs_desc.png');
+      $('#productDesc').attr('src', './image/product/zhcs/zhcs_desc.png');
+      
+      // // 替换架构图1
+      // $('#productJG1').empty().append(`
+      //   <h2>智能的未来：掌上智能数据</h2>
+      //   <div class="section-box ai">
+      //     <div class="w">
+      //       <div class="fbh-product-img" >
+      //         <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+      //       </div>
+      //     </div>
+      //   </div>
+      // `)
+      // // 替换架构图2
+      // $('#productJG2').empty().append(`
+      //   <h2>环境控制系统架构图</h2>
+      //   <div class="section-box pt90">
+      //     <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
+      //   </div>
+      // `)
 
       /* let str = '哈哈哈哈。哈哈哈哈。啊啊啊啊啊。';
       let strArr = [];
@@ -917,7 +957,7 @@
       }) */
     } else if (url === '?rdgc') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/rdgc_banner.png');
+      $('#myImageBanner').attr('src', './image/product/rdgc/rdgc_banner.png');
       // 替换文字
       $('#productCore').empty().append(`
         <ul>
@@ -956,12 +996,34 @@
       $('#productConcept').empty().append(`
         <h2>智导互联</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/rdgc_concept.png" width="710" />
+          <img alt="" src="./image/product/rdgc/rdgc_concept.png" width="710" />
         </div>
       `)
+
+      // 替换描述图
+      // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+
+      // // 替换架构图1
+      // $('#productJG1').empty().append(`
+      //   <h2>智能的未来：掌上智能数据</h2>
+      //   <div class="section-box ai">
+      //     <div class="w">
+      //       <div class="fbh-product-img" >
+      //         <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+      //       </div>
+      //     </div>
+      //   </div>
+      // `)
+      // // 替换架构图2
+      // $('#productJG2').empty().append(`
+      //   <h2>环境控制系统架构图</h2>
+      //   <div class="section-box pt90">
+      //     <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
+      //   </div>
+      // `)
     } else if (url === '?zhjzjc') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/zhjzjc_banner.png');
+      $('#myImageBanner').attr('src', './image/product/zhjzjc/zhjzjc_banner.png');
 
       // 替换文字
       $('#productCore').empty().append(`
@@ -994,13 +1056,34 @@
       $('#productConcept').empty().append(`
         <h2>智慧建筑监测的时代</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/zhjzjc_concept.png" width="710" />
+          <img alt="" src="./image/product/zhjzjc/zhjzjc_concept.png" width="710" />
         </div>
       `)
+      // 替换描述图
+      // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+
+      // // 替换架构图1
+      // $('#productJG1').empty().append(`
+      //   <h2>智能的未来：掌上智能数据</h2>
+      //   <div class="section-box ai">
+      //     <div class="w">
+      //       <div class="fbh-product-img" >
+      //         <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+      //       </div>
+      //     </div>
+      //   </div>
+      // `)
+      // // 替换架构图2
+      // $('#productJG2').empty().append(`
+      //   <h2>环境控制系统架构图</h2>
+      //   <div class="section-box pt90">
+      //     <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
+      //   </div>
+      // `)
 
     } else if (url === '?zhgkywl') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/zhgkywl_banner.png');
+      $('#myImageBanner').attr('src', './image/product/zhgkywl/zhgkywl_banner.png');
       // 替换文字
       $('#productCore').empty().append(`
         <ul>
@@ -1041,13 +1124,34 @@
       $('#productConcept').empty().append(`
         <h2>智慧港口与物流的时代</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/zhgkywl_concept.png" width="710" />
+          <img alt="" src="./image/product/zhgkywl/zhgkywl_concept.png" width="710" />
+        </div>
+      `)
+      // 替换描述图
+      // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+
+      // 替换架构图1
+      $('#productJG1').empty().append(`
+        <h2>智能的未来：掌上智能数据</h2>
+        <div class="section-box ai">
+          <div class="w">
+            <div class="fbh-product-img" >
+              <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+            </div>
+          </div>
+        </div>
+      `)
+      // 替换架构图2
+      $('#productJG2').empty().append(`
+        <h2>环境控制系统架构图</h2>
+        <div class="section-box pt90">
+          <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
         </div>
       `)
 
     } else if (url === '?zhzwyxy') {
       // 替换banner图
-      $('#myImageBanner').attr('src', './image/zhzwyxy_banner.png');
+      $('#myImageBanner').attr('src', './image/product/zhzwyxy/zhzwyxy_banner.png');
 
       // 替换文字
       $('#productCore').empty().append(`
@@ -1091,9 +1195,30 @@
       $('#productConcept').empty().append(`
         <h2>智慧政务与校园的时代</h2>
         <div class="section-box my-prod-conceptimg">
-          <img alt="" src="./image/zhzwyxy_concept.png" width="710" />
+          <img alt="" src="./image/product/zhzwyxy/zhzwyxy_concept.png" width="710" />
         </div>
       `)
+      // 替换描述图
+      // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+      
+      // // 替换架构图1
+      // $('#productJG1').empty().append(`
+      //   <h2>智能的未来：掌上智能数据</h2>
+      //   <div class="section-box ai">
+      //     <div class="w">
+      //       <div class="fbh-product-img" >
+      //         <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou1.jpg" />
+      //       </div>
+      //     </div>
+      //   </div>
+      // `)
+      // // 替换架构图2
+      // $('#productJG2').empty().append(`
+      //   <h2>环境控制系统架构图</h2>
+      //   <div class="section-box pt90">
+      //     <img alt="" src="./image/product/zhgkywl/zhgkywl_jiagou2.jpg" />
+      //   </div>
+      // `)
     }
     // console.log($('#video1'))
     // $('#video1')[0].playbackRate = "2.0"
