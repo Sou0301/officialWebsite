@@ -23,9 +23,7 @@
   <link type="text/css" rel="stylesheet" href="css/css2.css" media="all" />
   <link type="text/css" rel="stylesheet" href="css/css3.css" media="all" />
   <link type="text/css" rel="stylesheet" href="css/css4.css" media="all" />
-  <!--[if lt IE 9]>
-<link type="text/css" rel="stylesheet" href="https://www.yitutech.com/sites/all/themes/yitu/css/ie.css?pub3cs" media="all" />
-<![endif]-->
+
   <link type="text/css" rel="stylesheet" href="css/css_injector_2.css" media="all" />
   <link rel="stylesheet" href="./css/product.css">
   <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
@@ -49,8 +47,8 @@
     <div class="top-banner page-banner product-release">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img alt="" id="myImageBanner" src="" />
+          <div class="swiper-slide" id="myImageBanner">
+            <!-- <img alt="" src="" /> -->
             <!-- <video src="./image/zhnl_video.mp4" id="video1" autoplay muted></video> -->
             <!-- <div class="banner-content flex flex-v">
               <div class="w">
@@ -116,18 +114,18 @@
       </div>
     </div> -->
     <div class="section" id="productConcept">
-      <!-- <h2>农业智能的时代</h2>
+      <!-- <h2>苍翠欲滴</h2>
       <div class="section-box">
         <img alt="" src="images/fbh1-img1.jpg" width="710" />
       </div> -->
     </div>
     <div class="section">
-      <h2>独创运营</h2>
+      <!-- <h2>独创运营</h2>
       <div class="section-box">
         <div class="w">
           <div class="content hezi-a clearfix">
-            <div class="hezi-wrapper clearfix">
-              <img alt="" id="productDesc" src="" class="my-image-desc" />
+            <div class="hezi-wrapper clearfix" id="productDesc"> -->
+              <!-- <img alt="" src="" class="my-image-desc" /> -->
               <!-- <div class="hezi-info text-l">
                 <h5>强大视觉</h5>
                 <p>依图世界级算法优化</p>
@@ -154,10 +152,10 @@
                   支持 Python, Java<br />
                   支持标准 Ubuntu</p>
               </div> -->
-            </div>
+            <!-- </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="section" id="productJG1">
       <!-- <h2>智能的未来：掌上智能数据</h2>
@@ -276,9 +274,9 @@
   </div>
   <div class="footer-region"></div>
   <script>
-      $(document).ready(function(){
-          $(".footer-region").load("./footer.html"); 
-      });
+    $(document).ready(function () {
+      $(".footer-region").load("./footer.html");
+    });
   </script>
   <!-- <div id="layer"></div>
   <div class="pop" id="applyForm">
@@ -701,578 +699,641 @@
     </div>
     <a href="javascript:;" class="close">&nbsp;</a>
   </div> -->
+
   <script>
-    let url = window.location.search;
-    console.log(url)
-    if (url === '') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/zhnl/zhnl_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566179701467452fe-3290-4451-97b9-e0470f0b11c8.png');
-
-      // 替换文字
-      $('#productCore').empty().append(`
-      <ul>
-          <li>
-            <h2 class="time">技术支持</h2>
-            <p>传清科技与天津工业大学深度合作。<br />
-              保证技术研发迭代、运维水平的持续提升。</p>
-          </li>
-          <li>
-            <h2 class="time">核心团队</h2>
-            <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
-              优质的外部智库，提供项目支持与发展建议。</p>
-          </li>
-          <li>
-            <h2 class="time">政企联合</h2>
-            <p>与项目当地政府、农企达成紧密合作。<br />
-              加速项目落地，保证项目的实施与推广。</p>
-          </li>
-          <li>
-            <h2 class="time">产业覆盖</h2>
-            <p>进行产业链的全环节覆盖。<br />
-              确保项目工业化、流水化运作。</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>智慧农业是农业生产的高级阶段，集新兴的互联网+、物联网、大数据和云计算技术为一体。</dd>
-            <dd>依托部署在农业生产现场的各种传感节点和无线通信网络。</dd>
-            <dd>实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。</dd>
-            <dd>为农业生产提供精准化种植、可视化管理、智能化决策。</dd>
-          </dl>
-        </div>
-      `)
-      // 替换概念图
-      // ./image/product/zhnl/zhnl_concept.png
-      $('#productConcept').empty().append(`
-        <h2>农业智能的时代</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566179852ca0c0682-d254-4b9e-8637-9c4de2cad040.png" width="710" />
-        </div>
-      `)
-      // 替换描述图
-      // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
-      $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
-
-      // 替换架构图1
-      // ./image/product/zhnl/zhnl_jiagou3.jpg
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180057950bf350-7a1e-4fab-8823-8e84adcad33d.png" />
-            </div>
-          </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/zhnl/zhnl_jiagou1.jpg
-      $('#productJG2').empty().append(`
-        <h2>智慧农林架构图</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661803418a84cad9-2d94-455d-9e7c-9bf6396a8121.jpg" />
-        </div>
-      `)
-      
-      // 替换系统图
-      // ./image/product/zhnl/zhnl_system.png
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">现场感知 —— 农林+AI</h2>
-        <div class="section-box p0">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618035860d0e907-ef1c-41c4-9d47-7da904044b3d.png" />
-        </div>
-      `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
-
-      // 替换文字
-      /* let coreStr = [
-        {
-          coretitle: '技术支持',
-          coreDesc: '传清科技与天津工业大学深度合作。保证技术研发迭代、运维水平的持续提升。'
-        },
-        {
-          coretitle: '核心团队',
-          coreDesc: '自有技术研发和运营经营团队，保证项目专业程度。优质的外部智库，提供项目支持与发展建议。'
-        },
-        {
-          coretitle: '政企联合',
-          coreDesc: '与项目当地政府、农企达成紧密合作。加速项目落地，保证项目的实施与推广。'
-        },
-        {
-          coretitle: '产业覆盖',
-          coreDesc: '进行产业链的全环节覆盖。确保项目工业化、流水化运作。'
-        },
-      ];
-      $('#productCore').empty();
-      coreStr.forEach((item, index) => {
-        $('#productCore').append(`
-          <li>
-            <h2 class="time">${item.coretitle}</h2>
-            <p>${item.coreDesc}</p>
-          </li>
+    function createDom() {
+      let url = window.location.search;
+      console.log(url)
+      if (url === '') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/zhnl/zhnl_banner.png');
+        $('#myImageBanner').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566179701467452fe-3290-4451-97b9-e0470f0b11c8.png"/>
         `)
-      }) */
 
-
-      // 替换文字
-      /* let str = '智慧农业是农业生产的高级阶段，集新兴的互联网+、物联网、大数据和云计算技术为一体。依托部署在农业生产现场的各种传感节点和无线通信网络。实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。为农业生产提供精准化种植、可视化管理、智能化决策。';
-      let strArr = [];
-      strArr = str.split('。'); // 字符串分割。返回一个新数组
-      strArr.pop(); // 删除最后一个空元素
-      $('#product-content').empty();
-      strArr.forEach((item, index) => {
-        console.log(item)
-        $('#product-content').append(`
-          <dd>${item}</dd>
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">技术支持</h2>
+              <p>传清科技与天津工业大学深度合作。<br />
+                保证技术研发迭代、运维水平的持续提升。</p>
+            </li>
+            <li>
+              <h2 class="time">核心团队</h2>
+              <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
+                优质的外部智库，提供项目支持与发展建议。</p>
+            </li>
+            <li>
+              <h2 class="time">政企联合</h2>
+              <p>与项目当地政府、农企达成紧密合作。<br />
+                加速项目落地，保证项目的实施与推广。</p>
+            </li>
+            <li>
+              <h2 class="time">产业覆盖</h2>
+              <p>进行产业链的全环节覆盖。<br />
+                确保项目工业化、流水化运作。</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>智慧农业是农业生产的高级阶段，集新兴的互联网+、物联网、大数据和云计算技术为一体。</dd>
+              <dd>依托部署在农业生产现场的各种传感节点和无线通信网络。</dd>
+              <dd>实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。</dd>
+              <dd>为农业生产提供精准化种植、可视化管理、智能化决策。</dd>
+            </dl>
+          </div>
         `)
-      }) */
-    } else if (url === '?zhcs') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/zhcs/zhcs_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566180382377ceb07-62ac-41a6-9dd5-0f389f33e723.png');
-
-      // 替换文字
-      $('#productCore').empty().append(`<ul>
-          <li>
-            <h2 class="time">智慧基础设施</h2>
-            <p>云计算、大数据中心。<br />
-              城市基础地理信息资源。<br />
-              城市无线网络。</p>
-          </li>
-          <li>
-            <h2 class="time">智慧政务应用</h2>
-            <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
-              优质的外部智库，提供项目支持与发展建议。</p>
-          </li>
-          <li>
-            <h2 class="time">智慧民生应用</h2>
-            <p>智慧社区综合管理服务平台。<br />
-              城市配送公共服务平台。<br />
-              综合便利O2O服务平台。</p>
-          </li>
-          <li>
-            <h2 class="time">智慧产业应用</h2>
-            <p>中小企业转型升级服务平台。<br />
-              智慧园区综合管理服务平台。</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>智慧城市是按照2个中心+N个智慧应用模式来构建智慧城市的建设。</dd>
-            <dd>在基础设施、管理服务、生态宜居、产业发展等方向进行相关智慧城市项目的建设。</dd>
-            <dd>为相关领域提供基础服务支撑的数据支撑。</dd>
-          </dl>
-        </div>`)
-      // 替换概念图
-      // ./image/product/zhcs/zhcs_concept.png
-      $('#productConcept').empty().append(`
-        <h2>城市智能的时代</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180392164baad7-dd3b-4223-81bd-d821ac975b11.png" width="710" />
-        </div>
-      `)
-      // 替换描述图
-      // ./image/product/zhcs/zhcs_desc.png
-      $('#productDesc').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566180405fba19c54-937b-4bd6-80a3-53a53ea849ae.png');
-      
-      // 替换架构图1
-      // ./image/product/zhcs/zhcs_jiagou1.jpg
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661804241fe7d834-b61b-4fe3-a306-769abb66a0d9.jpg" />
-            </div>
+        // 替换概念图
+        // ./image/product/zhnl/zhnl_concept.png
+        $('#productConcept').empty().append(`
+          <h2>绿色高效</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566179852ca0c0682-d254-4b9e-8637-9c4de2cad040.png" width="710" />
           </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/zhcs/zhcs_jiagou2.jpg
-      $('#productJG2').empty().append(`
-        <h2>智慧城市架构图</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180436eeb649d8-35d0-4a2e-9049-ee7a246d3ad8.jpg" />
-        </div>
-      `)
-
-      // 替换系统图
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">智慧城市</h2>
-        <div class="section-box p0">
-          <img alt="" src="./image/product/zhnl/zhnl_system.png" />
-        </div>
-      `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
-      /* let str = '哈哈哈哈。哈哈哈哈。啊啊啊啊啊。';
-      let strArr = [];
-      strArr = str.split('。'); // 字符串分割。返回一个新数组
-      strArr.pop(); // 删除最后一个空元素
-      $('#product-content').empty();
-      strArr.forEach((item, index) => {
-        console.log(item)
-        $('#product-content').append(`
-          <dd>${item}</dd>
         `)
-      }) */
-    } else if (url === '?rdgc') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/rdgc/rdgc_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/15661804556a0df5c4-1085-4fc0-891a-a5ed68db12a5.png');
-      // 替换文字
-      $('#productCore').empty().append(`
-        <ul>
-          <li>
-            <h2 class="time">网络安全</h2>
-            <p>全网安全可视<br />
-              全方位持续监测，动态感知。<br />
-              更快速的响应。</p>
-          </li>
-          <li>
-            <h2 class="time">医院三维管控平台</h2>
-            <p>应急方案、应急指挥、应急处置。<br />
-              了解事件的全局。</p>
-          </li>
-          <li>
-            <h2 class="time">雪亮工程</h2>
-            <p>以县、乡、村三级综治中心为指挥平台。<br />
-              以综治信息化为支撑、以网格化管理为基础。<br />
-              应用公共安全视频监控联网。</p>
-          </li>
-          <li>
-            <h2 class="time">磐石工程</h2>
-            <p>纵深防卫远端过滤的外围屏障体系。<br />
-              全面覆盖目标区域的综合报警体系。</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>提供安全、高效、舒适、便利的工作与生活环境</dd>
-            <dd>提供建筑的设备（或系统）、功能和信息共享的智能管理环境</dd>
-            <dd>提高建筑现代化管理水平，降低运行成本</dd>
-          </dl>
-        </div>
+        // 替换描述图
+        // $('#productDesc').attr('src', './image/product/zhnl/zhnl_desc.png');
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180057950bf350-7a1e-4fab-8823-8e84adcad33d.png" class="my-image-desc" />
         `)
-      // 替换概念图
-      // ./image/product/rdgc/rdgc_concept.png
-      $('#productConcept').empty().append(`
-        <h2>智导互联</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180466bfe332a4-35b8-4355-914e-054cb101be51.png" width="710" />
-        </div>
-      `)
-
-      // 替换描述图
-      // $('#productDesc').attr('src', './image/product/rdgc/rdgc_desc.png');
-      $('#productDesc').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566180480d443dfc3-a0af-4c64-91b7-acb0c029bda4.png');
-
-      // 替换架构图1
-      // ./image/product/rdgc/rdgc_jiagou1.png
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661805013fbe5fef-b2b9-4f38-82aa-493e48246826.png" />
+        
+        // 替换架构图1
+        // ./image/product/zhnl/zhnl_jiagou3.jpg
+        $('#productJG1').empty().append(`
+          <h2>模拟植物生长环境</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618032177a3439f-8b3c-4377-8ef9-aa3c63911e51.jpg" />
+              </div>
             </div>
           </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/rdgc/rdgc_jiagou2.png
-      $('#productJG2').empty().append(`
-        <h2>弱电工程架构图</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180518a56f686f-7dc6-4eaf-8dc8-3da084c976ba.png" />
-        </div>
-      `)
-      // 替换系统图
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">弱电工程</h2>
-        <div class="section-box p0">
-          <img alt="" src="./image/product/zhnl/zhnl_system.png" />
-        </div>
-      `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
-    } else if (url === '?zhjzjc') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/zhjzjc/zhjzjc_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/156618054095f0263b-9175-4cd9-8b5a-bb8bf90bcb88.png');
+        `)
+        // 替换架构图2
+        // ./image/product/zhnl/zhnl_jiagou1.jpg
+        $('#productJG2').empty().append(`
+          <h2>智慧农林架构图</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661803418a84cad9-2d94-455d-9e7c-9bf6396a8121.jpg" />
+          </div>
+        `)
 
-      // 替换文字
-      $('#productCore').empty().append(`
-        <ul>
-          <li>
-            <h2 class="time">建筑结构监测云平台</h2>
-            <p>采取有效措施消除隐患。<br />
-              避免危险因素进一步转化。<br />
-              确保结构的安全运营。</p>
-          </li>
-          <li>
-            <h2 class="time">智能玻璃幕墙监测云平台</h2>
-            <p>实现运营期内科学化管养。<br />
-              避免出现重大的安全事故。</p>
-          </li>
-          <li>
-            <h2 class="time">智慧工地云平台</h2>
-            <p>智慧工地是智慧地球理念在工程领域的行业具现。<br />
-              是一种崭新的工程全生命周期管理理念。</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>整个工作效率得于提高</dd>
-            <dd>提高整个建筑工程安全生产管理水平</dd>
-          </dl>
-        </div>
-      `)
-      // 替换概念图
-      // ./image/product/zhjzjc/zhjzjc_concept.png
-      $('#productConcept').empty().append(`
-        <h2>智慧建筑监测的时代</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618055410a03a78-afa6-457e-81af-c747983ab1f3.png" width="710" />
-        </div>
-      `)
-      // 替换描述图
-      // $('#productDesc').attr('src', './image/product/zhjzjc/zhjzjc_desc.png');
-      $('#productDesc').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/15661805653157b501-a051-4f3b-8842-8a7f30dd2e4e.png');
+        // 替换系统图
+        // ./image/product/zhnl/zhnl_system.png
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">现场感知 —— 农林+AI</h2>
+          <div class="section-box p0">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618035860d0e907-ef1c-41c4-9d47-7da904044b3d.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
 
-      // 替换架构图1
-      // ./image/product/zhjzjc/zhjzjc_jiagou1.jpg
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180585bf911eae-2233-4b93-8b22-6fa1d4a4ea3c.jpg" />
+        // 替换文字
+        /* let coreStr = [
+          {
+            coretitle: '技术支持',
+            coreDesc: '传清科技与天津工业大学深度合作。保证技术研发迭代、运维水平的持续提升。'
+          },
+          {
+            coretitle: '核心团队',
+            coreDesc: '自有技术研发和运营经营团队，保证项目专业程度。优质的外部智库，提供项目支持与发展建议。'
+          },
+          {
+            coretitle: '政企联合',
+            coreDesc: '与项目当地政府、农企达成紧密合作。加速项目落地，保证项目的实施与推广。'
+          },
+          {
+            coretitle: '产业覆盖',
+            coreDesc: '进行产业链的全环节覆盖。确保项目工业化、流水化运作。'
+          },
+        ];
+        $('#productCore').empty();
+        coreStr.forEach((item, index) => {
+          $('#productCore').append(`
+            <li>
+              <h2 class="time">${item.coretitle}</h2>
+              <p>${item.coreDesc}</p>
+            </li>
+          `)
+        }) */
+
+
+        // 替换文字
+        /* let str = '智慧农业是农业生产的高级阶段，集新兴的互联网+、物联网、大数据和云计算技术为一体。依托部署在农业生产现场的各种传感节点和无线通信网络。实现农业生产环境的智能感知、智能预警、智能决策、智能分析、专家在线指导。为农业生产提供精准化种植、可视化管理、智能化决策。';
+        let strArr = [];
+        strArr = str.split('。'); // 字符串分割。返回一个新数组
+        strArr.pop(); // 删除最后一个空元素
+        $('#product-content').empty();
+        strArr.forEach((item, index) => {
+          console.log(item)
+          $('#product-content').append(`
+            <dd>${item}</dd>
+          `)
+        }) */
+      } else if (url === '?zhcs') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/zhcs/zhcs_banner.png');
+        $('#myImageBanner').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180382377ceb07-62ac-41a6-9dd5-0f389f33e723.png"/>
+        `)
+
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">智慧基础设施</h2>
+              <p>云计算、大数据中心。<br />
+                城市基础地理信息资源。<br />
+                城市无线网络。</p>
+            </li>
+            <li>
+              <h2 class="time">智慧政务应用</h2>
+              <p>自有技术研发和运营经营团队，保证项目专业程度。<br />
+                优质的外部智库，提供项目支持与发展建议。</p>
+            </li>
+            <li>
+              <h2 class="time">智慧民生应用</h2>
+              <p>智慧社区综合管理服务平台。<br />
+                城市配送公共服务平台。<br />
+                综合便利O2O服务平台。</p>
+            </li>
+            <li>
+              <h2 class="time">智慧产业应用</h2>
+              <p>中小企业转型升级服务平台。<br />
+                智慧园区综合管理服务平台。</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>智慧城市是按照2个中心+N个智慧应用模式来构建智慧城市的建设。</dd>
+              <dd>在基础设施、管理服务、生态宜居、产业发展等方向进行相关智慧城市项目的建设。</dd>
+              <dd>为相关领域提供基础服务支撑的数据支撑。</dd>
+            </dl>
+          </div>
+        `)
+        // 替换概念图
+        // ./image/product/zhcs/zhcs_concept.png
+        $('#productConcept').empty().append(`
+          <h2>创新先行</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180392164baad7-dd3b-4223-81bd-d821ac975b11.png" width="710" />
+          </div>
+        `)
+        // 替换描述图
+        // ./image/product/zhcs/zhcs_desc.png
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180405fba19c54-937b-4bd6-80a3-53a53ea849ae.png" class="my-image-desc" />
+        `)
+
+        // 替换架构图1
+        // ./image/product/zhcs/zhcs_jiagou1.jpg
+        $('#productJG1').empty().append(`
+          <h2>城市智能一体化</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661804241fe7d834-b61b-4fe3-a306-769abb66a0d9.jpg" />
+              </div>
             </div>
           </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/zhjzjc/zhjzjc_jiagou2.jpg
-      $('#productJG2').empty().append(`
-        <h2>建筑监测架构图</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180595b96903e5-dec8-48b9-800a-e134d38eff31.png" />
-        </div>
-      `)
+        `)
+        // 替换架构图2
+        // ./image/product/zhcs/zhcs_jiagou2.jpg
+        $('#productJG2').empty().append(`
+          <h2>智慧城市架构图</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180436eeb649d8-35d0-4a2e-9049-ee7a246d3ad8.jpg" />
+          </div>
+        `)
 
-      // 替换系统图
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">智能监测感知未来</h2>
-        <div class="section-box p0">
-          <img alt="" src="./image/product/zhnl/zhnl_system.png" />
-        </div>
-      `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
-    } else if (url === '?zhgkywl') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/zhgkywl/zhgkywl_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566180610a0f319a5-84ad-4814-85c3-67be9671c455.png');
-      // 替换文字
-      $('#productCore').empty().append(`
-        <ul>
-          <li>
-            <h2 class="time">智能货场/码头</h2>
-            <p>机房自动运维系统。<br />
-              周界监控。<br />
-              MIS系统、磅房管控系统。</p>
-          </li>
-          <li>
-            <h2 class="time">智慧物流</h2>
-            <p>信息技术为支撑。<br />
-              各个环节实现系统感知。<br />
-              促进物流企业提质增效。</p>
-          </li>
-          <li>
-            <h2 class="time">智能卡口</h2>
-            <p>货场运输车辆通过速度提高，增强公司吞吐量。<br />
-              物理规范车辆进出口次序，有效降低安全隐患。<br />
-              实现车辆作业绑定，提高工作效率。</p>
-          </li>
-          <li>
-            <h2 class="time">智能过磅</h2>
-            <p>采用先进的身份识别技术。<br />
-              实现场区作业车辆称量自动化管理。</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>运输业务透明化，货物跟踪可视化。</dd>
-            <dd>线上业务开展，整合物流资源，打造物流生态圈。</dd>
-            <dd>落地运输方案，促成无车承运人交易实现。</dd>
-            <dd>大数据沉淀分析，降低物流成本，完善物流信用。</dd>
-          </dl>
-        </div>
-      `)
-      // 替换概念图
-      // ./image/product/zhgkywl/zhgkywl_concept.png
-      $('#productConcept').empty().append(`
-        <h2>智慧港口与物流的时代</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618062739c62be2-e264-4acc-8662-727d81a87d23.png" width="710" />
-        </div>
-      `)
-      // 替换描述图
-      // $('#productDesc').attr('src', './image/product/zhgkywl/zhgkywl_desc.png');
-      $('#productDesc').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/15661806375d60accb-5865-4652-8b52-c8ae1b124def.png');
+        // 替换系统图
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">智慧城市</h2>
+          <div class="section-box p0">
+            <img alt="" src="./image/product/zhnl/zhnl_system.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
+        /* let str = '哈哈哈哈。哈哈哈哈。啊啊啊啊啊。';
+        let strArr = [];
+        strArr = str.split('。'); // 字符串分割。返回一个新数组
+        strArr.pop(); // 删除最后一个空元素
+        $('#product-content').empty();
+        strArr.forEach((item, index) => {
+          console.log(item)
+          $('#product-content').append(`
+            <dd>${item}</dd>
+          `)
+        }) */
+      } else if (url === '?rdgc') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/rdgc/rdgc_banner.png');
+        $('#myImageBanner').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661804556a0df5c4-1085-4fc0-891a-a5ed68db12a5.png"/>
+        `)
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">网络安全</h2>
+              <p>全网安全可视<br />
+                全方位持续监测，动态感知。<br />
+                更快速的响应。</p>
+            </li>
+            <li>
+              <h2 class="time">医院三维管控平台</h2>
+              <p>应急方案、应急指挥、应急处置。<br />
+                了解事件的全局。</p>
+            </li>
+            <li>
+              <h2 class="time">雪亮工程</h2>
+              <p>以县、乡、村三级综治中心为指挥平台。<br />
+                以综治信息化为支撑、以网格化管理为基础。<br />
+                应用公共安全视频监控联网。</p>
+            </li>
+            <li>
+              <h2 class="time">磐石工程</h2>
+              <p>纵深防卫远端过滤的外围屏障体系。<br />
+                全面覆盖目标区域的综合报警体系。</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>提供安全、高效、舒适、便利的工作与生活环境</dd>
+              <dd>提供建筑的设备（或系统）、功能和信息共享的智能管理环境</dd>
+              <dd>提高建筑现代化管理水平，降低运行成本</dd>
+            </dl>
+          </div>
+        `)
+        // 替换概念图
+        // ./image/product/rdgc/rdgc_concept.png
+        $('#productConcept').empty().append(`
+          <h2>智导互联</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180466bfe332a4-35b8-4355-914e-054cb101be51.png" width="710" />
+          </div>
+        `)
 
-      // 替换架构图1
-      // ./image/product/zhgkywl/zhgkywl_jiagou1.png
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180663efb82dca-b218-45c4-9626-334dfcbeccc3.png" />
+        // 替换描述图
+        // $('#productDesc').attr('src', './image/product/rdgc/rdgc_desc.png');
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180480d443dfc3-a0af-4c64-91b7-acb0c029bda4.png" class="my-image-desc" />
+        `)
+
+        // 替换架构图1
+        // ./image/product/rdgc/rdgc_jiagou1.png
+        $('#productJG1').empty().append(`
+          <h2>区域随意切换</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661805013fbe5fef-b2b9-4f38-82aa-493e48246826.png" />
+              </div>
             </div>
           </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/zhgkywl/zhgkywl_jiagou2.png
-      $('#productJG2').empty().append(`
-        <h2>智慧港口与物流</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661806728c68ea3c-a3fc-4bd1-b8a8-be7cc169f769.png" />
-        </div>
-      `)
+        `)
+        // 替换架构图2
+        // ./image/product/rdgc/rdgc_jiagou2.png
+        $('#productJG2').empty().append(`
+          <h2>专业数字化管理</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180518a56f686f-7dc6-4eaf-8dc8-3da084c976ba.png" />
+          </div>
+        `)
+        // 替换系统图
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">弱电工程</h2>
+          <div class="section-box p0">
+            <img alt="" src="./image/product/zhnl/zhnl_system.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
+      } else if (url === '?zhjzjc') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/zhjzjc/zhjzjc_banner.png');
+        $('#myImageBanner').empty().append(`
+        <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618054095f0263b-9175-4cd9-8b5a-bb8bf90bcb88.png"/>
+        `)
 
-      // 替换系统图
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">智能物流操作图</h2>
-        <div class="section-box p0">
-          <img alt="" src="./image/product/zhnl/zhnl_system.png" />
-        </div>
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">建筑结构监测云平台</h2>
+              <p>采取有效措施消除隐患。<br />
+                避免危险因素进一步转化。<br />
+                确保结构的安全运营。</p>
+            </li>
+            <li>
+              <h2 class="time">智能玻璃幕墙监测云平台</h2>
+              <p>实现运营期内科学化管养。<br />
+                避免出现重大的安全事故。</p>
+            </li>
+            <li>
+              <h2 class="time">智慧工地云平台</h2>
+              <p>智慧工地是智慧地球理念在工程领域的行业具现。<br />
+                是一种崭新的工程全生命周期管理理念。</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>整个工作效率得于提高</dd>
+              <dd>提高整个建筑工程安全生产管理水平</dd>
+            </dl>
+          </div>
       `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
-    } else if (url === '?zhzwyxy') {
-      // 替换banner图
-      // $('#myImageBanner').attr('src', './image/product/zhzwyxy/zhzwyxy_banner.png');
-      $('#myImageBanner').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/1566180695284ea256-af7f-486d-8d42-69da89c8694c.png');
+        // 替换概念图
+        // ./image/product/zhjzjc/zhjzjc_concept.png
+        $('#productConcept').empty().append(`
+          <h2>通晓过去 预知未来</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618055410a03a78-afa6-457e-81af-c747983ab1f3.png" width="710" />
+          </div>
+        `)
+        // 替换描述图
+        // $('#productDesc').attr('src', './image/product/zhjzjc/zhjzjc_desc.png');
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661805653157b501-a051-4f3b-8842-8a7f30dd2e4e.png" class="my-image-desc" />
+        `)
 
-      // 替换文字
-      $('#productCore').empty().append(`
-        <ul>
-          <li>
-            <h2 class="time">智慧党建云平台</h2>
-            <p>平台运维全展示<br />
-              三会一课全监督<br />
-              移动互联全支持<br />
-              党务工作全覆盖</p>
-          </li>
-          <li>
-            <h2 class="time">应急指挥平台</h2>
-            <p>大屏幕综合研判<br />
-              实战指挥<br />
-              勤务管理<br />
-              智能应用</p>
-          </li>
-          <li>
-            <h2 class="time">校园人脸宿管</h2>
-            <p>人脸识别对比<br />
-              宿舍信息展现<br />
-              人员信息管理</p>
-          </li>
-          <li>
-            <h2 class="time">校园课堂督导系统</h2>
-            <p>对学生及学生相关信息全记录<br />
-              对区域内的学生抓拍人脸并于人脸库进行对比<br />
-              完成学生上课考勤登记</p>
-          </li>
-        </ul>
-        <div class="history-today">
-          <dl id="product-content">
-            <dd>以开放共享、敏捷高效、安全可靠的政务信息化解决方案</dd>
-            <dd>助力政府提升行政效率、推动公共服务创新、</dd>
-            <dd>促进经济增长和社会公平，更好地服务于政府转型的大战略。</dd>
-          </dl>
-        </div>
-      `)
-      // 替换概念图
-      // ./image/product/zhzwyxy/zhzwyxy_concept.png
-      $('#productConcept').empty().append(`
-        <h2>智慧政务与校园的时代</h2>
-        <div class="section-box my-prod-conceptimg">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661807124583a0bf-8c7f-4c9c-b5ec-34b4da873f7d.png" width="710" />
-        </div>
-      `)
-      // 替换描述图
-      // $('#productDesc').attr('src', './image/product/zhzwyxy/zhzwyxy_desc.png');
-      $('#productDesc').attr('src', 'http://doutui.oss-cn-beijing.aliyuncs.com/156618073126036320-3c2b-4b33-b064-a0754979292b.png');
-      
-      // 替换架构图1
-      // ./image/product/zhzwyxy/zhzwyxy_jiagou1.jpg
-      $('#productJG1').empty().append(`
-        <h2>智能的未来：掌上智能数据</h2>
-        <div class="section-box ai">
-          <div class="w">
-            <div class="fbh-product-img" >
-              <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180743be55f8e2-4414-47ee-85cc-4cf1bad18c43.jpg" />
+        // 替换架构图1
+        // ./image/product/zhjzjc/zhjzjc_jiagou1.jpg
+        $('#productJG1').empty().append(`
+          <h2>智能化响应</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180585bf911eae-2233-4b93-8b22-6fa1d4a4ea3c.jpg" />
+              </div>
             </div>
           </div>
-        </div>
-      `)
-      // 替换架构图2
-      // ./image/product/zhzwyxy/zhzwyxy_jiagou2.png
-      $('#productJG2').empty().append(`
-        <h2>智慧政务与校园</h2>
-        <div class="section-box pt90">
-          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618075421171247-9eda-4d58-b98d-d7c4ca20135b.png" />
-        </div>
-      `)
+        `)
+        // 替换架构图2
+        // ./image/product/zhjzjc/zhjzjc_jiagou2.jpg
+        $('#productJG2').empty().append(`
+          <h2>信息化管养</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180595b96903e5-dec8-48b9-800a-e134d38eff31.png" />
+          </div>
+        `)
 
-      // 替换系统图
-      $('#productSystem').empty().append(`
-        <h2 class="system-title">智能政务与智慧校园</h2>
-        <div class="section-box p0">
-          <img alt="" src="./image/product/zhnl/zhnl_system.png" />
-        </div>
-      `)
-      // 轮播图
-      $('#productShow').empty().append(`
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
-        <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
-      `)
+        // 替换系统图
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">智能监测感知未来</h2>
+          <div class="section-box p0">
+            <img alt="" src="./image/product/zhnl/zhnl_system.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
+      } else if (url === '?zhgkywl') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/zhgkywl/zhgkywl_banner.png');
+        $('#myImageBanner').empty().append(`
+        <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180610a0f319a5-84ad-4814-85c3-67be9671c455.png"/>
+        `)
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">智能货场/码头</h2>
+              <p>机房自动运维系统。<br />
+                周界监控。<br />
+                MIS系统、磅房管控系统。</p>
+            </li>
+            <li>
+              <h2 class="time">智慧物流</h2>
+              <p>信息技术为支撑。<br />
+                各个环节实现系统感知。<br />
+                促进物流企业提质增效。</p>
+            </li>
+            <li>
+              <h2 class="time">智能卡口</h2>
+              <p>货场运输车辆通过速度提高，增强公司吞吐量。<br />
+                物理规范车辆进出口次序，有效降低安全隐患。<br />
+                实现车辆作业绑定，提高工作效率。</p>
+            </li>
+            <li>
+              <h2 class="time">智能过磅</h2>
+              <p>采用先进的身份识别技术。<br />
+                实现场区作业车辆称量自动化管理。</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>运输业务透明化，货物跟踪可视化。</dd>
+              <dd>线上业务开展，整合物流资源，打造物流生态圈。</dd>
+              <dd>落地运输方案，促成无车承运人交易实现。</dd>
+              <dd>大数据沉淀分析，降低物流成本，完善物流信用。</dd>
+            </dl>
+          </div>
+        `)
+        // 替换概念图
+        // ./image/product/zhgkywl/zhgkywl_concept.png
+        $('#productConcept').empty().append(`
+          <h2>丰富多彩</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618062739c62be2-e264-4acc-8662-727d81a87d23.png" width="710" />
+          </div>
+        `)
+        // 替换描述图
+        // $('#productDesc').attr('src', './image/product/zhgkywl/zhgkywl_desc.png');
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661806375d60accb-5865-4652-8b52-c8ae1b124def.png" class="my-image-desc" />
+        `)
+
+        // 替换架构图1
+        // ./image/product/zhgkywl/zhgkywl_jiagou1.png
+        $('#productJG1').empty().append(`
+          <h2>业务流程全透明</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180663efb82dca-b218-45c4-9626-334dfcbeccc3.png" />
+              </div>
+            </div>
+          </div>
+        `)
+        // 替换架构图2
+        // ./image/product/zhgkywl/zhgkywl_jiagou2.png
+        $('#productJG2').empty().append(`
+          <h2>数据全面监控</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661806728c68ea3c-a3fc-4bd1-b8a8-be7cc169f769.png" />
+          </div>
+        `)
+
+        // 替换系统图
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">智能物流操作图</h2>
+          <div class="section-box p0">
+            <img alt="" src="./image/product/zhnl/zhnl_system.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
+      } else if (url === '?zhzwyxy') {
+        // 替换banner图
+        // $('#myImageBanner').attr('src', './image/product/zhzwyxy/zhzwyxy_banner.png');
+        $('#myImageBanner').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180695284ea256-af7f-486d-8d42-69da89c8694c.png"/>
+        `)
+
+        // 替换文字
+        $('#productCore').empty().append(`
+          <ul>
+            <li>
+              <h2 class="time">智慧党建云平台</h2>
+              <p>平台运维全展示<br />
+                三会一课全监督<br />
+                移动互联全支持<br />
+                党务工作全覆盖</p>
+            </li>
+            <li>
+              <h2 class="time">应急指挥平台</h2>
+              <p>大屏幕综合研判<br />
+                实战指挥<br />
+                勤务管理<br />
+                智能应用</p>
+            </li>
+            <li>
+              <h2 class="time">校园人脸宿管</h2>
+              <p>人脸识别对比<br />
+                宿舍信息展现<br />
+                人员信息管理</p>
+            </li>
+            <li>
+              <h2 class="time">校园课堂督导系统</h2>
+              <p>对学生及学生相关信息全记录<br />
+                对区域内的学生抓拍人脸并于人脸库进行对比<br />
+                完成学生上课考勤登记</p>
+            </li>
+          </ul>
+          <div class="history-today">
+            <dl id="product-content">
+              <dd>以开放共享、敏捷高效、安全可靠的政务信息化解决方案</dd>
+              <dd>助力政府提升行政效率、推动公共服务创新、</dd>
+              <dd>促进经济增长和社会公平，更好地服务于政府转型的大战略。</dd>
+            </dl>
+          </div>
+        `)
+        // 替换概念图
+        // ./image/product/zhzwyxy/zhzwyxy_concept.png
+        $('#productConcept').empty().append(`
+          <h2>敏捷先行</h2>
+          <div class="section-box my-prod-conceptimg">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/15661807124583a0bf-8c7f-4c9c-b5ec-34b4da873f7d.png" width="710" />
+          </div>
+        `)
+        // 替换描述图
+        // $('#productDesc').attr('src', './image/product/zhzwyxy/zhzwyxy_desc.png');
+        $('#productDesc').empty().append(`
+          <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618073126036320-3c2b-4b33-b064-a0754979292b.png" class="my-image-desc" />
+        `)
+
+        // 替换架构图1
+        // ./image/product/zhzwyxy/zhzwyxy_jiagou1.jpg
+        $('#productJG1').empty().append(`
+          <h2>政务校园全覆盖</h2>
+          <div class="section-box ai">
+            <div class="w">
+              <div class="fbh-product-img" >
+                <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/1566180743be55f8e2-4414-47ee-85cc-4cf1bad18c43.jpg" />
+              </div>
+            </div>
+          </div>
+        `)
+        // 替换架构图2
+        // ./image/product/zhzwyxy/zhzwyxy_jiagou2.png
+        $('#productJG2').empty().append(`
+          <h2>自动化 信息化</h2>
+          <div class="section-box pt90">
+            <img alt="" src="http://doutui.oss-cn-beijing.aliyuncs.com/156618075421171247-9eda-4d58-b98d-d7c4ca20135b.png" />
+          </div>
+        `)
+
+        // 替换系统图
+        $('#productSystem').empty().append(`
+          <h2 class="system-title">智能政务与智慧校园</h2>
+          <div class="section-box p0">
+            <img alt="" src="./image/product/zhnl/zhnl_system.png" />
+          </div>
+        `)
+        // 轮播图
+        $('#productShow').empty().append(`
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show2.jpg" /></li>
+          <li class="swiper-slide"><img alt="" src="./image/product/zhnl/zhnl_show3.jpg" /></li>
+        `)
+      }
     }
-    // console.log($('#video1'))
-    // $('#video1')[0].playbackRate = "2.0"
+    createDom();
+
+    /* // 判断图片是否出现在视窗的函数
+    function isShow($node) {
+      return $node.offset().top <= $(window).height() + $(window).scrollTop();
+    }
+    // 加载图片的函数，就是把自定义属性data-src 存储的真正的图片地址，赋值给src
+    function loadImg($img) {
+      $img.attr('src', $img.attr('data-src'));
+
+      // 已经加载的图片，我给它设置一个属性，值为1，作为标识
+      // 弄这个的初衷是因为，每次滚动的时候，所有的图片都会遍历一遍，这样有点浪费，所以做个标识，滚动的时候只遍历哪些还没有加载的图片
+      $img.attr('data-isLoading', 1);
+    }
+
+    function start() {
+      $('img').not('[data-isLoading]').each(function () {
+        if (isShow($(this))) {
+          loadImg($(this));
+        }
+      })
+    }
+    // 一开始没有滚动的时候，出现在视窗中的图片也会加载
+    start();
+    // 当页面开始滚动的时候，遍历图片，如果图片出现在视窗中，就加载图片
+    var clock; //函数节流
+    $(window).on('scroll', function () {
+      if (clock) {
+        clearTimeout(clock);
+      }
+      clock = setTimeout(function () {
+        start()
+      }, 200)
+    }) */
+
   </script>
+
   <script type="text/javascript" src="js/js5.js"></script>
   <script type="text/javascript" src="js/js9.js"></script>
   <script type="text/javascript" src="js/js7.js"></script>
@@ -1293,7 +1354,101 @@
   <script type="text/javascript" src="js/js3.js"></script>
   <script type="text/javascript" src="js/js6.js"></script>
   <script type="text/javascript">
-    jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "cn\/", "ajaxPageState": { "theme": "yitu", "theme_token": "jyfW-3S7d1REMeM9pCgUS0b_aOycvQLinXDU0t2h7rk", "js": { "misc\/jquery.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/jquery.cookie.js": 1, "misc\/jquery.form.js": 1, "misc\/ajax.js": 1, "public:\/\/languages\/zh-hans_5RvMi7G7gKXgwHVWhrvoUoVHfJbGcRXlytjgl4vlkpI.js": 1, "0": 1, "sites\/all\/modules\/video\/js\/video.js": 1, "misc\/progress.js": 1, "sites\/all\/modules\/webform\/js\/webform.js": 1, "sites\/all\/themes\/yitu\/js\/jquery.js": 1, "sites\/all\/themes\/yitu\/js\/swiper.min.js": 1, "sites\/all\/themes\/yitu\/js\/common.js": 1, "sites\/all\/themes\/yitu\/js\/main.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css": 1, "modules\/field\/theme\/field.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/ckeditor\/css\/ckeditor.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "sites\/all\/modules\/video\/css\/video.css": 1, "modules\/locale\/locale.css": 1, "sites\/all\/modules\/webform\/css\/webform.css": 1, "sites\/all\/themes\/yitu\/css\/swiper.min.css": 1, "sites\/all\/themes\/yitu\/css\/base.css": 1, "sites\/all\/themes\/yitu\/css\/index.css": 1, "sites\/all\/themes\/yitu\/css\/ie.css": 1, "public:\/\/css_injector\/css_injector_2.css": 1 } }, "ajax": { "edit-webform-ajax-submit-165": { "callback": "webform_ajax_callback", "wrapper": "webform-ajax-wrapper-165", "progress": { "message": "", "type": "throbber" }, "event": "click", "url": "\/cn\/system\/ajax", "submit": { "_triggering_element_name": "op", "_triggering_element_value": "\u63d0\u4ea4" } }, "edit-webform-ajax-submit-564": { "callback": "webform_ajax_callback", "wrapper": "webform-ajax-wrapper-564", "progress": { "message": "", "type": "throbber" }, "event": "click", "url": "\/cn\/system\/ajax", "submit": { "_triggering_element_name": "op", "_triggering_element_value": "\u63d0\u4ea4" } }, "edit-webform-ajax-submit-565": { "callback": "webform_ajax_callback", "wrapper": "webform-ajax-wrapper-565", "progress": { "message": "", "type": "throbber" }, "event": "click", "url": "\/cn\/system\/ajax", "submit": { "_triggering_element_name": "op", "_triggering_element_value": "\u63d0\u4ea4" } } }, "urlIsAjaxTrusted": { "\/cn\/system\/ajax": true, "\/cn\/product-release\/quest-core": true } })
+    jQuery.extend(Drupal.settings, {
+      "basePath": "\/",
+      "pathPrefix": "cn\/",
+      "ajaxPageState": {
+        "theme": "yitu", "theme_token": "jyfW-3S7d1REMeM9pCgUS0b_aOycvQLinXDU0t2h7rk",
+        "js": {
+          "misc\/jquery.js": 1,
+          "misc\/jquery-extend-3.4.0.js": 1,
+          "misc\/jquery.once.js": 1,
+          "misc\/drupal.js": 1,
+          "misc\/jquery.cookie.js": 1,
+          "misc\/jquery.form.js": 1,
+          "misc\/ajax.js": 1,
+          "public:\/\/languages\/zh-hans_5RvMi7G7gKXgwHVWhrvoUoVHfJbGcRXlytjgl4vlkpI.js": 1,
+          "0": 1,
+          "sites\/all\/modules\/video\/js\/video.js": 1,
+          "misc\/progress.js": 1,
+          "sites\/all\/modules\/webform\/js\/webform.js": 1,
+          "sites\/all\/themes\/yitu\/js\/jquery.js": 1,
+          "sites\/all\/themes\/yitu\/js\/swiper.min.js": 1,
+          "sites\/all\/themes\/yitu\/js\/common.js": 1,
+          "sites\/all\/themes\/yitu\/js\/main.js": 1
+        },
+        "css": {
+          "modules\/system\/system.base.css": 1,
+          "modules\/system\/system.menus.css": 1,
+          "modules\/system\/system.messages.css": 1,
+          "modules\/system\/system.theme.css": 1,
+          "sites\/all\/modules\/date\/date_api\/date.css": 1,
+          "sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css": 1,
+          "modules\/field\/theme\/field.css": 1,
+          "modules\/node\/node.css": 1,
+          "modules\/user\/user.css": 1,
+          "sites\/all\/modules\/views\/css\/views.css": 1,
+          "sites\/all\/modules\/ckeditor\/css\/ckeditor.css": 1,
+          "sites\/all\/modules\/ctools\/css\/ctools.css": 1,
+          "sites\/all\/modules\/video\/css\/video.css": 1,
+          "modules\/locale\/locale.css": 1,
+          "sites\/all\/modules\/webform\/css\/webform.css": 1,
+          "sites\/all\/themes\/yitu\/css\/swiper.min.css": 1,
+          "sites\/all\/themes\/yitu\/css\/base.css": 1,
+          "sites\/all\/themes\/yitu\/css\/index.css": 1,
+          "sites\/all\/themes\/yitu\/css\/ie.css": 1,
+          "public:\/\/css_injector\/css_injector_2.css": 1
+        }
+      },
+      "ajax": {
+        "edit-webform-ajax-submit-165": {
+          "callback": "webform_ajax_callback",
+          "wrapper": "webform-ajax-wrapper-165",
+          "progress": {
+            "message": "",
+            "type": "throbber"
+          },
+          "event": "click",
+          "url": "\/cn\/system\/ajax",
+          "submit": {
+            "_triggering_element_name": "op",
+            "_triggering_element_value": "\u63d0\u4ea4"
+          }
+        },
+        "edit-webform-ajax-submit-564": {
+          "callback": "webform_ajax_callback",
+          "wrapper": "webform-ajax-wrapper-564",
+          "progress": {
+            "message": "",
+            "type": "throbber"
+          },
+          "event": "click",
+          "url": "\/cn\/system\/ajax",
+          "submit": {
+            "_triggering_element_name": "op",
+            "_triggering_element_value": "\u63d0\u4ea4"
+          }
+        },
+        "edit-webform-ajax-submit-565": {
+          "callback": "webform_ajax_callback",
+          "wrapper": "webform-ajax-wrapper-565",
+          "progress": {
+            "message": "",
+            "type": "throbber"
+          },
+          "event": "click",
+          "url": "\/cn\/system\/ajax",
+          "submit": {
+            "_triggering_element_name": "op",
+            "_triggering_element_value": "\u63d0\u4ea4"
+          }
+        }
+      },
+      "urlIsAjaxTrusted": {
+        "\/cn\/system\/ajax": true,
+        "\/cn\/product-release\/quest-core": true
+      }
+    })
 
   </script>
   <script src="js/product-release.js" type="text/javascript"></script>
